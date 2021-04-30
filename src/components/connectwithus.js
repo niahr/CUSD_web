@@ -1,38 +1,19 @@
 import React from 'react'
-import tweet from '../images/icons/twitter.png'
+import tweet from '../images/icons/twitterconnect.png'
+import face from '../images/icons/facebook.png'
+import linked from '../images/icons/linkedconnect.png'
+import insta from '../images/icons/instaconnect.png'
 
 function ConnectFooter(props) {
   return (
-    <div className="about-container">
-      <p>Connect With Us</p>
-      
-      <a href="https://twitter.com/CUSD" class="fa fa-twitter">
-      <img
-        alt="twitter"
-        src = "src/images/icons/twitter.png"
-      />
-      </a>
+    
+    <div className="connecticons">
 
-      <a href="https://www.facebook.com/CUSustainableDesign/?fref=ts" class="fa fa-facebook">
-      <img
-        alt="facebook"
-        src = "src/images/icons/twitter.png"
-      />
-      </a>
+      <img src={tweet} alt="https://twitter.com/CUSD"/>
+      <img src={face} alt="https://www.facebook.com/CUSustainableDesign/?fref=ts"/>
+      <img src={linked} alt="https://www.linkedin.com/company/cornellusd"/>
+      <img src={insta} alt="https://www.instagram.com/cusustainabledesign/?hl=en"/>
 
-      <a href="https://www.linkedin.com/company/cornellusd" class="fa fa-linkedin">
-      <img
-        alt="linkedin"
-        src = "src/images/icons/linkedin.png"
-      />
-      </a>
-
-      <a href="https://www.instagram.com/cusustainabledesign/?hl=en" class="fa fa-instagram">
-      <img
-        alt="instagram"
-        src = "src/images/icons/instagram.png"
-      />
-      </a>
     </div>
   )
 }
