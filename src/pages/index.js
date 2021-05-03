@@ -180,6 +180,8 @@ const IndexPage = () => {
       />
       <ConnectFooter/>
     </main>
+    
+    
   )
 }
 
