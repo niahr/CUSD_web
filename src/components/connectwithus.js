@@ -5,7 +5,6 @@ import linked from '../images/icons/linkedconnect.png'
 import insta from '../images/icons/instaconnect.png'
 
 
-
 const img = {
   marginLeft: 10
 }
