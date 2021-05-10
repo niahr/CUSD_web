@@ -1,4 +1,5 @@
 import * as React from "react"
+<<<<<<< HEAD
 import Connectwithus from '../components/connectwithus'
 import Team from '../components/weareateam'
 
@@ -126,10 +127,16 @@ const links = [
     color: "#663399",
   },
 ]
+=======
+import ConnectFooter from '../components/connectwithus'
+import Footer from '../components/Footer'
+import { Link } from "gatsby"
+>>>>>>> a36ee21cca5124e635837568a3b3732692d2680e
 
 // markup
 const IndexPage = () => {
   return (
+<<<<<<< HEAD
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
@@ -181,10 +188,14 @@ const IndexPage = () => {
       />
       <Team/>
       <Connectwithus/>
+=======
+    <main>
+      <Link to="/about/">about</Link>
+      <Footer />
+      <ConnectFooter/>
+>>>>>>> a36ee21cca5124e635837568a3b3732692d2680e
       
     </main>
-    
-    
   )
 }
 
