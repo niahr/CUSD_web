@@ -1,0 +1,28 @@
+.connectwithus {
+  background-color: rgb(168, 224, 210);
+  height: 230px;
+}
+.connecticons {
+  padding-top: 20px;
+}
+.eachicon {
+  padding-top: 5px;
+  vertical-align: auto;
+  margin-left: 30%;
+  padding-bottom: 5px;
+}
+.images {
+  margin-left: 50px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20%;
+  margin-bottom: 50px;
+}
+
+.copyright {
+  margin-left: 60%;
+  font-weight: 100;
+}

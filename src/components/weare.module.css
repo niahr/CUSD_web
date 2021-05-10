@@ -1,0 +1,19 @@
+.weare {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 234, 234);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.image {
+  flex-direction: column;
+  margin-left: 200px;
+}
+.header {
+  margin: auto;
+  font-weight: 400;
+}
