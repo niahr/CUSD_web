@@ -1,0 +1,70 @@
+.timeline {
+    height: 1.5rem;
+    margin: 15.625rem 0 17.5rem;
+    width: calc(92%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #fff 45%, #888 45%, #888 55%, #fff 55%);
+    box-shadow: inset -2px 0 0 0 #ffffff;
+}
+
+.timelinepoint {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #3F9B8F;
+    position: relative;
+}
+
+.index .timelinepoint .projects li {
+    display: block;
+    margin-bottom: 1.375rem;
+    line-height: 1.25rem;
+}
+
+.timelinepoint .year {
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    color: #3F9B8F;
+    font-weight: 400;
+}
+
+.timelinepoint .projects {
+    position: absolute;
+    top: 4.5rem;
+    left: -0.1875rem;
+    list-style: none;
+    margin: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul, ol, dl {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    list-style-position: outside;
+    margin-bottom: 1.25rem;
+}
+
+.timelinelabel {
+    color: #4a4a4a;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
+    width: 66.66667%;
+    float: left;
+    margin: 4.5rem 0;
+}
