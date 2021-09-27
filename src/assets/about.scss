@@ -1,33 +1,5 @@
-.about_container{
-    align-items: center;
-    justify-content: center;
-
-    article{
-        width: 47%;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-    };
-    main{
+.flex-container{
     display:flex;
-    flex-direction:row;
-    width:100%;
-    align-items:center;
-    };
-    
-    h3 {
-        color: #3F9B8F;
-        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 1.2;
-        margin-bottom: 0;
-        margin-top: 0;
-        text-rendering: optimizeLegibility;
-        font-size: 2.2rem;
-        align-items:center;
-        
-    };
 
     h2{
         color: #4a4a4a;
@@ -39,15 +11,59 @@
         margin-top: 0;
         text-rendering: optimizeLegibility;
         font-size:2.5rem;   
-    };
+    }
+
     p {
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.6;
-    margin-bottom: 1.25rem;
-    text-rendering: optimizeLegibility;
-    align-items:stretch;
-    };
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.6;
+        margin-bottom: 1.25rem;
+        text-rendering: optimizeLegibility;
+        align-items:stretch;
     
+    }
+
 }
+
+.flex-child{
+    flex: 1; 
+    background-color: white; 
+}
+
+.flex-child:first-child{
+    background-color: #f2f3f3 
+}
+
+article{
+    width: 47%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+};
+
+.quoteText {
+    
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-rendering: optimizeLegibility;
+    font-size: 1.3rem;
+    text-align: left; 
+    align-items: center; 
+}
+
+.quoteDiv {
+    margin-top: 30px; 
+    margin-left: 200px; 
+}
+
+.purposeDiv {
+    margin-top: 30px; 
+    margin-left: 50px; 
+}
+
+
