@@ -16,10 +16,10 @@ export default function NavBar() {
       
       <div className={iconStyle.Right}>
         <a href="">Projects</a>
-        <Link to="">About</Link>
-        <Link to="">Stories</Link>
-        <Link to="">Connect</Link>
-        <Link href="">Join</Link>
+        <a href="">About</a>
+        <a href="">Stories</a>
+        <a href="">Connect</a>
+        <a href="">Join</a>
       </div>
     </nav>
   )

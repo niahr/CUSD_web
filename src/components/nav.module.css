@@ -3,22 +3,27 @@ nav {
   flex-direction: row;
   margin: 40px auto;
   background-color: white;
-  height: 100px;
+  height: 90px;
 }
 
 nav a {
   padding-left: 150px;
   height: 100%;
+  vertical-align: middle;
 }
 .Left {
   display: flex;
   flex-direction: row;
 }
 
+.Right {
+  margin-left: 30%;
+}
 .header {
   display: flex;
   flex-direction: column;
 }
+
 a:link {
   background-color: white;
   color: white;
@@ -30,6 +35,8 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: black;
+  font-weight: lighter;
 }
 
 a:hover,
@@ -39,6 +46,7 @@ a:active {
 
 nav img {
   padding-left: 200px;
+  vertical-align: middle;
 }
 
 h1 {
@@ -46,4 +54,8 @@ h1 {
   font-style: normal;
   padding-left: 10px;
   font-size: small;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  margin: auto;
+  font-size: auto;
 }
