@@ -2,12 +2,48 @@ nav {
   display: flex;
   flex-direction: row;
   margin: 40px auto;
+  background-color: white;
+  height: 100px;
 }
 
 nav a {
   padding-left: 150px;
+  height: 100%;
+}
+.Left {
+  display: flex;
+  flex-direction: row;
 }
 
-nav h1 {
-  padding-top: 0px;
+.header {
+  display: flex;
+  flex-direction: column;
+}
+a:link {
+  background-color: white;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(168, 224, 210);
+}
+
+nav img {
+  padding-left: 200px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-style: normal;
+  padding-left: 10px;
+  font-size: small;
 }
