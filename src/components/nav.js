@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "gatsby"
 import * as iconStyle from "../components/nav.module.css"
 import CUSDlogo from '../images/CUSDLogoTypeGray.svg' 
+import ProjectPage from "../pages/projects.js"
 
 export default function NavBar() {
   return (
@@ -15,7 +16,7 @@ export default function NavBar() {
       </div>
       
       <div className={iconStyle.Right}>
-        <a href="">Projects</a>
+        <Link to="/projects/"> Projects </Link>
         <a href="">About</a>
         <a href="">Stories</a>
         <a href="">Connect</a>
