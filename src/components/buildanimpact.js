@@ -3,7 +3,7 @@ import * as iconStyle from "./bai.module.css"
 
 export default function bai({ children }) {
     return <div className={iconStyle.timelinerow}>{children}
-        <h2 className={iconStyle.timelinelabel}>We Build Things That Make an Impact</h2>
+        <h1 className={iconStyle.timelinelabel}>We Build Things That Make an Impact</h1>
         <div className={iconStyle.timeline}>
         <div className={iconStyle.timelinepoint}>
             <span className={iconStyle.year}>2009</span>
