@@ -65,6 +65,10 @@ a:visited {
 
 .joinButton {
   background-color: white;
+  width: 320px;
+  padding: 10px;
+  border: 20px solid green;
+  margin: 0;
 }
 
 .changecolor:hover {
