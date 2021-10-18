@@ -4,15 +4,17 @@ import { Link } from "gatsby"
 import Connectwithus from '../components/connectwithus'
 import Team from '../components/weareateam'
 import Buildanimpact from '../components/buildanimpact'
+import Nav from '../components/nav'
 
 // markup
 const IndexPage = () => {
   return (
     <main>
+      <Nav/>
       <Link to="/about/">about</Link>
-      <Footer />
       <Team/>
       <Buildanimpact/>
+      <Footer />
       <Connectwithus/>
       
     </main>

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.parallax {
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+}
+
+.parallaxContainer {
+  padding-top: 100px;
+  width: 100%;
+  height: 600px;
+}
+
+.caption {
+  font-size: 75px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 0.5px 0.5px black;
+  margin-top: -100px;
+  margin-left: -800px;
+}
+
+.caption2 {
+  font-size: 30px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 1px 1px black;
+}
