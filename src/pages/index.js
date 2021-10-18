@@ -10,10 +10,10 @@ const IndexPage = () => {
   return (
     <main>
       <Nav/>
-      <Link to="/about/">about</Link>
+      {/*<Link to="/about/">about</Link>
       <Team/>
       <Footer />
-      <Connectwithus/>
+  <Connectwithus/>*/}
       
     </main>
   )

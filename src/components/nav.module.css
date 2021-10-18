@@ -1,61 +1,73 @@
 nav {
+  margin: 0 auto;
+  max-width: 64rem;
+  width: 100%;
+  height: 88px;
+  background: white;
   display: flex;
   flex-direction: row;
-  margin: 40px auto;
-  background-color: white;
-  height: 90px;
+  max-height: 92px;
 }
 
-nav a {
-  padding-left: 150px;
-  height: 100%;
-  vertical-align: middle;
-}
-.Left {
+.leftwrap {
   display: flex;
   flex-direction: row;
 }
 
-.Right {
-  margin-left: 30%;
+img {
+  float: left;
+  max-height: 3.75rem;
+  margin: 1rem 10px;
+  height: 60px;
+  width: 60px;
 }
+
 .header {
+  float: left;
+  margin: 1.375rem 0 1.375rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
+  font-weight: 300;
+  color: #888888;
+  display: block;
+  text-align: left;
+}
+
+.rightwrap {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+a {
+  display: block;
+  float: right;
+  color: #888888;
+  padding: 2.125rem 1.5rem;
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  text-align: center;
 }
 
 a:link {
-  background-color: white;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
-  font-weight: lighter;
 }
 
-a:hover,
-a:active {
+.joinButton {
+  background-color: white;
+}
+
+.changecolor:hover {
   background-color: rgb(168, 224, 210);
-}
-
-nav img {
-  padding-left: 200px;
-  vertical-align: middle;
-}
-
-h1 {
-  font-weight: lighter;
-  font-style: normal;
-  padding-left: 10px;
-  font-size: small;
-  font-size: 20px;
-  font-family: "Rajdhani", sans-serif;
-  margin: auto;
-  font-size: auto;
+  color: black;
 }
