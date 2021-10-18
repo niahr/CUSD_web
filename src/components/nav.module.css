@@ -24,7 +24,7 @@ nav a {
   flex-direction: column;
 }
 
-a:link {
+nav a:link {
   background-color: white;
   color: white;
   padding: 14px 25px;
@@ -33,14 +33,14 @@ a:link {
   display: inline-block;
 }
 
-a:visited {
+nav a:visited {
   text-decoration: none;
   color: black;
   font-weight: lighter;
 }
 
-a:hover,
-a:active {
+nav a:hover,
+nav a:active {
   background-color: rgb(168, 224, 210);
 }
 

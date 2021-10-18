@@ -8,14 +8,14 @@ export default function bai({ children }) {
         <div className={iconStyle.timelinepoint}>
             <span className={iconStyle.year}>2009</span>
             <ul className={iconStyle.projects}>
-                <li><a href="/projects/sd">Solar Decathlon</a></li>
+                <li><a href="/projects/sd" className={iconStyle.label}>Solar Decathlon</a></li>
             </ul>
         </div>
         <div className={iconStyle.timelinepoint}>
             <span className={iconStyle.year}>2010</span>
             <ul className={iconStyle.projects}>
-                <li><a href="/projects/ssa">Schoolhouse South Africa</a></li>
-                <li><a href="/projects/srf">Sustainable Research Facility</a></li>
+                <li><a href="/projects/ssa" className={iconStyle.label}>Schoolhouse South Africa</a></li>
+                <li><a href="/projects/srf" className={iconStyle.label}>Sustainable Research Facility</a></li>
             </ul>
         </div>
         <div className={iconStyle.timelinepoint}>
@@ -27,14 +27,14 @@ export default function bai({ children }) {
         <div className={iconStyle.timelinepoint}>
             <span className={iconStyle.year}>2012</span>
             <ul className={iconStyle.projects}>
-                <li><a href="/projects/snn">Sustainable Neighborhoods Nicaragua</a></li>
+                <li><a href="/projects/snn" className={iconStyle.label}>Sustainable Neighborhoods Nicaragua</a></li>
             </ul>
         </div>
         <div className={iconStyle.timelinepoint}>
             <span className={iconStyle.year}>2013</span>
             <ul className={iconStyle.projects}>
                 <li>Farm Pond Circle</li>
-                <li><a href="/projects/blr">Beebe Lake Redevelopment</a></li>
+                <li><a href="/projects/blr" className={iconStyle.label}>Beebe Lake Redevelopment</a></li>
             </ul>
         </div>
         <div className={iconStyle.timelinepoint}>
@@ -46,13 +46,13 @@ export default function bai({ children }) {
         <div className={iconStyle.timelinepoint}>
             <span className={iconStyle.year}>2015</span>
             <ul className={iconStyle.projects}>
-                <li><a href="/projects/ord">Overlook Ridge Development</a></li>
+                <li><a href="/projects/ord" className={iconStyle.label}>Overlook Ridge Development</a></li>
             </ul>
         </div>
         <div className={iconStyle.timelinepoint}>
             <span className={iconStyle.year}>2016</span>
             <ul className={iconStyle.projects}>
-                <li><a href="/projects/seg">Sustainable Education Ghana</a></li>
+                <li><a href="/projects/seg" className={iconStyle.label}>Sustainable Education Ghana</a></li>
             </ul>
         </div>
         <div className={iconStyle.timelinepoint}>

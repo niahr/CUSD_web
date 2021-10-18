@@ -1,4 +1,4 @@
-.index .timeline-row {
+.timeline-row {
     margin: 0 auto;
     max-width: 64rem;
     width: 100%;
@@ -24,7 +24,7 @@
     position: relative;
 }
 
-.index .timelinepoint .projects li {
+.timelinepoint .projects li {
     display: block;
     margin-bottom: 1.375rem;
     line-height: 1.25rem;
@@ -47,7 +47,7 @@
     margin: 0;
 }
 
-ul {
+.timeline ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -57,7 +57,7 @@ ul {
     padding-inline-start: 40px;
 }
 
-ul, ol, dl {
+.timeline ul, ol, dl {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
@@ -79,7 +79,7 @@ ul, ol, dl {
     margin-bottom: 7rem;
 }
 
-.button {
+.timeline .button {
     -webkit-appearance: none;
     border-radius: 0;
     border-style: solid;
@@ -107,12 +107,12 @@ ul, ol, dl {
     box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
 }
 
-a {
+.label {
     color: #3F9B8F;
     line-height: inherit;
     text-decoration: none;
 }
 
-a:hover {
+.label:hover {
     color: #337e74;
 }
