@@ -1,5 +1,4 @@
 import * as React from "react"
-import Parallax from '../projectscomponents/parallax'
 import { Link } from "gatsby"
 import ProjectList from '../projectscomponents/project'
 import Nav from '../components/nav'

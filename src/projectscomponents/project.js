@@ -1,5 +1,4 @@
 import React from 'react'
-import * as iconStyle from "./project.module.css"
 
 export default function projectList({ projects }) {
     const content = projects.map((project) =>
