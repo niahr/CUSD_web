@@ -9,12 +9,12 @@ import Nav from '../components/nav'
 const IndexPage = () => {
   return (
     <main>
-      <Nav/>
-      {/*<Link to="/about/">about</Link>
-      <Team/>
+      <Nav />
+      <Link to="/about/">about</Link>
+      <Team />
       <Footer />
-  <Connectwithus/>*/}
-      
+      <Connectwithus />
+
     </main>
   )
 }
