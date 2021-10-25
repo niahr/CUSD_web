@@ -1,4 +1,4 @@
-nav {
+ nav {
   display: flex;
   flex-direction: row;
   margin: 40px auto;
@@ -25,24 +25,25 @@ nav a {
 }
 
 a:link {
-  background-color: white;
-  color: white;
+  background-color: white; 
+  color: white;  
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
+a:hover,
+a:active {
+ background-color: rgb(168, 224, 210);  
+}
+
 a:visited {
   text-decoration: none;
   color: black;
   font-weight: lighter;
-}
+} 
 
-a:hover,
-a:active {
-  background-color: rgb(168, 224, 210);
-}
 
 nav img {
   padding-left: 200px;
@@ -58,4 +59,4 @@ h1 {
   font-family: "Rajdhani", sans-serif;
   margin: auto;
   font-size: auto;
-}
+} 

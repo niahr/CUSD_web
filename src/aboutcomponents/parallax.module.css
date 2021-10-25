@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 .parallax {
+  position: relative; 
   height: 100%;
   width: 100%;
   background-attachment: fixed;
@@ -9,23 +10,27 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: center; 
   align-items: center; 
 }
 
 .parallaxContainer {
-  padding-top: 100px;
   width: 100%;
-  height: 600px;
+  height: 75%; 
 }
 
 .caption {
+  position: absolute; 
+  top: 50px; 
+  left: 200px; 
   font-size: 75px;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   text-shadow: 0.5px 0.5px black;
-  margin-top: -100px;
-  margin-left: -800px;
+ 
+ 
+ /* margin-top: -100px;
+  margin-left: -800px; */
 }
 
 .caption2 {

@@ -1,4 +1,4 @@
-.weare {
+ .weare {
   display: flex;
   flex-direction: row;
   background-color: rgb(240, 234, 234);
@@ -31,4 +31,6 @@
 .link {
   margin: auto;
   margin-left: 20%;
-}
+} 
+
+

@@ -1,9 +1,8 @@
 import React from 'react'
 import "../assets/about.scss"
 
+
 const overview = () => {
-
-
 
   return (
     <div className="flex-container">
@@ -12,9 +11,8 @@ const overview = () => {
 
         <div className="quoteDiv">
           <h3 className="quoteText">We said ‘we think we can do more, more than just solar.’ We knew we could make a greater impact with a broader understanding of sustainability. That’s when we made the decision to create Cornell University Sustainable Design.
-            <br></br><br></br> – Jeremy Blum '13 </h3>
+            <br /><br /> – Jeremy Blum '13 </h3>
         </div>
-
       </div>
 
       <div className="flex-child purpose" >
