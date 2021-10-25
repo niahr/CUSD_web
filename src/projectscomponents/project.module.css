@@ -1,0 +1,21 @@
+.projects {
+    display: inline-block;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    padding-left: 15%;
+    width: 20%;
+}
+
+.projects .name {
+    font-family: "Rajdhani", sans-serif;
+}
+
+.projects .subtitle {
+    font-family: "Rajdhani", sans-serif;
+}
+
+.projects .logos {
+    width: 50%;
+    height: 50%;
+}
