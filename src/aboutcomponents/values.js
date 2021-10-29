@@ -14,56 +14,55 @@ const values = () => {
     <div className="flex-container">
 
       <div className="flex-child values">
-        <h1 className="valuesText">Our values</h1>
+        <h1 className="valuesCaption">Our values</h1>
       </div>
 
-      <div className="flex-child valuesImage">
+      <div className="flex-child wholeValuesImg">
 
         <div className="column">
           <div className="frame bk1" >
-            <img src={impact} className="testplz">
-            </img>
+            <img src={impact} className="indValuesImg" alt="Impact"></img>
             <div class="caption"> Impact </div>
           </div>
 
           <div className="frame bk2">
-            <img src={collaboration} className="testplz"></img>
+            <img src={collaboration} className="indValuesImg" alt="Collaboration"></img>
             <div class="caption"> Collaboration </div>
           </div>
         </div>
 
         <div className="column">
           <div className="frame bk2">
-            <img src={diversity} className="testplz"></img>
+            <img src={diversity} className="indValuesImg" alt="Diversity"></img>
             <div class="caption"> Diversity </div>
           </div>
 
           <div className="frame bk3">
-            <img src={responsibility} className="testplz"></img>
+            <img src={responsibility} className="indValuesImg" alt="Responsibility"></img>
             <div class="caption"> Responsibility  </div>
           </div>
         </div>
 
         <div className="column bk3">
           <div className="frame efficiency">
-            <img src={efficiency} className="testplz"></img>
+            <img src={efficiency} className="indValuesImg" alt="Efficiency"></img>
             <div class="caption"> Efficiency</div>
           </div>
 
           <div className="frame bk2">
-            <img src={innovation} className="testplz"></img>
+            <img src={innovation} className="indValuesImg" alt="Innovation"></img>
             <div class="caption"> Innovation</div>
           </div>
         </div>
 
         <div className="column">
           <div className="frame bk2">
-            <img src={sustainability} className="testplz"></img>
+            <img src={sustainability} className="indValuesImg" alt="Sustainability"></img>
             <div class="caption"> Sustainability</div>
           </div>
 
           <div className="frame bk1">
-            <img src={engagement} className="testplz"></img>
+            <img src={engagement} className="indValuesImg" alt="Engagement"></img>
             <div class="caption"> Engagement </div>
           </div>
         </div>

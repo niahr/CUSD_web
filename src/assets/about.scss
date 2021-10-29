@@ -1,52 +1,24 @@
-.flex-container{
-   
+/* Layout when screen is >1200 px */
+
+/* CSS for overview component */ 
+.flex-container{   
     display:flex;
-
-    h2{
-        color: #4a4a4a;
-        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 1.2;
-        margin-bottom: 0;
-        margin-top: 0;
-        text-rendering: optimizeLegibility;
-        font-size:2.5rem;   
-    }
-
-    p {
-        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.6;
-        margin-bottom: 1.25rem;
-        text-rendering: optimizeLegibility;
-        align-items:stretch;
-    }
 }
-
 
 .flex-child{
     flex: 1; 
-    background-color: red;  
+    background-color: white;   
 } 
 
-
 .flex-child.quote{
-    background-color: green; 
+    background-color: #f2f3f3; 
 }
 
-.flex-child.purpose {
-    padding-right: 100px; 
+.quoteDiv {
+    margin-top: 100px; 
+    margin-left: 100px; 
+    margin-right: 100px; 
 }
-
-article{
-  
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    margin-left: 70px; 
-};
 
 .quoteText {  
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -61,57 +33,86 @@ article{
     align-items: center; 
 }
 
-.quoteDiv {
-    margin-top: 100px; 
-    margin-left: 50px; 
-    margin-right: 50px; 
+.founder {
+    padding-top: 20px; 
+    font-style: italic; 
+}
+
+.flex-child.purpose {
+    padding-right: 300px;  
 }
 
 .purposeDiv {
     margin-top: 30px; 
 }
 
-.valuesImg {
-    height: 400px;
+.purposeText{
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 70px; 
 }
 
+.purposeTitle {
+    color: #4a4a4a;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-rendering: optimizeLegibility;
+    font-size:2.5rem;   
+}
+
+.purposeDescription {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility;
+    align-items:stretch;
+}
+
+/* CSS for values component */
 .flex-child.values{
     background-color: white;
 }
 
-
-.valuesDiv {
-    background-color:white ; 
-}
-
-.valuesText { 
+.valuesCaption { 
     font-size: 3rem; 
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 200;
     line-height: 1.2;
-    margin-top: 235px; 
-    margin-left: 30px; 
+    margin-top: 135px; 
+    margin-left: 200px; 
 }
 
-
-.valuesImage {
-    margin-right: 0px; 
+.wholeValuesImg {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    margin-right: 200px; 
 }
 
 .column {
-    flex: 100%; 
-    max-width: 100%; }
+    flex: 25%; 
+    max-width: 25%; }
    
-
 .frame {
     height: 10rem; 
     vertical-align: middle;
     text-align: center; 
 }
 
+.frame:hover{
+    background-color: black; 
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
 
 .bk1 {
     background-color: #74C365;
@@ -125,26 +126,19 @@ article{
     background-color: #73B2AD;
 }
 
-
-.testplz {
+.indValuesImg {
     padding-top: 10px; 
     height: 70%; 
     width: 80%; 
 }
 
 .caption {
+    font-size: 1.2rem; 
     margin-top: 2px; 
     color: white; 
 }
 
-.frame:hover{
-    background-color: black; 
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
-}
-
-
+/* CSS for videooverview component */
 .flex-child.storyquote{
     background-color: #f2f3f3; 
 }
@@ -172,107 +166,33 @@ article{
     align-items: center; 
 }
 
-
 /* Layout when screen is 800<x<1200 px*/
-@media screen and (min-width: 800px) {
-.flex-container{
-   
-    display:flex;
+@media screen and (max-width: 1200px) {
 
-    h2{
-        color: #4a4a4a;
-        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 1.2;
-        margin-bottom: 0;
-        margin-top: 0;
-        text-rendering: optimizeLegibility;
-        font-size:2.5rem;   
-    }
-
-    p {
-        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.6;
-        margin-bottom: 1.25rem;
-        text-rendering: optimizeLegibility;
-        align-items:stretch;
-    }
-}
-
-
-.flex-child{
-    flex: 1; 
-    background-color: lavender;  
-} 
-
-
-.flex-child.quote{
-    background-color: lightblue; 
+.quoteDiv {
+    margin-top: 100px; 
+    margin-left: 50px; 
+    margin-right: 50px; 
 }
 
 .flex-child.purpose {
     padding-right: 100px; 
 }
 
-article{
-  
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    margin-left: 70px; 
-};
-
-.quoteText {  
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-top: 10px;
-    text-rendering: optimizeLegibility;
-    font-size: 1.5rem;
-    text-align: left; 
-    align-items: center; 
+.purposeText {
+    margin-left: 30px; 
 }
 
-.quoteDiv {
-    margin-top: 100px; 
-    margin-left: 50px; 
-    margin-right: 100px; 
-}
+/* Values component */
 
-.purposeDiv {
-    margin-top: 30px; 
-}
-
-.valuesImg {
-    height: 400px;
-}
-
-.flex-child.values{
-    background-color: white;
-}
-
-
-.valuesDiv {
-    background-color:white ; 
-}
-
-.valuesText { 
-    font-size: 3rem; 
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-weight: 200;
-    line-height: 1.2;
+.valuesCaption { 
+    font-size: 4rem; 
     margin-top: 235px; 
-    margin-left: 100px; 
+    margin-left: 50px; 
 }
 
-
-.valuesImage {
-    margin-right: 100px; 
+.wholeValuesImg {
+    margin-right: 50px; 
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -282,248 +202,66 @@ article{
     flex: 50%; 
     max-width: 50%; }
    
-
 .frame {
     height: 10rem; 
-    vertical-align: middle;
-    text-align: center; 
-}
-
-
-.bk1 {
-    background-color: #74C365;
-}
-
-.bk2 {
-    background-color: #008A6F;
-}
-
-.bk3 {
-    background-color: #73B2AD;
-}
-
-
-.testplz {
-    padding-top: 10px; 
-    height: 70%; 
-    width: 80%; 
 }
 
 .caption {
-    margin-top: 2px; 
-    color: white; 
+    font-size: 1.5rem; 
+}
+/* Videooverview component, TODO */
+
 }
 
-.frame:hover{
-    background-color: black; 
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
-}
+/* Layout when screen is <=800 px*/
+@media screen and (max-width: 800px) {
 
-
-.flex-child.storyquote{
-    background-color: #f2f3f3; 
-}
-
-.storiesDiv {
-    margin-top: 350px; 
-    margin-left: 100px; 
-    margin-right: 100px; 
-}
-
-.flex-child.storypurpose {
-    margin-right: 100px; 
-}
-
-.storiesText {
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-top: 10px;
-    text-rendering: optimizeLegibility;
-    font-size: 1.5rem;
-    text-align: left; 
-    align-items: center; 
-}}
-
-/* Layout when screen is >1200 px*/
-/*TESTING MEDIA SCREEN, MAY BREAK STUFF!! */
-@media screen and (min-width: 1200px) {
-
-    .flex-container{
-   
-        display:flex;
-    
-        h2{
-            color: #4a4a4a;
-            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 1.2;
-            margin-bottom: 0;
-            margin-top: 0;
-            text-rendering: optimizeLegibility;
-            font-size:2.5rem;   
-        }
-    
-        p {
-            font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-            font-size: 1rem;
-            font-weight: 300;
-            line-height: 1.6;
-            margin-bottom: 1.25rem;
-            text-rendering: optimizeLegibility;
-            align-items:stretch;
-        }
-    }
-    
-    
-    .flex-child{
-        flex: 1; 
-        background-color: white;   
-    } 
-    
-    
-    .flex-child.quote{
-        background-color: #f2f3f3; 
-    }
-    
-    .flex-child.purpose {
-        padding-right: 300px; 
-    }
-    
-    article{
-        width: 90%;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        margin-left: 70px; 
-    };
-    
-    .quoteText {  
-        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 1.2;
-        margin-bottom: 0;
-        margin-top: 10px;
-        text-rendering: optimizeLegibility;
-        font-size: 1.5rem;
-        text-align: left; 
-        align-items: center; 
-    }
-    
+    /* Overview component */ 
     .quoteDiv {
         margin-top: 100px; 
-        margin-left: 200px; 
-        margin-right: 100px; 
+        margin-left: 20px; 
+        margin-right: 20px; 
     }
     
-    .purposeDiv {
-        margin-top: 30px; 
+    .quoteText {  
+        font-size: 1.75rem;
+    }
+
+    .flex-child.purpose {
+        padding-right: 10px;  
+    }
+
+    .purposeText {
+        margin-left: 20px; 
+    }
+
+    /*Values component */ 
+
+    .valuesCaption {
+        font-size: 4rem; 
+        margin-top: 35px; 
+        margin-left: 30px; 
     }
     
-    .valuesImg {
-        height: 400px;
-    }
-    
-    .flex-child.values{
-        background-color: white;
-    }
-    
-    
-    .valuesDiv {
-        background-color:white ; 
-    }
-    
-    .valuesText { 
-        font-size: 3rem; 
-        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-        font-weight: 200;
-        line-height: 1.2;
-        margin-top: 135px; 
-        margin-left: 200px; 
-    }
-    
-    
-    .valuesImage {
-        padding-right: 300px; 
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
+    .wholeValuesImg {
+        margin-right: 0px; 
     }
     
     .column {
-        flex: 25%; 
-        max-width: 25%; }
+        flex: 100%; 
+        max-width: 100%; }
        
     
     .frame {
-        height: 10rem; 
-        vertical-align: middle;
-        text-align: center; 
-    }
+         height: 15rem; 
+        }
     
-    
-    .bk1 {
-        background-color: #74C365;
-    }
-    
-    .bk2 {
-        background-color: #008A6F;
-    }
-    
-    .bk3 {
-        background-color: #73B2AD;
-    }
-    
-    
-    .testplz {
-        padding-top: 10px; 
-        height: 70%; 
-        width: 80%; 
-    }
+    .indValuesImg {
+         padding-top: 20px;
+     }
     
     .caption {
-        margin-top: 2px; 
-        color: white; 
+        font-size: 1.5rem; 
     }
-    
-    .frame:hover{
-        background-color: black; 
-        -webkit-transition: background-color 1000ms linear;
-        -ms-transition: background-color 1000ms linear;
-        transition: background-color 1000ms linear;
-    }
-    
-    
-    .flex-child.storyquote{
-        background-color: #f2f3f3; 
-    }
-    
-    .storiesDiv {
-        margin-top: 350px; 
-        margin-left: 100px; 
-        margin-right: 100px; 
-    }
-    
-    .flex-child.storypurpose {
-        margin-right: 100px; 
-    }
-    
-    .storiesText {
-        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 1.2;
-        margin-bottom: 0;
-        margin-top: 10px;
-        text-rendering: optimizeLegibility;
-        font-size: 1.5rem;
-        text-align: left; 
-        align-items: center; 
-    }
+    /* Videooverview component, TODO */ 
 }

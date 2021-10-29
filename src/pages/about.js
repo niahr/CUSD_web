@@ -17,6 +17,8 @@ const AboutPage = () => {
     return (
 
         <main>
+
+
             <Nav />
             <Link to="/"> Back to Main </Link>
             <Link to="/stories/"> Go to Stories </Link>
