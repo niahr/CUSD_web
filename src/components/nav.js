@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from "gatsby"
 import * as iconStyle from "../components/nav.module.css"
-import CUSDlogo from '../images/CUSDLogoTypeGray.svg'
-
+import CUSDlogo from '../images/CUSDLogoTypeGray.svg' 
+import ProjectPage from "../pages/projects.js"
 
 export default function NavBar() {
   return (
@@ -28,7 +28,7 @@ export default function NavBar() {
 
       {/* Right side of Nav Bar containing navigation elements */}
       <div className={iconStyle.rightwrap}>
-        <a href="" className={iconStyle.navA}>Projects</a>
+        <a href="/projects/" className={iconStyle.navA}>Projects</a>
         <a href="" className={iconStyle.navA}>About</a>
         <a href="" className={iconStyle.navA}>Stories</a>
         <a href="" className={iconStyle.navA}>Connect</a>
