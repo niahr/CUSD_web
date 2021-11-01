@@ -16,7 +16,6 @@
 .images {
   margin-left: 80px;
   background-color: rgb(168, 224, 210);  
-
 } 
 
 .images:hover {
@@ -26,10 +25,16 @@
 }
 
 .header {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 500;
   margin-left: 15%;
   margin-bottom: 20px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  line-height: 1.1;
+  text-rendering: optimizeLegibility;
+  text-align: left; 
+  align-items: center; 
 }
 
 .copyright {
@@ -37,3 +42,32 @@
   font-weight: 100;
 }
 
+
+@media screen and (max-width: 1200px) {
+
+  .eachicon {
+    display:flex; 
+    margin-left: 10%; 
+  }
+
+  .column {
+    flex: 25%; 
+  }
+
+  .images {
+    margin-left: 0px; 
+  }
+
+  .header {
+    margin-left: 0%;
+    text-align: center; 
+  }
+
+  .copyright {
+    font-size: 0.9rem; 
+    margin-left: 0%;
+    margin-right: 2%; 
+    text-align: right; 
+  }
+
+}
