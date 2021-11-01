@@ -11,6 +11,7 @@ const IndexPage = () => {
     <main>
       <Nav />
       <Link to="/about/">about</Link>
+      <Link to="/stories">stories</Link>
       <Team />
       <Footer />
       <Connectwithus />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="281px" height="282px" viewBox="0 0 281 282" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>efficiency</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="efficiency" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <g id="Group" sketch:type="MSShapeGroup">
+                <path d="M140.3,281.4 C62.9,281.4 0,218.5 0,141.1 C0,63.7 62.9,0.8 140.3,0.8 C217.7,0.8 280.6,63.7 280.6,141.1 C280.6,218.5 217.6,281.4 140.3,281.4 L140.3,281.4 Z M140.3,10.5 C68.3,10.5 9.7,69.1 9.7,141.1 C9.7,213.1 68.3,271.7 140.3,271.7 C212.3,271.7 270.9,213.1 270.9,141.1 C270.9,69.1 212.3,10.5 140.3,10.5 L140.3,10.5 Z" id="Shape"></path>
+                <path d="M140.3,145.9 C137.6,145.9 135.5,143.7 135.5,141.1 L135.5,57.3 C135.5,54.6 137.7,52.5 140.3,52.5 C142.9,52.5 145.1,54.7 145.1,57.3 L145.1,141.1 C145.1,143.8 143,145.9 140.3,145.9 L140.3,145.9 Z" id="Shape"></path>
+                <path d="M233.2,145.9 L140.3,145.9 C137.6,145.9 135.5,143.7 135.5,141.1 C135.5,138.5 137.7,136.3 140.3,136.3 L233.2,136.3 C235.9,136.3 238,138.5 238,141.1 C238,143.7 235.9,145.9 233.2,145.9 L233.2,145.9 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
