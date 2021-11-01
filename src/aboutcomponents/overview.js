@@ -12,7 +12,9 @@ const overview = () => {
         <div className="quoteDiv">
           <h3 className="quoteText">We said ‘we think we can do more, more than just solar.’ We knew we could make a greater impact with a broader understanding of sustainability. That’s when we made the decision to create Cornell University Sustainable Design.
             <div className="founder">
-              – Jeremy Blum '13 </div> </h3>
+              – Jeremy Blum '13
+            </div>
+          </h3>
         </div>
       </div>
 
