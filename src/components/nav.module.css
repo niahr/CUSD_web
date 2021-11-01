@@ -1,13 +1,14 @@
 nav {
   margin: 0 auto;
-  max-width: 64rem;
   width: 100%;
   background: white;
   display: flex;
   flex-direction: row;
   max-height: 92px;
 }
-
+.HamburgerMenu {
+  display: none;
+}
 .leftwrap {
   display: flex;
   margin-right: 10rem;
@@ -73,20 +74,20 @@ nav {
 
 .joinButtonInner {
   text-decoration: none;
-  text-align:center;
-  align-items:center;
+  text-align: center;
+  align-items: center;
   line-height: normal;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   padding-left: 3.5rem;
   padding-right: 3.5rem;
   width: 100%;
-  background-color: #3F9B8F;
+  background-color: #3f9b8f;
   border-color: #327c72;
-  color: #FFFFFF;
+  color: #ffffff;
   box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
-  sans-serif;
+    sans-serif;
   font-weight: 300;
   font-size: 1.125rem;
 }
@@ -98,4 +99,28 @@ nav {
 .navA:hover {
   background-color: rgb(168, 224, 210);
   color: black;
+}
+
+@media (max-width: 650px) {
+  .header {
+    display: none;
+  }
+  nav {
+    width: auto;
+  }
+  .rightwrap {
+    display: none;
+  }
+  .HamburgerMenu {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+
+  .HamburgerMenu:active {
+    display: none;
+  }
 }
