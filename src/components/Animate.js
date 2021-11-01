@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import * as iconStyle from "./weare.module.css"
 
 export default function Animate() {
     const texts = ['Strategists', 'Architects','Designers','Engineers']
