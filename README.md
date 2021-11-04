@@ -5,3 +5,5 @@
 ### You will be able to view the website at http://localhost:8000/
 
 ### You should see the Gatsby starter page as of now.
+
+### If getting error regarding styled components, run: `npm install gatsby-plugin-styled-components`
