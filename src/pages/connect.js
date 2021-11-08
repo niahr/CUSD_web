@@ -18,81 +18,92 @@ const Subteam = () => {
             <Link to="/"> Back to Main </Link>
             <Parallax image={abouthead} caption={"Get In Touch"} height={250}> </Parallax>
             
-            <div class="contacts">
-                <article class="contact">
+                <div className="flex-container">
+
+                <div className="flex-child quote">
+
+        <div className="title-div">
+          <h3 className="title-text"> Points of Contact
+          </h3>
+        </div>
+      </div>
+                
+                <div class="contacts">
+                    <article class="contact">
+                        <img src={Grace} width="75px" height="75px"></img>
+                        <div class="contact_info">
+                            <div class="name">Grace Tamisiea</div>
+                            <div class="major">Food Science</div>
+                            <div class="position">Operations</div>
+                            <div class="team">Operations</div>
+                            <div class="links">
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contact">
                     <img src={Grace} width="75px" height="75px"></img>
-                    <div class="contact_info">
-                        <div class="name">Grace Tamisiea</div>
-                        <div class="major">Food Science</div>
-                        <div class="position">Operations</div>
-                        <div class="team">Operations</div>
-                        <div class="links">
+                        <div class="contact_info">
+                            <div class="name">Grace Tamisiea</div>
+                            <div class="major">Food Science</div>
+                            <div class="position">Operations</div>
+                            <div class="team">Operations</div>
+                            <div class="links">
 
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="contact">
-                <img src={Grace} width="75px" height="75px"></img>
-                    <div class="contact_info">
-                        <div class="name">Grace Tamisiea</div>
-                        <div class="major">Food Science</div>
-                        <div class="position">Operations</div>
-                        <div class="team">Operations</div>
-                        <div class="links">
+                    </article>
+                    <article class="contact">
+                    <img src={Grace} width="75px" height="75px"></img>
+                        <div class="contact_info">
+                            <div class="name">Grace Tamisiea</div>
+                            <div class="major">Food Science</div>
+                            <div class="position">Operations</div>
+                            <div class="team">Operations</div>
+                            <div class="links">
 
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="contact">
-                <img src={Grace} width="75px" height="75px"></img>
-                    <div class="contact_info">
-                        <div class="name">Grace Tamisiea</div>
-                        <div class="major">Food Science</div>
-                        <div class="position">Operations</div>
-                        <div class="team">Operations</div>
-                        <div class="links">
+                    </article>
+                    <article class="contact">
+                    <img src={Grace} width="75px" height="75px"></img>
+                        <div class="contact_info">
+                            <div class="name">Grace Tamisiea</div>
+                            <div class="major">Food Science</div>
+                            <div class="position">Operations</div>
+                            <div class="team">Operations</div>
+                            <div class="links">
 
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="contact">
-                <img src={Grace} width="75px" height="75px"></img>
-                    <div class="contact_info">
-                        <div class="name">Grace Tamisiea</div>
-                        <div class="major">Food Science</div>
-                        <div class="position">Operations</div>
-                        <div class="team">Operations</div>
-                        <div class="links">
+                    </article>
+                    <article class="contact">
+                    <img src={Grace} width="75px" height="75px"></img>
+                        <div class="contact_info">
+                            <div class="name">Grace Tamisiea</div>
+                            <div class="major">Food Science</div>
+                            <div class="position">Operations</div>
+                            <div class="team">Operations</div>
+                            <div class="links">
 
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="contact">
-                <img src={Grace} width="75px" height="75px"></img>
-                    <div class="contact_info">
-                        <div class="name">Grace Tamisiea</div>
-                        <div class="major">Food Science</div>
-                        <div class="position">Operations</div>
-                        <div class="team">Operations</div>
-                        <div class="links">
+                    </article>
+                    <article class="contact">
+                    <img src={Grace} width="75px" height="75px"></img>
+                        <div class="contact_info">
+                            <div class="name">Grace Tamisiea</div>
+                            <div class="major">Food Science</div>
+                            <div class="position">Operations</div>
+                            <div class="team">Operations</div>
+                            <div class="links">
 
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="contact">
-                <img src={Grace} width="75px" height="75px"></img>
-                    <div class="contact_info">
-                        <div class="name">Grace Tamisiea</div>
-                        <div class="major">Food Science</div>
-                        <div class="position">Operations</div>
-                        <div class="team">Operations</div>
-                        <div class="links">
+                    </article>
 
-                        </div>
-                    </div>
-                </article>
-
-            </div>
+                </div>
+                </div>
             <Footer/>
             <Connectwithus/>
         </main>
