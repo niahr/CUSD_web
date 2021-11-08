@@ -1,0 +1,21 @@
+article {
+    display: block;
+}
+.contact_photo {
+    float: left;
+}
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+.name {
+    font-size: medium;
+}
+.contact {
+    display: flex;
+    -ms-flex-direction: row;
+    padding: 50px;
+}
+.contact_info {
+    padding-left: 20px;
+}
