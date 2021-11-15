@@ -1,6 +1,6 @@
 
 import * as React from "react"
-import "../assets/about.scss"
+// import "../assets/about.scss"
 import Footer from '../components/Footer'
 import { Link } from "gatsby"
 // import Clarkson from '../images/goat.jpg'
@@ -23,14 +23,14 @@ const Subteam = () => {
                 <div className="flex-child quote">
 
         <div className="title-div">
-          <h3 className="title-text"> Points of Contact
-          </h3>
+          <h3 className="title-text"> Points of Contact </h3>
         </div>
       </div>
                 
                 <div class="contacts">
+                    <div class = "row">
                     <article class="contact">
-                        <img src={Grace} width="75px" height="75px"></img>
+                        <img src={Grace}></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
@@ -42,7 +42,22 @@ const Subteam = () => {
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace} width="75px" height="75px"></img>
+                    <img src={Grace}></img>
+                        <div class="contact_info">
+                            <div class="name">Grace Tamisiea</div>
+                            <div class="major">Food Science</div>
+                            <div class="position">Director of External Operations</div>
+                            <div class="team">Operations</div>
+                            <div class="links">
+
+                            </div>
+                        </div>
+                    </article>
+                    </div>
+
+                    <div class = "row">
+                    <article class="contact">
+                    <img src={Grace}></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
@@ -54,7 +69,22 @@ const Subteam = () => {
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace} width="75px" height="75px"></img>
+                    <img src={Grace}></img>
+                        <div class="contact_info">
+                            <div class="name">Grace Tamisiea</div>
+                            <div class="major">Food Science</div>
+                            <div class="position">Operations</div>
+                            <div class="team">Operations</div>
+                            <div class="links">
+
+                            </div>
+                        </div>
+                    </article>
+                    </div>
+
+                    <div class = "row">
+                    <article class="contact">
+                    <img src={Grace}></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
@@ -66,7 +96,7 @@ const Subteam = () => {
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace} width="75px" height="75px"></img>
+                    <img src={Grace}></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
@@ -77,30 +107,7 @@ const Subteam = () => {
                             </div>
                         </div>
                     </article>
-                    <article class="contact">
-                    <img src={Grace} width="75px" height="75px"></img>
-                        <div class="contact_info">
-                            <div class="name">Grace Tamisiea</div>
-                            <div class="major">Food Science</div>
-                            <div class="position">Operations</div>
-                            <div class="team">Operations</div>
-                            <div class="links">
-
-                            </div>
-                        </div>
-                    </article>
-                    <article class="contact">
-                    <img src={Grace} width="75px" height="75px"></img>
-                        <div class="contact_info">
-                            <div class="name">Grace Tamisiea</div>
-                            <div class="major">Food Science</div>
-                            <div class="position">Operations</div>
-                            <div class="team">Operations</div>
-                            <div class="links">
-
-                            </div>
-                        </div>
-                    </article>
+                    </div>
 
                 </div>
                 </div>
