@@ -1,4 +1,4 @@
-.weare {
+ .weare {
   display: flex;
   flex-direction: row;
   background-color: rgb(240, 234, 234);
@@ -40,3 +40,4 @@
 .animate {
     animation: fadeIn 1.5s infinite alternate;
 }
+ 
