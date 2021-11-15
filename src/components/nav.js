@@ -13,7 +13,7 @@ function NavBar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
- 
+
   return (
     /* Nav wrapper for entire Nav bar */
     <nav>
@@ -25,7 +25,7 @@ function NavBar() {
         <div className={iconStyle.logo}>
           <img className={iconStyle.img} src={CUSDlogo} width="60px" height="60px" />
         </div>
-        
+
         {/* CUSD Text */}
         <span className={iconStyle.header}>
           Cornell University
@@ -45,10 +45,10 @@ function NavBar() {
         <option value="Join" href="https://forms.gle/3w9ajjVbN1PUzP3A8" > Join</option>
       </select>
 
-      
+
       {/* Right side of Nav Bar containing navigation elements */}
       <div className={iconStyle.rightwrap}>
-        <a href="" className={iconStyle.navA}>Projects</a>
+        <a href="/projects/" className={iconStyle.navA}>Projects</a>
         <a href="" className={iconStyle.navA}>About</a>
         <a href="" className={iconStyle.navA}>Stories</a>
         <a href="" className={iconStyle.navA}>Connect</a>

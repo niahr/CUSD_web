@@ -15,7 +15,6 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4",
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^4.0.1",
     "gatsby-plugin-sass": "^4.4.0",
