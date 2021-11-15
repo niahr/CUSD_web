@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import { Link } from "gatsby"
 import Connectwithus from '../components/connectwithus'
 import Team from '../components/weareateam'
+import Buildanimpact from '../components/buildanimpact'
 import Nav from '../components/nav'
 
 // markup
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <Link to="/about/">about</Link>
       <Link to="/stories">stories</Link>
       <Team />
+      <Buildanimpact />
       <Footer />
       <Connectwithus />
 
