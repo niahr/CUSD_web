@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Connectwithus from '../components/connectwithus'
 import Team from '../components/weareateam'
 import Nav from '../components/nav'
-import { GiHamburgerMenu } from 'react-icons/fa';
+import NavNew from '../components/navitems'
 
 // markup
 const IndexPage = () => {

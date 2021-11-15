@@ -1,14 +1,19 @@
 nav {
   margin: 0 auto;
-  width: 100%;
   background: white;
   display: flex;
   flex-direction: row;
+  width: auto;
   max-height: 92px;
 }
 .HamburgerMenu {
   display: none;
 }
+
+.select {
+  display: none;
+}
+
 .leftwrap {
   display: flex;
   margin-right: 10rem;
@@ -101,7 +106,7 @@ nav {
   color: black;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 956px) {
   .header {
     display: none;
   }
@@ -111,16 +116,31 @@ nav {
   .rightwrap {
     display: none;
   }
-  .HamburgerMenu {
+  .select {
     display: block;
-    margin: auto;
-    height: 30px;
-    width: 30px;
-    margin-top: 20px;
-    margin-left: 200px;
-  }
-
-  .HamburgerMenu:active {
-    display: none;
+    width: 9.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 2.12rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5625rem;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    line-height: normal;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    width: 100%;
+    background-color: #3f9b8f;
+    border-color: #327c72;
+    color: #ffffff;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+      sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
   }
 }

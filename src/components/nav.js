@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "gatsby"
 import * as iconStyle from "../components/nav.module.css"
 import CUSDlogo from '../images/CUSDLogoTypeGray.svg'
@@ -7,7 +7,13 @@ import styled from 'styled-components'
 
 
 
-export default function NavBar() {
+function NavBar() {
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+ 
   return (
     /* Nav wrapper for entire Nav bar */
     <nav>
@@ -30,8 +36,16 @@ export default function NavBar() {
       </div>
 
       {/* Mobile Nav bar Icon*/}
-      <a href=""> <img className={iconStyle.HamburgerMenu} src={hamburger} height="30px" width="30px"/> </a>
+      <select className={iconStyle.select}>
+        <option value="Home"> Menu </option>
+        <option value="Projects"> Projects</option>
+        <option value="About"> About</option>
+        <option value="Stories"> Stories</option>
+        <option value="Connect"> Connect</option>
+        <option value="Join" href="https://forms.gle/3w9ajjVbN1PUzP3A8" > Join</option>
+      </select>
 
+      
       {/* Right side of Nav Bar containing navigation elements */}
       <div className={iconStyle.rightwrap}>
         <a href="" className={iconStyle.navA}>Projects</a>
@@ -45,3 +59,5 @@ export default function NavBar() {
     </nav>
   )
 }
+
+export default NavBar;
