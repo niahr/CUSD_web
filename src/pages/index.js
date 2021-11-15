@@ -14,6 +14,7 @@ const IndexPage = () => {
       <Link to="/about/">about</Link>
       <Link to="/stories">stories</Link>
       <Team />
+      <Buildanimpact />
       <Footer />
       <Connectwithus />
 
