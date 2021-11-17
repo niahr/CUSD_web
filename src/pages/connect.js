@@ -9,7 +9,10 @@ import "../components/connect.css"
 import Nav from '../components/nav'
 import Parallax from "../aboutcomponents/parallax.js"
 import abouthead from '../images/aboutimg/ps9.jpg'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Grace from '../images/contact/GraceT.jpg'
+import LinkedIn from '../images/linkedin.png'
+import Mail from '../images/email.png'
 
 const Subteam = () => {
     return (
@@ -37,7 +40,9 @@ const Subteam = () => {
                             <div class="position">Operations</div>
                             <div class="team">Operations</div>
                             <div class="links">
-
+                            <div className="link">E-mail</div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <div className="link">LinkedIn</div>
                             </div>
                         </div>
                     </article>
