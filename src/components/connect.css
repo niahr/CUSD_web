@@ -55,7 +55,7 @@ article {
     width: 100px;
     padding-top: 5px;
 }
-.major, .position, .team {
+.major, .position, .team, .link{
     padding-left: 20px;
     font-family: "Helvetica Neue";
     font-size: 18px;
@@ -69,6 +69,19 @@ article {
     font-style: italic;
 }
 
+.link {
+    font-size: 15px;
+}
+.links{
+    display: flex;
+    -ms-flex-direction: row;
+}
+.icon {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+}
 @media (max-width: 1050px) {
     .title-text{
         display: none;

@@ -41,6 +41,8 @@ const Subteam = () => {
                             <div class="team">Operations</div>
                             <div class="links">
                             <div className="link">E-mail</div>
+                            <font-awesome-icon icon="fa-solid fa-envelope" />
+                            <FontAwesomeIcon icon="fa-solid fa-envelope" />
                             <i class="fa-solid fa-envelope"></i>
                             <div className="link">LinkedIn</div>
                             </div>
