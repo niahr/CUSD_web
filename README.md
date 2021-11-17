@@ -6,4 +6,8 @@
 
 ### You should see the Gatsby starter page as of now.
 
-### If getting error regarding styled components, run: `npm install gatsby-plugin-styled-components`
+### If getting error regarding dependencies, run: 
+  `npm install gatsby-plugin-styled-components
+   npm i --save @fortawesome/fontawesome-svg-core
+   npm install --save @fortawesome/free-solid-svg-icons
+   npm install --save @fortawesome/react-fontawesome`
