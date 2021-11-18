@@ -32,7 +32,6 @@ article {
 }
 
 .name {
-    padding-left: 20px;
     color: #4a4a4a;
     font-family: "Source Sans Pro";
     font-style: normal;
@@ -41,6 +40,7 @@ article {
 }
 
 .contact_info {
+    padding-left: 20px;
     width: 250px;
 }
 
@@ -52,11 +52,10 @@ article {
 }
 
 .contact img {
-    width: 100px;
+    /* width: 100px; */
     padding-top: 5px;
 }
-.major, .position, .team, .link{
-    padding-left: 20px;
+.major, .position, .team {
     font-family: "Helvetica Neue";
     font-size: 18px;
     color: #4a4a4a;
@@ -69,28 +68,57 @@ article {
     font-style: italic;
 }
 
-.link {
-    font-size: 15px;
-}
-.links{
-    display: flex;
-    -ms-flex-direction: row;
-}
-.icon {
-    width: 10px;
-    height: 10px;
-    padding: 0;
-    margin: 0;
-}
 @media (max-width: 1050px) {
     .title-text{
         display: none;
     }
-    .contacts{
+    main, .contacts{
         width: 100%;
     }
 
+    .row {
+        width: 100%;
+        height: 20%;
+    }
+
     .contact img{
-        width: 125px;
+        width: 30%;
+        height: max-content;
+    }
+
+    .contact {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px){
+    .contact {
+        flex-direction: column;
+        /* padding: 10px; */
+        /* padding-left: 10px; */
+        padding-left: 25px;
+        padding-bottom: 10px;
+    }
+
+    .row {
+        padding-left: 10px;
+    }
+
+    .contact img {
+        width: 70%;
+    }
+
+    .contact_info {
+        padding: 0;
+        padding-top: 10px;
+        width: 200px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .major, .position, .team {
+        font-size: 16px;
     }
 }

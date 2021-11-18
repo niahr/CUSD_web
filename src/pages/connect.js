@@ -9,7 +9,7 @@ import "../components/connect.css"
 import Nav from '../components/nav'
 import Parallax from "../aboutcomponents/parallax.js"
 import abouthead from '../images/aboutimg/ps9.jpg'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { FontAwesomeIcon } from "@fontawesome/react-fontawesome"
 import Grace from '../images/contact/GraceT.jpg'
 import LinkedIn from '../images/linkedin.png'
 import Mail from '../images/email.png'
@@ -33,23 +33,23 @@ const Subteam = () => {
                 <div class="contacts">
                     <div class = "row">
                     <article class="contact">
-                        <img src={Grace}></img>
+                        <img src={Grace} width="100px" height="100px"></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
                             <div class="position">Operations</div>
                             <div class="team">Operations</div>
                             <div class="links">
-                            <div className="link">E-mail</div>
+                            {/* <div className="link">E-mail</div>
                             <font-awesome-icon icon="fa-solid fa-envelope" />
                             <FontAwesomeIcon icon="fa-solid fa-envelope" />
                             <i class="fa-solid fa-envelope"></i>
-                            <div className="link">LinkedIn</div>
+                            <div className="link">LinkedIn</div> */}
                             </div>
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace}></img>
+                    <img src={Grace} width="100px" height="100px"></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
@@ -64,7 +64,7 @@ const Subteam = () => {
 
                     <div class = "row">
                     <article class="contact">
-                    <img src={Grace}></img>
+                    <img src={Grace} width="100px" height="100px"></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
@@ -76,7 +76,7 @@ const Subteam = () => {
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace}></img>
+                    <img src={Grace} width="100px" height="100px"></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
@@ -91,7 +91,7 @@ const Subteam = () => {
 
                     <div class = "row">
                     <article class="contact">
-                    <img src={Grace}></img>
+                    <img src={Grace} width="100px" height="100px"></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
@@ -103,7 +103,7 @@ const Subteam = () => {
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace}></img>
+                    <img src={Grace} width="100px" height="100px"></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
