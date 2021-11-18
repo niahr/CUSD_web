@@ -31,6 +31,13 @@
 .link {
   margin: auto;
   margin-left: 20%;
-} 
+}
 
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
 
+.animate {
+    animation: fadeIn 1.5s infinite alternate;
+}
+ 
