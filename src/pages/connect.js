@@ -118,6 +118,8 @@ const Subteam = () => {
 
                 </div>
                 </div>
+
+            <Parallax image={abouthead} height={150}> </Parallax>
             <Footer/>
             <Connectwithus/>
         </main>
