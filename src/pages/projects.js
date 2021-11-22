@@ -4,20 +4,19 @@ import ProjectList from '../projectscomponents/project'
 import Nav from '../components/nav'
 import * as iconStyle from "../projectscomponents/projects.module.css"
 
-import susedunepal from "../icons/susedunepal.png"
-import arc from "../icons/arc.png"
-import susmob from "../icons/susmob.png"
-import aqua from "../icons/aqua.png"
-import currents from "../icons/currents.jpeg"
-import icn2030mod from "../icons/icn2030mod.jpeg"
-import icn2030policy from "../icons/icn2030policy.jpeg"
-import marcomm from "../icons/marcomm.jpeg"
-import real from "../icons/real.jpeg"
-import soilfactory from "../icons/soilfactory.png"
-import solarize from "../icons/solarize.jpeg"
-import solarpanel from "../icons/solarpanel.jpeg"
-import ssd from "../icons/ssd.jpeg"
-import techops from "../icons/techops.jpeg"
+import sen from "../icons/SEN.png"
+import arc from "../icons/ARC.png"
+import susmob from "../icons/Sustainable Mobility.png"
+import aqua from "../icons/AquaCulture.jpg"
+import currents from "../icons/Currents.png"
+import icn2030mod from "../icons/ICN Modeling.png"
+import icn2030policy from "../icons/ICN_Policy.png"
+import marcomm from "../icons/MarComm.png"
+import real from "../icons/REAL.jpg"
+import soilfactory from "../icons/SOIL.png"
+import solarpanel from "../icons/solar panel reboot.png"
+import ssd from "../icons/Ospri.png"
+import techops from "../icons/techops.png"
 
 import beebelake from "../icons/beebelake.jpeg"
 import climateactionplan from "../icons/climateactionplan.jpeg"
@@ -28,7 +27,6 @@ import lights from "../icons/lights.jpeg"
 import overlook from "../icons/overlook.jpeg"
 import pie from "../icons/pie.jpeg"
 import redo from "../icons/redo.jpeg"
-import roots from "../icons/roots.jpeg"
 import sac from "../icons/sac.jpeg"
 import schoolsafrica from "../icons/schoolsafrica.jpeg"
 import smartindia from "../icons/smartindia.jpeg"
@@ -41,9 +39,11 @@ import susresfac from "../icons/susresfac.jpeg"
 import sweep from "../icons/sweep.jpeg"
 import tinyhome from "../icons/tinyhome.jpeg"
 import windows from "../icons/windows.jpeg"
+import roots from "../icons/roots.jpeg"
+import solarize from "../icons/solarize.jpeg"
 
 // markup
-const projects = [{id: 1, name: 'Sustainable Education Nepal', subtitle: 'CUSD x United World Schools', pic: susedunepal},
+const projects = [{id: 1, name: 'Sustainable Education Nepal', subtitle: 'CUSD x United World Schools', pic: sen},
                   {id: 2, name: 'ARC', subtitle: 'Alternative Recycling Cornell', pic: arc},
                   {id: 3, name: 'Sustainable Mobility', subtitle: 'Re-design the current public transportation system in Tompkins County, NY', pic: susmob},
                   {id: 4, name: 'AquaCulture', subtitle: 'Revolutionizing Fishing Industry with Marine Aquaculture', pic: aqua},
@@ -52,8 +52,7 @@ const projects = [{id: 1, name: 'Sustainable Education Nepal', subtitle: 'CUSD x
                   {id: 7, name: 'Currents', subtitle: 'Defining the next generation of sustainable design', pic: currents},
                   {id: 8, name: 'ICN 2030 Policy', subtitle: 'Ithaca Carbon Neautral 2030 Policy', pic: icn2030policy},
                   {id: 9, name: 'REAL', subtitle: 'Empowering local farms through the system of Aquaponics', pic: real},
-                  {id: 10, name: 'SST', subtitle: 'Smithsonian Sustainability Team', pic: ssd},
-                  {id: 11, name: 'Solarize', subtitle: 'Electrifying Cornell Grounds with sustainable energy sources', pic: solarize},
+                  {id: 11, name: 'SST', subtitle: 'Smithsonian Sustainability Team', pic: ssd},
                   {id: 12, name: 'ICN 2030 Neutrality Modeling', subtitle: 'ICN 2030 Neutrality Modeling', pic: icn2030mod}]
 
 const horizteams = [{id: 1, name: 'Tech Ops', subtitle: 'Developing the digital resources of CUSD', pic: techops},
@@ -80,7 +79,8 @@ const pastprojects = [{id: 1, name: 'Windows', subtitle: 'Studying the feasibili
                       {id: 19, name: 'Cornell Tech', subtitle: 'Designing a sustainable future for Cornell in NYC', pic: cornelltech},
                       {id: 20, name: 'Green Building Metrics Project', subtitle: 'Empowering consumers to make informed, sustainable purchases', pic: gbmp},
                       {id: 21, name: 'Smart Village India', subtitle: 'Creating smart, sustainable resource management systems in a resource limited region', pic: smartindia},
-                      {id: 22, name: 'REDO', subtitle: 'Rethinking waste at the Smithsonian National Zoo', pic: redo}
+                      {id: 22, name: 'REDO', subtitle: 'Rethinking waste at the Smithsonian National Zoo', pic: redo},
+                      {id: 11, name: 'Solarize', subtitle: 'Electrifying Cornell Grounds with sustainable energy sources', pic: solarize}
                       ]
 
 const ProjectPage = () => {
