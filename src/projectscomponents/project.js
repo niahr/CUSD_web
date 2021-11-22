@@ -6,9 +6,11 @@ export default function projectList({ projects }) {
         <div key={project.id} className={iconStyle.projects}>
             <div className={iconStyle.project}>
                 <img src={project.pic} className={iconStyle.logos}/>
+                <div className={iconStyle.image__overlay}>
+                    <p className={iconStyle.subtitle}>{project.subtitle}</p>
+                </div>
                 <div className={iconStyle.text}>
                     <h3 className={iconStyle.name}>{project.name}</h3>
-                    <p className={iconStyle.subtitle}>{project.subtitle}</p>
                 </div>
             </div>
         </div>
