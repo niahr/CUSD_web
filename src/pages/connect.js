@@ -71,7 +71,7 @@ const Subteam = () => {
 
                     <div class = "row">
                     <article class="contact">
-                    <img src={ErinH} width="100px" height="100px"></img>
+                    <img src={ErinH} width="125px" ></img>
                         <div class="contact_info">
                             <div class="name">Erin Huang</div>
                             <div class="major">Chemical Engineering</div>
@@ -86,7 +86,7 @@ const Subteam = () => {
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={FrannieL} width="100px" height="100px"></img>
+                    <img src={FrannieL} width="100px" ></img>
                         <div class="contact_info">
                             <div class="name">Frances Lach</div>
                             <div class="major">Information Science</div>
@@ -104,7 +104,7 @@ const Subteam = () => {
 
                     <div class = "row">
                     <article class="contact">
-                    <img src={RyanT} width="100px" height="100px"></img>
+                    <img src={RyanT} width="100px" ></img>
                         <div class="contact_info">
                             <div class="name">Ryan Thompson</div>
                             <div class="major">Economics</div>
@@ -119,7 +119,7 @@ const Subteam = () => {
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={DakotaC} width="100px" height="100px"></img>
+                    <img src={DakotaC} width="100px"></img>
                         <div class="contact_info">
                             <div class="name">Dakota Caruso</div>
                             <div class="major">Int. Agriculture and Rural Dev.</div>
