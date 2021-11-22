@@ -10,9 +10,14 @@ import Nav from '../components/nav'
 import Parallax from "../aboutcomponents/parallax.js"
 import abouthead from '../images/aboutimg/ps9.jpg'
 // import { FontAwesomeIcon } from "@fontawesome/react-fontawesome"
-import Grace from '../images/contact/GraceT.jpg'
-import LinkedIn from '../images/linkedin.png'
-import Mail from '../images/email.png'
+import GraceT from '../images/contact/GraceT.jpg'
+import ErinH from '../images/contact/ErinH.png'
+import FrannieL from '../images/contact/FrannieL.png'
+import BonnyW from '../images/contact/BonnyW.jpg'
+import RyanT from '../images/contact/RyanT.png'
+import DakotaC from '../images/contact/DakotaC.png'
+import LinkedIn from '../images/icons/linkedin.png'
+import Email from '../images/icons/email.png'
 
 const Subteam = () => {
     return (
@@ -33,30 +38,32 @@ const Subteam = () => {
                 <div class="contacts">
                     <div class = "row">
                     <article class="contact">
-                        <img src={Grace} width="100px" height="100px"></img>
+                        <img src={GraceT} width="100px" height="100px"></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
                             <div class="position">Operations</div>
                             <div class="team">Operations</div>
                             <div class="links">
-                            {/* <div className="link">E-mail</div>
-                            <font-awesome-icon icon="fa-solid fa-envelope" />
-                            <FontAwesomeIcon icon="fa-solid fa-envelope" />
-                            <i class="fa-solid fa-envelope"></i>
-                            <div className="link">LinkedIn</div> */}
+                                <img src={Email}></img> 
+                                <a href="mailto:gmt59@cornell.edu" className="email"> Email </a>
+                                <img src={LinkedIn} width="21px" height="21px"></img> 
+                                <a href= "https://www.linkedin.com/in/gracetamisiea/" className="link">LinkedIn</a>
                             </div>
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace} width="100px" height="100px"></img>
+                    <img className ={"headshot"} src={GraceT} width="100px" height="100px"></img>
                         <div class="contact_info">
                             <div class="name">Grace Tamisiea</div>
                             <div class="major">Food Science</div>
                             <div class="position">Director of External Operations</div>
                             <div class="team">Operations</div>
-                            <div class="links">
-
+                            <div className="links">
+                                <img src={Email}></img> 
+                                <a href="mailto:gmt59@cornell.edu" className="email"> Email </a>
+                                <img src={LinkedIn} width="21px" height="21px"></img> 
+                                <a href= "https://www.linkedin.com/in/gracetamisiea/" className="link">LinkedIn</a>
                             </div>
                         </div>
                     </article>
@@ -64,26 +71,32 @@ const Subteam = () => {
 
                     <div class = "row">
                     <article class="contact">
-                    <img src={Grace} width="100px" height="100px"></img>
+                    <img src={ErinH} width="100px" height="100px"></img>
                         <div class="contact_info">
-                            <div class="name">Grace Tamisiea</div>
-                            <div class="major">Food Science</div>
-                            <div class="position">Operations</div>
+                            <div class="name">Erin Huang</div>
+                            <div class="major">Chemical Engineering</div>
+                            <div class="position">Directior of Internal Operations</div>
                             <div class="team">Operations</div>
                             <div class="links">
-
+                                <img src={Email}></img> 
+                                <a href="mailto:eeh73@cornell.edu" className="email"> Email </a>
+                                <img src={LinkedIn} width="21px" height="21px"></img> 
+                                <a href= "https://www.linkedin.com/in/gracetamisiea/" className="link">LinkedIn</a>
                             </div>
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace} width="100px" height="100px"></img>
+                    <img src={FrannieL} width="100px" height="100px"></img>
                         <div class="contact_info">
-                            <div class="name">Grace Tamisiea</div>
-                            <div class="major">Food Science</div>
-                            <div class="position">Operations</div>
-                            <div class="team">Operations</div>
+                            <div class="name">Frances Lach</div>
+                            <div class="major">Information Science</div>
+                            <div class="position">Team Lead</div>
+                            <div class="team">Aquaculture</div>
                             <div class="links">
-
+                                <img src={Email}></img> 
+                                <a href="mailto:gmt59@cornell.edu" className="email"> Email </a>
+                                <img src={LinkedIn} width="21px" height="21px"></img> 
+                                <a href= "https://www.linkedin.com/in/gracetamisiea/" className="link">LinkedIn</a>
                             </div>
                         </div>
                     </article>
@@ -91,26 +104,32 @@ const Subteam = () => {
 
                     <div class = "row">
                     <article class="contact">
-                    <img src={Grace} width="100px" height="100px"></img>
+                    <img src={RyanT} width="100px" height="100px"></img>
                         <div class="contact_info">
-                            <div class="name">Grace Tamisiea</div>
-                            <div class="major">Food Science</div>
-                            <div class="position">Operations</div>
-                            <div class="team">Operations</div>
+                            <div class="name">Ryan Thompson</div>
+                            <div class="major">Economics</div>
+                            <div class="position">Team Lead</div>
+                            <div class="team">ICN Policy</div>
                             <div class="links">
-
+                                <img src={Email}></img> 
+                                <a href="mailto:gmt59@cornell.edu" className="email"> Email </a>
+                                <img src={LinkedIn} width="21px" height="21px"></img> 
+                                <a href= "https://www.linkedin.com/in/gracetamisiea/" className="link">LinkedIn</a>
                             </div>
                         </div>
                     </article>
                     <article class="contact">
-                    <img src={Grace} width="100px" height="100px"></img>
+                    <img src={DakotaC} width="100px" height="100px"></img>
                         <div class="contact_info">
-                            <div class="name">Grace Tamisiea</div>
-                            <div class="major">Food Science</div>
-                            <div class="position">Operations</div>
-                            <div class="team">Operations</div>
+                            <div class="name">Dakota Caruso</div>
+                            <div class="major">Int. Agriculture and Rural Dev.</div>
+                            <div class="position">Team Lead</div>
+                            <div class="team">Soil Factory</div>
                             <div class="links">
-
+                            <   img src={Email}></img> 
+                                <a href="mailto:gmt59@cornell.edu" className="email"> Email </a>
+                                <img src={LinkedIn} width="21px" height="21px"></img> 
+                                <a href= "https://www.linkedin.com/in/gracetamisiea/" className="link">LinkedIn</a>
                             </div>
                         </div>
                     </article>
