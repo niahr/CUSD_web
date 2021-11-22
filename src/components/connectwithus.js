@@ -7,17 +7,17 @@ import * as iconStyle from "./cwu.module.css"
 
 export default function cws({ children }) {
   return <div className={iconStyle.connectwithus}>{children}
-  <div className={iconStyle.connecticons}>
-        <h1 className ={iconStyle.header} > Connect With Us</h1>
-        <div className = {iconStyle.eachicon}>
-          <a className={iconStyle.images} href= "https://twitter.com/CUSD"> <img src={tweet} width="50px" height="50px" /></a>
-          <a className={iconStyle.images} href= "https://www.facebook.com/CUSustainableDesign/?fref=ts"><img src={face} width="50px" height="50px"/></a>
-          <a className={iconStyle.images} href = "https://www.linkedin.com/company/cornellusd"><img src={linked} width="50px" height="50px"/></a>
-          <a className={iconStyle.images} href = "https://www.instagram.com/cusustainabledesign/?hl=en"><img src={insta} width="50px" height="50px"/></a>
-        </div>
+    <div className={iconStyle.connecticons}>
+      <h1 className={iconStyle.header} > Connect With Us</h1>
+      <div className={iconStyle.eachicon}>
+        <a className={iconStyle.images} href="https://twitter.com/CUSD"> <img src={tweet} width="65px" height="65px" alt="CUSD twitter" /></a>
+        <a className={iconStyle.images} href="https://www.facebook.com/CUSustainableDesign/?fref=ts"><img src={face} width="65px" height="65px" alt="CUSD Facebook" /></a>
+        <a className={iconStyle.images} href="https://www.linkedin.com/company/cornellusd"><img src={linked} width="65px" height="65px" alt="CUSD LinkedIn" /></a>
+        <a className={iconStyle.images} href="https://www.instagram.com/cusustainabledesign/?hl=en"><img src={insta} width="70px" height="70px" alt="CUSD Instagram" /></a>
       </div>
-      <p className= {iconStyle.copyright}>&copy; 2011-2021 Cornell University Sustainable Design</p>
-      </div>
+    </div>
+    <p className={iconStyle.copyright}>&copy; 2011-2021 Cornell University Sustainable Design</p>
+  </div>
 }
 
 
