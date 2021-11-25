@@ -44,6 +44,9 @@ nav {
 .rightwrap {
   display: flex;
   flex-direction: row;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
 }
 
 .navA {
