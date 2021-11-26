@@ -1,5 +1,5 @@
 import React from 'react'
-import "../assets/about.scss"
+import "./about.scss"
 
 
 const overview = () => {
