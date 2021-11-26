@@ -6,21 +6,21 @@ const Footer = () => {
 
   return (
     <div className="footer_container">
-      <article >
+      <article>
         <h2 >Partner</h2>
         <p>Partner with us to help make a project reality</p>
         <a href="mailto:cu.sustainabledesign@gmail.com?subject=Partnership with CUSD" target="_blank" rel="noreferrer">
           <button>Partner </button> </a>
       </article>
 
-      <article >
+      <article>
         <h2>Donate</h2>
         <p>Support our work and enable project impact</p>
         <a href="https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=142&bledit=1" target="_blank" rel="noreferrer">
           <button>Donate</button></a>
       </article>
 
-      <article >
+      <article>
         <h2>Join</h2>
         <p >Interested in making an impact?</p>
         <a href="https://forms.gle/579KKnNaMxSznxRa9" target="_blank" rel="noreferrer">

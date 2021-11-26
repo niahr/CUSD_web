@@ -33,6 +33,12 @@
   font-size: 180%;
   font-weight: 400;
   margin-bottom: 20px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  line-height: 1.1;
+  text-rendering: optimizeLegibility;
+  text-align: left; 
+  align-items: center; 
 }
 
 .copyright {
@@ -43,3 +49,32 @@
   padding-bottom:2%;
 }
 
+
+@media screen and (max-width: 1200px) {
+
+  .eachicon {
+    display:flex; 
+    margin-left: 10%; 
+  }
+
+  .column {
+    flex: 25%; 
+  }
+
+  .images {
+    margin-left: 0px; 
+  }
+
+  .header {
+    margin-left: 0%;
+    text-align: center; 
+  }
+
+  .copyright {
+    font-size: 0.9rem; 
+    margin-left: 0%;
+    margin-right: 2%; 
+    text-align: right; 
+  }
+
+}
