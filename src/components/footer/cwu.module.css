@@ -25,6 +25,7 @@
 
 .images:hover {
   background-color: transparent; 
+
   filter:drop-shadow(2px 2px 3px black)
 }
 
@@ -33,12 +34,6 @@
   font-size: 180%;
   font-weight: 400;
   margin-bottom: 20px;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-style: normal;
-  line-height: 1.1;
-  text-rendering: optimizeLegibility;
-  text-align: left; 
-  align-items: center; 
 }
 
 .copyright {
@@ -50,7 +45,7 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
 
   .eachicon {
     display:flex; 
@@ -77,4 +72,4 @@
     text-align: right; 
   }
 
-}
+} 
