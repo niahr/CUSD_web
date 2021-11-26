@@ -1,6 +1,6 @@
 import React from 'react'
-import "../assets/about.scss"
-import video from '../images/givemeup.mp4'
+import "./about.scss"
+import video from '../../images/givemeup.mp4'
 
 
 const overview = () => {

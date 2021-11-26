@@ -1,4 +1,4 @@
-nav {
+.nav {
   margin: 0 auto;
   background: white;
   display: flex;
@@ -6,6 +6,7 @@ nav {
   width: auto;
   max-height: 92px;
 }
+
 .HamburgerMenu {
   display: none;
 }
@@ -18,6 +19,7 @@ nav {
   display: flex;
   margin-right: 10rem;
   flex-direction: row;
+  margin-left: 3rem;
 }
 
 .img {
@@ -33,8 +35,7 @@ nav {
   margin: 1.375rem 0 1.375rem 0;
   font-size: 1.25rem;
   line-height: 1.5625rem;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: 300;
   color: #888888;
   display: block;
@@ -44,6 +45,9 @@ nav {
 .rightwrap {
   display: flex;
   flex-direction: row;
+  position: absolute;
+  right: 0;
+  margin-right: 4rem;
 }
 
 .navA {
@@ -51,8 +55,7 @@ nav {
   color: #888888;
   padding: 2.125rem 1.5rem;
   width: 100%;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.5625rem;
@@ -91,8 +94,7 @@ nav {
   border-color: #327c72;
   color: #ffffff;
   box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: 300;
   font-size: 1.125rem;
 }
@@ -138,8 +140,7 @@ nav {
     border-color: #327c72;
     color: #ffffff;
     box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
-      sans-serif;
+    font-family: 'Open Sans', sans-serif;  
     font-weight: 300;
     font-size: 1.125rem;
   }
