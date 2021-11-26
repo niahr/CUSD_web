@@ -1,17 +1,25 @@
-nav {
+.nav {
   margin: 0 auto;
-  max-width: 64rem;
-  width: 100%;
   background: white;
   display: flex;
   flex-direction: row;
+  width: auto;
   max-height: 92px;
+}
+
+.HamburgerMenu {
+  display: none;
+}
+
+.select {
+  display: none;
 }
 
 .leftwrap {
   display: flex;
   margin-right: 10rem;
   flex-direction: row;
+  margin-left: 3rem;
 }
 
 .img {
@@ -27,8 +35,7 @@ nav {
   margin: 1.375rem 0 1.375rem 0;
   font-size: 1.25rem;
   line-height: 1.5625rem;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: 300;
   color: #888888;
   display: block;
@@ -38,6 +45,9 @@ nav {
 .rightwrap {
   display: flex;
   flex-direction: row;
+  position: absolute;
+  right: 0;
+  margin-right: 4rem;
 }
 
 .navA {
@@ -45,8 +55,7 @@ nav {
   color: #888888;
   padding: 2.125rem 1.5rem;
   width: 100%;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.5625rem;
@@ -73,20 +82,19 @@ nav {
 
 .joinButtonInner {
   text-decoration: none;
-  text-align:center;
-  align-items:center;
+  text-align: center;
+  align-items: center;
   line-height: normal;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   padding-left: 3.5rem;
   padding-right: 3.5rem;
   width: 100%;
-  background-color: #3F9B8F;
+  background-color: #3f9b8f;
   border-color: #327c72;
-  color: #FFFFFF;
+  color: #ffffff;
   box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
-  sans-serif;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: 300;
   font-size: 1.125rem;
 }
@@ -98,4 +106,42 @@ nav {
 .navA:hover {
   background-color: rgb(168, 224, 210);
   color: black;
+}
+
+@media (max-width: 956px) {
+  .header {
+    display: none;
+  }
+  nav {
+    width: auto;
+  }
+  .rightwrap {
+    display: none;
+  }
+  .select {
+    display: block;
+    width: 9.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 2.12rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5625rem;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    line-height: normal;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    width: 100%;
+    background-color: #3f9b8f;
+    border-color: #327c72;
+    color: #ffffff;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 300;
+    font-size: 1.125rem;
+  }
 }

@@ -1,11 +1,11 @@
 import * as React from "react"
-import Footer from '../components/Footer'
+import Footer from '../components/footer/footer'
 import { Link } from "gatsby"
-import Connectwithus from '../components/connectwithus'
-import VideoOverview from '../aboutcomponents/videooverview.js'
-import Nav from '../components/nav'
+import Connectwithus from '../components/footer/connectwithus'
+import VideoOverview from '../components/about/videooverview.js'
+import Nav from '../components/navbar/nav'
 import moviemid from '../images/aboutimg/ps9.jpg'
-import Parallax from "../aboutcomponents/parallax.js"
+import Parallax from "../components/parallax/parallax.js"
 
 
 // markup
@@ -13,8 +13,6 @@ const StoriesPage = () => {
   return (
     <main>
       <Nav />
-      <Link to="/">Back to main</Link>
-      <Link to="/about/">about</Link>
       <VideoOverview />
       <Parallax image={moviemid} caption={"Stories"} height={250}> </Parallax>
       <Footer />
