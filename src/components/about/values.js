@@ -1,13 +1,13 @@
 import React from 'react'
-import "../assets/about.scss"
-import efficiency from '../images/aboutimg/values/efficiency.svg'
-import impact from '../images/aboutimg/values/impact.svg'
-import diversity from '../images/aboutimg/values/diversity.svg'
-import sustainability from '../images/aboutimg/values/sustainability.svg'
-import collaboration from '../images/aboutimg/values/collaboration.svg'
-import engagement from '../images/aboutimg/values/engagement.svg'
-import innovation from '../images/aboutimg/values/innovation.svg'
-import responsibility from '../images/aboutimg/values/responsibility.svg'
+import "./about.scss"
+import efficiency from '../../images/aboutimg/values/efficiency.svg'
+import impact from '../../images/aboutimg/values/impact.svg'
+import diversity from '../../images/aboutimg/values/diversity.svg'
+import sustainability from '../../images/aboutimg/values/sustainability.svg'
+import collaboration from '../../images/aboutimg/values/collaboration.svg'
+import engagement from '../../images/aboutimg/values/engagement.svg'
+import innovation from '../../images/aboutimg/values/innovation.svg'
+import responsibility from '../../images/aboutimg/values/responsibility.svg'
 
 const values = () => {
   return (
