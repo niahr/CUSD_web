@@ -1,11 +1,11 @@
 import React from 'react'
-import "../assets/footer.scss"
+import "./footer.scss"
 //styles
 
 const Footer = () => {
 
-    return(
-      <div className="footer_container">
+  return (
+    <div className="footer_container">
       <article >
         <h2 >Partner</h2>
         <p>Partner with us to help make a project reality</p>
@@ -26,8 +26,8 @@ const Footer = () => {
         <a href="https://forms.gle/579KKnNaMxSznxRa9" target="_blank" rel="noreferrer">
           <button>Apply</button></a>
       </article>
-  </div>
-        )
+    </div>
+  )
 }
 
 export default Footer
