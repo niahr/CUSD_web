@@ -1,15 +1,15 @@
 import * as React from "react"
 import "../assets/about.scss"
 import Nav from '../navbar/nav'
-import Parallax from "../aboutcomponents/parallax.js"
-import Overview from '../aboutcomponents/overview.js'
+import Parallax from "../parallax/parallax.js"
+import Overview from '../overview.js'
 import { Link } from "gatsby"
 import abouthead from '../images/aboutimg/ps9.jpg'
 import aboutmid1 from '../images/aboutimg/ps3.jpg'
 import aboutmid2 from '../images/aboutimg/ps2.jpg'
 import Connectwithus from '../footer/connectwithus'
 import Footer from '../footer/footer.js'
-import Values from '../aboutcomponents/values.js'
+import Values from '../values.js'
 import ValuePicture from "../images/aboutimg/values.png"
 
 
