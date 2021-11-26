@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import ProjectList from '../components/projects/project'
 import Nav from '../components/navbar/nav'
-
+import * as iconStyle from "../components/projects/projects.module.css"
 import sen from "../icons/SEN.png"
 import arc from "../icons/ARC.png"
 import susmob from "../icons/Sustainable Mobility.png"
