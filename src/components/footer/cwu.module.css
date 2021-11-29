@@ -16,6 +16,8 @@
   vertical-align: auto;
   text-align: center;
   padding-bottom: 5px;
+  margin-right: 5%;
+
 }
 
 .images {
@@ -48,8 +50,8 @@
 @media screen and (max-width: 600px) {
 
   .eachicon {
-    display:flex; 
     margin-left: 5%; 
+    margin-right: 15%;
   }
 
   .column {

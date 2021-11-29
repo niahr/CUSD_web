@@ -15,6 +15,7 @@ import soilfactory from "../images/project_logos/SOIL.png"
 import solarpanel from "../images/project_logos/solar panel reboot.png"
 import ssd from "../images/project_logos/Ospri.png"
 import techops from "../images/project_logos/techops.png"
+import Parallax from "../components/parallax/parallax"
 
 import beebelake from "../images/project_logos/beebelake.jpeg"
 import climateactionplan from "../images/project_logos/climateactionplan.jpeg"
@@ -43,6 +44,8 @@ import solarize from "../images/project_logos/solarize.jpeg"
 import Footer from "../components/footer/footer"
 import Connectwithus from "../components/footer/connectwithus"
 
+import SNNGround from "../images/background_images/SNNground.jpg"
+import solarpanelgroup from "../images/background_images/solarpanelgrouppic.jpg"
 
 // markup
 const projects = [
@@ -109,6 +112,7 @@ const ProjectPage = () => {
   return (
     <main>
       <Nav />
+      <Parallax image={SNNGround} caption={"Projects"} height={550}> </Parallax>
       <h1 className={iconStyle.headers}>Current Projects</h1>
       <Project className={iconStyle.wrapper} projects={projects} />
       <hr className={iconStyle.line}></hr>
@@ -130,6 +134,8 @@ const ProjectPage = () => {
           )
         }
       </div>
+      <Parallax image={solarpanelgroup} height={350}> </Parallax>
+
       <Footer />
       <Connectwithus />
 

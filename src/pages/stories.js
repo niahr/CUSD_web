@@ -3,7 +3,10 @@ import Footer from '../components/footer/footer'
 import Connectwithus from '../components/footer/connectwithus'
 import VideoOverview from '../components/stories/videooverview.js'
 import Nav from '../components/navbar/nav'
-import moviemid from '../images/aboutimg/ps9.jpg'
+
+import videohead from '../images/background_images/SNNGroup.jpg'
+
+import videomid from '../images/background_images/ourpassion.png'
 import Parallax from "../components/parallax/parallax.js"
 
 
@@ -12,8 +15,10 @@ const StoriesPage = () => {
   return (
     <main>
       <Nav />
+      <Parallax image={videohead} caption={"Stories"} height={550}> </Parallax>
       <VideoOverview />
-      <Parallax image={moviemid} caption={"Stories"} height={250}> </Parallax>
+      <Parallax image={videomid} height={350}> </Parallax>
+
       <Footer />
       <Connectwithus />
 

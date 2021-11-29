@@ -24,13 +24,41 @@ article {
     flex-wrap: wrap;
     width:70%;
     padding-top: 10px;
-    margin-right: 100px;
 }
 
 .row{
-    display: flex;
     width: 100%;
 }
+
+@media (max-width: 600px) {
+    .contact {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .headshot{
+        /* margin-top: 20px; */
+    }
+}
+
+@media (min-width: 601px) {
+    .row{
+        display: flex;
+        height: 10%;
+
+    }
+
+    
+}
+
+@media (min-width: 1050px) {
+    .contacts {
+        margin-right: 100px;
+    }
+}
+
 
 .name {
     color: #4a4a4a;
@@ -95,7 +123,6 @@ article {
 
     .row {
         width: 100%;
-        height: 10%;
     }
 
     .contact img{
@@ -106,6 +133,7 @@ article {
     .contact {
         width: 50%;
     }
+
     .links img{
         width: 15px;
         height: 15px;

@@ -1,5 +1,4 @@
 .footer_container{
-    display: flex;
     padding-top: 20px; 
     align-items: center;
     justify-content: center;
@@ -69,16 +68,31 @@
 }
 
 @media screen and (max-width: 900px) {
-
     .footer_container {
-
         p {
             max-width: 75%;
             height: 75px;
         }
-
         button {
             width: 8rem; 
          }
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .footer_container {
+        p {
+            height: 20px;
+            margin-bottom: 35px;
+        }
+        button {         
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .footer_container {
+        display: flex;
     }
 }

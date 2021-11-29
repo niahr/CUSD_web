@@ -3,9 +3,9 @@ import "../components/about/about.scss"
 import Nav from '../components/navbar/nav'
 import Parallax from "../components/parallax/parallax.js"
 import Overview from '../components/about/overview.js'
-import abouthead from '../images/aboutimg/ps9.jpg'
-import aboutmid1 from '../images/aboutimg/ps3.jpg'
-import aboutmid2 from '../images/aboutimg/ps2.jpg'
+import abouthead from '../images/background_images/peoplepurposefront.png'
+import aboutmid1 from '../images/background_images/cusdwind.jpg'
+import aboutmid2 from '../images/background_images/cusdstickers.png'
 import Connectwithus from '../components/footer/connectwithus'
 import Footer from '../components/footer/footer.js'
 import Values from '../components/about/values.js'
@@ -17,7 +17,7 @@ const AboutPage = () => {
 
         <main>
             <Nav />
-            <Parallax image={abouthead} caption={"About"} height={250}> </Parallax>
+            <Parallax image={abouthead} caption={"About"} height={550}> </Parallax>
             <Overview />
             <Parallax image={aboutmid1} height={200}> </Parallax>
             <Values image={ValuePicture}> </Values>

@@ -1,8 +1,48 @@
 /* Layout when screen is >1200 px */
 
 /* CSS for overview component */ 
-.flex-container{   
-    display:flex;
+
+
+@media screen and (min-width: 475px) {
+    .flex-container{   
+        display:flex;
+    }
+
+    .quoteDiv {
+        margin-top: 100px; 
+    }
+
+    .quoteText {
+        margin-top: 10px;
+    }
+    
+    .flex-child-video.storypurpose {
+        width: 200%;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    .flex-container{  
+        flex: none; 
+    }
+
+    .quoteDiv {
+        margin-top: 0;
+    }
+
+    .quoteText {
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .flex-child-video.storyquote {
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+
 }
 
 .flex-child{
@@ -19,7 +59,6 @@
 }
 
 .quoteDiv {
-    margin-top: 100px; 
     margin-left: 100px; 
     margin-right: 100px; 
 }
@@ -30,7 +69,6 @@
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: 0;
-    margin-top: 10px;
     text-rendering: optimizeLegibility;
     font-size: 1.5rem;
     text-align: left; 
@@ -181,7 +219,6 @@
 @media screen and (max-width: 1200px) {
 
 .quoteDiv {
-    margin-top: 100px; 
     margin-left: 50px; 
     margin-right: 50px; 
 }
@@ -229,7 +266,6 @@
 
     /* Overview component */ 
     .quoteDiv {
-        margin-top: 100px; 
         margin-left: 20px; 
         margin-right: 20px; 
     }

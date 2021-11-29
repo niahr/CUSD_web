@@ -19,7 +19,7 @@ const overview = () => {
         </div>
       </div>
 
-      <div className="flex-child-video storypurpose" style={{ "width": "200%" }}>
+      <div className="flex-child-video storypurpose" >
         <div className="purposeDiv">
           <article className="purposeText">
             <div>
