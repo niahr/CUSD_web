@@ -1,6 +1,5 @@
 import * as React from "react"
 import Footer from '../components/footer/footer'
-import { Link } from "gatsby"
 import Connectwithus from '../components/footer/connectwithus'
 import Team from '../components/landing/weareateam'
 import Buildanimpact from '../components/landing/buildanimpact'

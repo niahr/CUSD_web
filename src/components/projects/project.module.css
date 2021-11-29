@@ -5,6 +5,11 @@
     width: 100%;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .projects .image {
     position: relative;
     align-items: top;
@@ -17,18 +22,40 @@
 }
 
 .projects .name {
-    font-family: "Rajdhani", sans-serif;
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 130%;    
+
 }
 
 .projects .subtitle {
-    font-family: "Rajdhani", sans-serif;
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;  
     text-align: center;
     margin: 10%;
 }
 
+@media only screen and (max-width: 825px) {
+    .projects .subtitle {
+        font-size: 78%;    
+    }
+}
+
+@media only screen and (min-width: 826px) {
+    .projects .subtitle {
+        font-size: 101%;    
+    }
+}
+
+@media only screen and (min-width: 940px) {
+    .projects .subtitle {
+        font-size: 114%;    
+    }
+}
+
 @media only screen and (min-width: 601px) {
+    .subtitleSmall {
+        display: none;
+    }
+
     .projects {
         display: inline-block;
         padding-right: 5%;
@@ -84,6 +111,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .subtitleSmall {
+        font-family: 'Open Sans', sans-serif;  
+        font-size: 100%;    
+        font-style: italic;
+    }
+
     .projects {
         display: inline-block;
         padding-right: 5%;

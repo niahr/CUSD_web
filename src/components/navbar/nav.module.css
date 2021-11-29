@@ -11,10 +11,6 @@
   display: none;
 }
 
-.select {
-  display: none;
-}
-
 .leftwrap {
   display: flex;
   margin-right: 10rem;
@@ -108,6 +104,12 @@
   color: black;
 }
 
+@media (min-width: 956px) {
+  .select {
+    display: none;
+  }
+}
+
 @media (max-width: 956px) {
   .header {
     display: none;
@@ -119,11 +121,11 @@
     display: none;
   }
   .select {
-    display: block;
-    width: 9.5rem;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-    margin-top: 2.12rem;
+    width: 120px;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 1.12rem;
+    margin-bottom: 1.12rem;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.5625rem;
@@ -133,9 +135,8 @@
     line-height: normal;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-    width: 100%;
+    /* padding-left: 3.5rem;
+    padding-right: 3.5rem; */
     background-color: #3f9b8f;
     border-color: #327c72;
     color: #ffffff;

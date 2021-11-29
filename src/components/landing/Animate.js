@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import * as iconStyle from "./weare.module.css"
 
 export default function Animate() {
-    const texts = ['Strategists', 'Architects','Designers','Engineers']
-    const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0);
+  const texts = ['Strategists', 'Architects', 'Designers', 'Engineers']
 
   useEffect(() => {
+
     // Change text every 3 seconds (generates new index to pass)
     const timer = setInterval(() => {
       setIndex(previousIndex => {
@@ -18,7 +18,7 @@ export default function Animate() {
     return () => {
       clearInterval(timer);
     };
-  }, []);
+  });
 
   return (
     <span>{texts[index]}</span>

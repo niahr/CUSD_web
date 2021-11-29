@@ -3,6 +3,7 @@
     padding-top: 2%;
     font-size: 35px;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;  
 }
 
 .line {
@@ -10,4 +11,41 @@
     height: 1%;
     margin-top: 4%;
     margin-bottom: 2%;
+}
+
+.researchItem {
+    position: relative;
+    display: block;
+    margin-top: 2%;
+    font-size: 125%;
+    color: #3F9B8F;
+    font-family: 'Open Sans', sans-serif;  
+
+}
+
+.researchItem:hover{
+    color: #31756c;
+}
+
+.research {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    /* float: left; */
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 64rem;
+}
+
+@media only screen and (max-width: 830px) {
+.researchItem {
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 831px) {
+    .researchItem {
+        width: 50%;
+    }
 }

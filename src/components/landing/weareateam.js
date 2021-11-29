@@ -14,7 +14,7 @@ export default function team() {
           alongside renowned faculty and knowledgeable professionals in our mission to create a network of proactively sustainable communities.</p>
         <Link to="/about/" className={iconStyle.link}>Learn more about the team</Link>
       </div>
-      <img src={pic} className={iconStyle.image} />
+      <img alt="icon" src={pic} className={iconStyle.image} />
     </div>
 
   )

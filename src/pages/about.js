@@ -3,7 +3,6 @@ import "../components/about/about.scss"
 import Nav from '../components/navbar/nav'
 import Parallax from "../components/parallax/parallax.js"
 import Overview from '../components/about/overview.js'
-import { Link } from "gatsby"
 import abouthead from '../images/aboutimg/ps9.jpg'
 import aboutmid1 from '../images/aboutimg/ps3.jpg'
 import aboutmid2 from '../images/aboutimg/ps2.jpg'

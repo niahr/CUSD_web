@@ -1,18 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from "gatsby"
 import * as iconStyle from "./nav.module.css"
 import CUSDlogo from '../../images/CUSDLogoTypeGray.svg'
-import hamburger from '../../images/icons/hamburger.png'
-import styled from 'styled-components'
 
 
 
 function NavBar() {
-  const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const handleChange = (e) => {
+    if (e.currentTarget.value === "join") {
+      window.open('https://forms.gle/3w9ajjVbN1PUzP3A8', '_blank');
+    } else {
+      window.location = e.currentTarget.value;
+    }
+  }
 
   return (
     /* wrapper for entire Nav bar */
@@ -22,7 +23,7 @@ function NavBar() {
         {/* CUSD Logo*/}
         <a href="/">
           <div className={iconStyle.logo}>
-            <img className={iconStyle.img} src={CUSDlogo} width="60px" height="60px" />
+            <img alt="logo" className={iconStyle.img} src={CUSDlogo} width="60px" height="60px" />
           </div>
         </a>
         <a href="/">
@@ -38,13 +39,13 @@ function NavBar() {
 
 
       {/* Mobile Nav bar Icon*/}
-      <select className={iconStyle.select}>
-        <option value="Home"> Menu </option>
-        <option value="Projects"> Projects</option>
-        <option value="About"> About</option>
-        <option value="Stories"> Stories</option>
-        <option value="Connect"> Connect</option>
-        <option value="Join" href="https://forms.gle/3w9ajjVbN1PUzP3A8" > Join</option>
+      <select className={iconStyle.select} onChange={handleChange}>
+        <option value="/"> Menu </option>
+        <option value="/projects">Projects</option>
+        <option value="/about"> About</option>
+        <option value="/stories"> Stories</option>
+        <option value="/connect"> Connect</option>
+        <option value="join"> Join</option>
       </select>
 
 
@@ -55,7 +56,7 @@ function NavBar() {
         <a href="/stories/" className={iconStyle.navA}>Stories</a>
         <a href="/connect/" className={iconStyle.navA}>Connect</a>
         <div className={iconStyle.joinButton}>
-          <a href="https://forms.gle/3w9ajjVbN1PUzP3A8" target="_blank" className={iconStyle.joinButtonInner}> Join </a>
+          <a rel="noreferrer" href="https://forms.gle/3w9ajjVbN1PUzP3A8" target="_blank" className={iconStyle.joinButtonInner}> Join </a>
         </div>
       </div>
     </div>
