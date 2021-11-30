@@ -23,9 +23,7 @@ const overview = () => {
         <div className="purposeDiv">
           <article className="purposeText">
             <div>
-              <video controls autoPlay loop muted width="100%" height="auto">
-                <source src={video} type="video/mp4"></source>
-              </video>
+              <iframe width="100%" height="500px" frameborder="" title="vimeo-player" src="https://player.vimeo.com/video/126048968?h=e6aab752ec" allowfullscreen></iframe>
             </div>
 
             <h2 className="purposeTitle">Latest Member's Story</h2>
