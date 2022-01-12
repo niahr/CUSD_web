@@ -1,4 +1,5 @@
 import * as React from "react"
+import '../components/projects/project.module.css'
 import Footer from '../components/footer/footer'
 import Connectwithus from '../components/footer/connectwithus'
 import Team from '../components/landing/weareateam'

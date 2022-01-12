@@ -13,7 +13,7 @@ import marcomm from "../images/project_logos/MarComm.png"
 import real from "../images/project_logos/REAL.jpg"
 import soilfactory from "../images/project_logos/SOIL.png"
 import solarpanel from "../images/project_logos/solar panel reboot.png"
-import ssd from "../images/project_logos/Ospri.png"
+import sst from "../images/project_logos/Ospri.png"
 import techops from "../images/project_logos/techops.png"
 import Parallax from "../components/parallax/parallax"
 
@@ -49,48 +49,48 @@ import solarpanelgroup from "../images/background_images/solarpanelgrouppic.jpg"
 
 // markup
 const projects = [
-  { id: 1, name: 'Sustainable Education Nepal', subtitle: 'CUSD x United World Schools', pic: sen },
-  { id: 2, name: 'ARC', subtitle: 'Alternative Recycling Cornell', pic: arc },
-  { id: 3, name: 'Sustainable Mobility', subtitle: 'Re-design the current public transportation system in Tompkins County, NY', pic: susmob },
-  { id: 4, name: 'AquaCulture', subtitle: 'Revolutionizing Fishing Industry with Marine Aquaculture', pic: aqua },
-  { id: 5, name: 'Soil Factory', subtitle: 'Defining the next generation of sustainable design', pic: soilfactory },
-  { id: 6, name: 'Solar Panel Reboot', subtitle: 'Defining the next generation of sustainable design', pic: solarpanel },
-  { id: 7, name: 'Currents', subtitle: 'Defining the next generation of sustainable design', pic: currents },
-  { id: 8, name: 'ICN 2030 Policy', subtitle: 'Ithaca Carbon Neautral 2030 Policy', pic: icn2030policy },
-  { id: 9, name: 'REAL', subtitle: 'Empowering local farms through the system of Aquaponics', pic: real },
-  { id: 11, name: 'SST', subtitle: 'Smithsonian Sustainability Team', pic: ssd },
-  { id: 12, name: 'Solarize', subtitle: 'Electrifying Cornell Grounds with sustainable energy sources', pic: solarize },
-  { id: 13, name: 'ICN 2030 Neutrality Modeling', subtitle: 'ICN 2030 Neutrality Modeling', pic: icn2030mod }
+  { link: '/projects/sen/', id: 1, name: 'Sustainable Education Nepal', subtitle: 'CUSD x United World Schools', pic: sen },
+  { link: '/projects/arc/', id: 2, name: 'ARC', subtitle: 'Alternative Recycling Cornell', pic: arc },
+  { link: '/projects/susmob/', id: 3, name: 'Sustainable Mobility', subtitle: 'Re-design the current public transportation system in Tompkins County, NY', pic: susmob },
+  { link: '/projects/aquaculture/', id: 4, name: 'AquaCulture', subtitle: 'Revolutionizing Fishing Industry with Marine Aquaculture', pic: aqua },
+  { link: '/projects/soilfactory/', id: 5, name: 'Soil Factory', subtitle: 'Defining the next generation of sustainable design', pic: soilfactory },
+  { link: '/projects/spr/', id: 6, name: 'Solar Panel Reboot', subtitle: 'Defining the next generation of sustainable design', pic: solarpanel },
+  { link: '/projects/currents/', id: 7, name: 'Currents', subtitle: 'Defining the next generation of sustainable design', pic: currents },
+  { link: '/projects/icnpolicy/', id: 8, name: 'ICN 2030 Policy', subtitle: 'Ithaca Carbon Neautral 2030 Policy', pic: icn2030policy },
+  { link: '/projects/real/', id: 9, name: 'REAL', subtitle: 'Empowering local farms through the system of Aquaponics', pic: real },
+  { link: '/projects/sst/', id: 11, name: 'SST', subtitle: 'Smithsonian Sustainability Team', pic: sst },
+  { link: '/projects/solarize/', id: 12, name: 'Solarize', subtitle: 'Electrifying Cornell Grounds with sustainable energy sources', pic: solarize },
+  { link: '/projects/icnmodeling/', id: 13, name: 'ICN 2030 Neutrality Modeling', subtitle: 'ICN 2030 Neutrality Modeling', pic: icn2030mod }
 ]
 
 const horizteams = [
-  { id: 1, name: 'Tech Ops', subtitle: 'Developing the digital resources of CUSD', pic: techops },
-  { id: 2, name: 'Marketing & Communications', subtitle: 'Defining the next generation of sustainable design', pic: marcomm }
+  { link: '/projects/techops/', id: 1, name: 'Tech Ops', subtitle: 'Developing the digital resources of CUSD', pic: techops },
+  { link: '/projects/marcomm/', id: 2, name: 'Marketing & Communications', subtitle: 'Defining the next generation of sustainable design', pic: marcomm }
 ]
 
 const pastprojects = [
-  { id: 1, name: 'Windows', subtitle: 'Studying the feasibility and cost of thermosensitive technologies', pic: windows },
-  { id: 2, name: 'Sustainable Research Facility', subtitle: 'A first-of-its-kind facility for interdisciplinary sustainability research', pic: susresfac },
-  { id: 3, name: 'Solar Decathlon', subtitle: 'The inspiration for CUSD', pic: solardec },
-  { id: 4, name: 'Schoolhouse South Africa', subtitle: 'An early childhood development center for Cosmo City', pic: schoolsafrica },
-  { id: 5, name: 'Beebe Lake Redevelopment', subtitle: 'A community space that brings students closer to nature', pic: beebelake },
-  { id: 6, name: 'Sustainable Education Ghana', subtitle: 'CUSD x Voices of African Mothers', pic: susedghana },
-  { id: 7, name: 'Roots', subtitle: 'Designing a two acre demonstration plot in Delhi, India', pic: roots },
-  { id: 8, name: 'Smithsonian Energy Audit', subtitle: 'Conduct a full energy audit of Cooper Hewitt, the Smithsonian Design Museum in NYC', pic: smithenergy },
-  { id: 9, name: 'SAC', subtitle: 'Solar Automated Composter', pic: sac },
-  { id: 10, name: 'PIE', subtitle: 'Identifying the next big CUSD project', pic: pie },
-  { id: 11, name: 'Sustainable Neighborhoods Nicaragua', subtitle: 'A model of healthy, sustainable, and low-cost housing for South America', pic: susneighnic },
-  { id: 12, name: 'Sweep', subtitle: 'Solid Waste Environmental Excellence Protocol', pic: sweep },
-  { id: 13, name: 'Lights', subtitle: 'Testing the effectiveness of endangered amphibian conservation at Cornell', pic: lights },
-  { id: 14, name: 'Stone Barns', subtitle: 'Rethinking recycling with Blue Hill Farms', pic: stonebarns },
-  { id: 15, name: 'Coronado', subtitle: 'Defending our way of life from climate change', pic: coronado },
-  { id: 16, name: 'Tiny Home', subtitle: 'Big changes, small homes', pic: tinyhome },
-  { id: 17, name: 'Overlook Ridge Development', subtitle: 'Providing a full site plan along with sustainable and affordable energy and infrastructure options for the development', pic: overlook },
-  { id: 18, name: 'Climate Action Plan', subtitle: 'Advancing Cornell\'s goal of net-zero energy by 2035', pic: climateactionplan },
-  { id: 19, name: 'Cornell Tech', subtitle: 'Designing a sustainable future for Cornell in NYC', pic: cornelltech },
-  { id: 20, name: 'Green Building Metrics Project', subtitle: 'Empowering consumers to make informed, sustainable purchases', pic: gbmp },
-  { id: 21, name: 'Smart Village India', subtitle: 'Creating smart, sustainable resource management systems in a resource limited region', pic: smartindia },
-  { id: 22, name: 'REDO', subtitle: 'Rethinking waste at the Smithsonian National Zoo', pic: redo },
+  { link: '/projects/windows/', id: 1, name: 'Windows', subtitle: 'Studying the feasibility and cost of thermosensitive technologies', pic: windows },
+  { link: '/projects/srf/', id: 2, name: 'Sustainable Research Facility', subtitle: 'A first-of-its-kind facility for interdisciplinary sustainability research', pic: susresfac },
+  { link: '/projects/solardecathlon/', id: 3, name: 'Solar Decathlon', subtitle: 'The inspiration for CUSD', pic: solardec },
+  { link: '/projects/ssa/', id: 4, name: 'Schoolhouse South Africa', subtitle: 'An early childhood development center for Cosmo City', pic: schoolsafrica },
+  { link: '/projects/blr/', id: 5, name: 'Beebe Lake Redevelopment', subtitle: 'A community space that brings students closer to nature', pic: beebelake },
+  { link: '/projects/seg/', id: 6, name: 'Sustainable Education Ghana', subtitle: 'CUSD x Voices of African Mothers', pic: susedghana },
+  { link: '/projects/roots/', id: 7, name: 'Roots', subtitle: 'Designing a two acre demonstration plot in Delhi, India', pic: roots },
+  { link: '/projects/sea/', id: 8, name: 'Smithsonian Energy Audit', subtitle: 'Conduct a full energy audit of Cooper Hewitt, the Smithsonian Design Museum in NYC', pic: smithenergy },
+  { link: '/projects/sac/', id: 9, name: 'SAC', subtitle: 'Solar Automated Composter', pic: sac },
+  { link: '/projects/pie/', id: 10, name: 'PIE', subtitle: 'Identifying the next big CUSD project', pic: pie },
+  { link: '/projects/nicaragua/', id: 11, name: 'Sustainable Neighborhoods Nicaragua', subtitle: 'A model of healthy, sustainable, and low-cost housing for South America', pic: susneighnic },
+  { link: '/projects/sweep/', id: 12, name: 'Sweep', subtitle: 'Solid Waste Environmental Excellence Protocol', pic: sweep },
+  { link: '/projects/lights/', id: 13, name: 'Lights', subtitle: 'Testing the effectiveness of endangered amphibian conservation at Cornell', pic: lights },
+  { link: '/projects/stonebarns/', id: 14, name: 'Stone Barns', subtitle: 'Rethinking recycling with Blue Hill Farms', pic: stonebarns },
+  { link: '/projects/coronado/', id: 15, name: 'Coronado', subtitle: 'Defending our way of life from climate change', pic: coronado },
+  { link: '/projects/tinyhome/', id: 16, name: 'Tiny Home', subtitle: 'Big changes, small homes', pic: tinyhome },
+  { link: '/projects/ord/', id: 17, name: 'Overlook Ridge Development', subtitle: 'Providing a full site plan along with sustainable and affordable energy and infrastructure options for the development', pic: overlook },
+  { link: '/projects/cap/', id: 18, name: 'Climate Action Plan', subtitle: 'Advancing Cornell\'s goal of net-zero energy by 2035', pic: climateactionplan },
+  { link: '/projects/tech/', id: 19, name: 'Cornell Tech', subtitle: 'Designing a sustainable future for Cornell in NYC', pic: cornelltech },
+  { link: '/projects/gbmp/', id: 20, name: 'Green Building Metrics Project', subtitle: 'Empowering consumers to make informed, sustainable purchases', pic: gbmp },
+  { link: '/projects/svi/', id: 21, name: 'Smart Village India', subtitle: 'Creating smart, sustainable resource management systems in a resource limited region', pic: smartindia },
+  { link: '/projects/redo/', id: 22, name: 'REDO', subtitle: 'Rethinking waste at the Smithsonian National Zoo', pic: redo },
 ]
 
 const research = [

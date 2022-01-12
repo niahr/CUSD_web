@@ -5,12 +5,15 @@ export default function Project({ projects }) {
     const content = projects.map((project) =>
         <div key={project.id} className={iconStyle.projects}>
             <div className={iconStyle.project}>
-                <div className={iconStyle.image}>
-                    <img alt="logo" src={project.pic} className={iconStyle.logos} />
-                    <div className={iconStyle.image__overlay}>
-                        <p className={iconStyle.subtitle}>{project.subtitle}</p>
+                <a href={project.link}>
+                    <div className={iconStyle.image}>
+                        <img alt="logo" src={project.pic} className={iconStyle.logos} />
+                        <div className={iconStyle.image__overlay}>
+                            <p className={iconStyle.subtitle}>{project.subtitle}</p>
+                        </div>
                     </div>
-                </div>
+                </a>
+
                 <div className={iconStyle.text}>
                     <h3 className={iconStyle.name}>{project.name}</h3>
                     <p className={iconStyle.subtitleSmall}>{project.subtitle}</p>
@@ -19,7 +22,7 @@ export default function Project({ projects }) {
         </div>
     );
     return (
-        <div className={iconStyle.wrapper}>
+        <div className={iconStyle.projectsWrapper}>
             {content}
         </div>
     )
