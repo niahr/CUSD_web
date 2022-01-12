@@ -24,3 +24,5 @@ Data for the 'Connect' page can be found and updated in src/components/connectDa
 - `npm install react-bootstrap bootstrap@5.1.3`
 
 #### If changes are not showing up, try restarting your development env. 
+
+#### When pushing changes, do not push .DS_Store or package-lock.json files. 
