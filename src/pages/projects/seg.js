@@ -39,7 +39,8 @@ const info = {
       metric: 'System Engineers',
       color: '#02664b'
     }
-  ]
+  ],
+  map: true
 }
 
 export default function seg() {
@@ -54,6 +55,8 @@ export default function seg() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        map={info.map}
+        seg={true}
       />
     </div>
   )

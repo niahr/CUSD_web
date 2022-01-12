@@ -3,6 +3,8 @@ import Subteam from "../../components/projects/Subteam"
 import blr1 from "../../images/project_photos/blr/blr1.jpg"
 import blr2 from "../../images/project_photos/blr/blr2.jpg"
 import blr3 from "../../images/project_photos/blr/blr3.jpg"
+import funding from "../../images/project_photos/blr/funding.jpg"
+import LEED from "../../images/project_photos/blr/LEED.jpg"
 import blr_header from "../../images/project_photos/blr/blr-header.jpg"
 
 const info = {
@@ -21,13 +23,15 @@ const info = {
       number: 0,
       numberLabel: 'Seeking Funding',
       metric: 'Current Stage',
-      color: '#22a84a'
+      color: '#22a84a',
+      background: funding
     },
     {
       number: 0,
       numberLabel: 'Platinum',
       metric: 'Potential LEED Rating',
-      color: '#12a38d'
+      color: '#12a38d',
+      background: LEED
     },
     {
       number: 3,

@@ -1,6 +1,5 @@
 import React from 'react'
 import "../about/about.scss"
-import video from '../../images/givemeup.mp4'
 
 
 const overview = () => {

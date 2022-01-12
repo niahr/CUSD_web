@@ -3,6 +3,7 @@ import Subteam from "../../components/projects/Subteam"
 import srf1 from "../../images/project_photos/srf/srf1.jpg"
 import srf2 from "../../images/project_photos/srf/srf2.jpg"
 import srf3 from "../../images/project_photos/srf/srf3.jpg"
+import solar from "../../images/project_photos/srf/solar.jpg"
 import srf_header from "../../images/project_photos/srf/srf-header.jpg"
 
 const info = {
@@ -21,7 +22,8 @@ const info = {
       number: 0,
       numberLabel: 'Hydroelectric, BioFuel, Wind, Solar',
       metric: 'Energies Implemented',
-      color: '#22a84a'
+      color: '#22a84a',
+      background: solar
     },
     {
       number: 13,

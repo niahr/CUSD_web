@@ -1,8 +1,8 @@
 import React from 'react'
 import Subteam from "../../components/projects/Subteam"
 import spr1 from "../../images/project_photos/spr/spr1.jpg"
-import spr2 from "../../images/project_photos/spr/spr1.jpg"
-import spr3 from "../../images/project_photos/spr/spr1.jpg"
+import spr2 from "../../images/project_photos/spr/spr2.jpg"
+import spr3 from "../../images/project_photos/spr/spr3.jpg"
 import spr_header from "../../images/project_photos/spr/spr-header.jpg"
 
 const info = {

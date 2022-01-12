@@ -3,6 +3,10 @@ import Subteam from "../../components/projects/Subteam"
 import nicaragua1 from "../../images/project_photos/nicaragua/nicaragua1.jpg"
 import nicaragua2 from "../../images/project_photos/nicaragua/nicaragua2.jpg"
 import nicaragua3 from "../../images/project_photos/nicaragua/nicaragua3.jpg"
+import jan13 from "../../images/project_photos/nicaragua/jan13.jpg"
+import nagarote from "../../images/project_photos/nicaragua/nagarote.png"
+import sostenica from "../../images/project_photos/nicaragua/sostenica.jpg"
+
 import nicaragua_header from "../../images/project_photos/nicaragua/nicaragua-header.jpg"
 
 const info = {
@@ -21,21 +25,25 @@ const info = {
       number: 0,
       numberLabel: 'January 2013',
       metric: 'Date Constructed',
-      color: '#22a84a'
+      color: '#22a84a',
+      background: jan13
     },
     {
       number: 0,
       numberLabel: 'Nagarote, Nicaragua',
       metric: 'Location',
-      color: '#12a38d'
+      color: '#12a38d',
+      background: nagarote
     },
     {
       number: 0,
       numberLabel: 'SosteNica',
       metric: 'Partnership With',
-      color: '#02664b'
+      color: '#02664b',
+      background: sostenica
     }
-  ]
+  ],
+  map: true
 }
 
 export default function nicaragua() {
@@ -50,6 +58,7 @@ export default function nicaragua() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        map={info.map}
       />
     </div>
   )

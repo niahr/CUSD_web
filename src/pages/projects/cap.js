@@ -3,6 +3,7 @@ import Subteam from "../../components/projects/Subteam"
 import cap1 from "../../images/project_photos/cap/cap1.jpg"
 import cap2 from "../../images/project_photos/cap/cap2.jpg"
 import cap3 from "../../images/project_photos/cap/cap3.jpg"
+import wind from "../../images/project_photos/cap/wind.jpg"
 import cap_header from "../../images/project_photos/cap/cap-header.jpg"
 
 const info = {
@@ -21,7 +22,8 @@ const info = {
       number: 0,
       numberLabel: 'Demonstrating Wind Power',
       metric: 'An Educational Model',
-      color: '#22a84a'
+      color: '#22a84a',
+      background: wind
     },
     {
       number: 62,

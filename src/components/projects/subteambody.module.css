@@ -22,17 +22,47 @@
 
 .imageCarousel {
   width: 100%;
-  height: 300px;
   object-fit: cover; 
 }
 
 .carouselWrapper {
-  width: 480px; 
-  height: 360px;
   position: relative; 
   left: 50%;
   transform: translateX(-50%);  
   margin-bottom: 3%;
+}
+
+@media (min-width: 701px) {
+  .imageCarousel {
+    height: 420px;
+  }
+  
+  .carouselWrapper {
+    width: 600px; 
+    height: 420px;
+  }
+}
+
+@media (max-width: 700px) {
+  .imageCarousel {
+    height: 360px;
+  }
+  
+  .carouselWrapper {
+    width: 480px; 
+    height: 360px;
+  }
+}
+
+@media (max-width: 525px) {
+  .imageCarousel {
+    height: 270px;
+  }
+  
+  .carouselWrapper {
+    width: 360px; 
+    height: 270px;
+  }
 }
 
 .cytoscape {
@@ -66,4 +96,85 @@
   font-weight: bold;
   font-family: 'Source Sans Pro', 'sans-serif'; 
   color: 'white';
+}
+
+.graphicDiv {
+  margin: 3%;
+}
+
+.solarizeChart {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.solarizeCaption {
+  text-align: center;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  font-family: 'Source Sans Pro', 'sans-serif'; 
+}
+
+.solarizeQuote {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  font-family: 'Source Sans Pro', 'sans-serif'; 
+}
+
+@media screen and (max-width: 500px) {
+  .solarizeChart {
+    display: none;
+  }
+}
+
+.segVideo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+
+.segQuote {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  font-family: 'Source Sans Pro', 'sans-serif'; 
+  color: rgb(97, 97, 97);
+}
+
+.map {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+
+@media screen and (min-width: 1121px) {
+  .map {
+    height: 467px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .map {
+    height: 900px;
+  }
+}
+
+.currentsChart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4%;
+  height:430px;
 }

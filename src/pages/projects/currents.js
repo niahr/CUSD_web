@@ -34,7 +34,8 @@ const info = {
       metric: 'Error Rate',
       color: '#02664b'
     }
-  ]
+  ],
+  currents: true
 }
 
 // 'upson' in previous website
@@ -50,6 +51,7 @@ export default function currents() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        currents={info.currents}
       />
     </div>
   )

@@ -16,22 +16,7 @@ const info = {
   title2: "CUSD x United World Schools",
   parallax1: sen1,
   parallax2: sen1,
-  images: [
-    {
-      image: sen1,
-      caption1: "",
-      caption2: ""
-    },
-    {
-      image: sen2,
-      caption1: "",
-      caption2: ""
-    },
-    {
-      image: sen3,
-      caption1: "",
-      caption2: ""
-    }],
+  images: [sen1, sen2, sen3],
   facts: [{
     number: 15,
     numberLabel: '15',
@@ -45,11 +30,12 @@ const info = {
     color: '#12a38d'
   },
   {
-    number: 0,
+    number: 90,
     numberLabel: '90%',
     metric: 'Waste Diverted',
     color: '#02664b'
-  }]
+  }],
+  map: true
 }
 
 export default function sen() {
@@ -64,6 +50,7 @@ export default function sen() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        map={info.map}
       />
     </div>
   )

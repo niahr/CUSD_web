@@ -15,7 +15,8 @@ const info = {
   parallax1: sea_header,
   parallax2: sea_header,
   images: [sea1, sea2, sea3],
-  facts: []
+  facts: [],
+  map: true
 }
 
 export default function sea() {
@@ -30,6 +31,7 @@ export default function sea() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        map={info.map}
       />
     </div>
   )

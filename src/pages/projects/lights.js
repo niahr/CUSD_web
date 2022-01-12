@@ -3,6 +3,8 @@ import Subteam from "../../components/projects/Subteam"
 import lights1 from "../../images/project_photos/lights/lights1.jpg"
 import lights2 from "../../images/project_photos/lights/lights2.jpg"
 import lights3 from "../../images/project_photos/lights/lights3.jpg"
+import salamander from "../../images/project_photos/lights/salamander.jpg"
+
 import lights_header from "../../images/project_photos/lights/lights-header.jpg"
 
 const info = {
@@ -22,7 +24,8 @@ const info = {
       number: 0,
       numberLabel: 'Yellow Salamanders',
       metric: 'Species of Focus',
-      color: '#22a84a'
+      color: '#22a84a',
+      background: salamander
     },
     {
       number: 200,
@@ -36,7 +39,7 @@ const info = {
       metric: 'Lifespan in Years',
       color: '#02664b'
     }
-  ]
+  ],
 }
 
 export default function lights() {

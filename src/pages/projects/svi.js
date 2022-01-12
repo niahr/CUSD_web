@@ -35,7 +35,8 @@ const info = {
       metric: 'Average Natural Rainfall Per Year',
       color: '#02664b'
     }
-  ]
+  ],
+  map: true
 }
 
 export default function svi() {
@@ -50,6 +51,7 @@ export default function svi() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        map={info.map}
       />
     </div>
   )

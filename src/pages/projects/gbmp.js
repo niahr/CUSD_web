@@ -33,6 +33,7 @@ export default function gbmp() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        gbmp={true}
       />
     </div>
   )

@@ -3,6 +3,7 @@ import Subteam from "../../components/projects/Subteam"
 import susmob1 from "../../images/project_photos/susmob/susmob1.jpg"
 import susmob2 from "../../images/project_photos/susmob/susmob2.jpg"
 import susmob3 from "../../images/project_photos/susmob/susmob3.jpg"
+import TCAT from "../../images/project_photos/susmob/TCAT.jpg"
 import susmob_header from "../../images/project_photos/susmob/susmob-header.jpg"
 
 const info = {
@@ -14,22 +15,7 @@ const info = {
   title2: "Re-design the current public transportation system in Tompkins County, NY",
   parallax1: susmob_header,
   parallax2: susmob_header,
-  images: [
-    {
-      image: susmob1,
-      caption1: "Number of Research Groups Committed",
-      caption2: "3"
-    },
-    {
-      image: susmob1,
-      caption1: "Number of Team Members",
-      caption2: "22"
-    },
-    {
-      image: susmob1,
-      caption1: "Official Partnership",
-      caption2: "With TCAT"
-    }],
+  images: [susmob1, susmob2, susmob3],
   facts: [
     {
       number: 3,
@@ -47,7 +33,8 @@ const info = {
       number: 0,
       numberLabel: 'TCAT',
       metric: 'Official Partnership With',
-      color: '#02664b'
+      color: '#02664b',
+      background: TCAT
     }
   ]
 }

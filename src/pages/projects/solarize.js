@@ -33,7 +33,8 @@ const info = {
       metric: '2035 Cornell CO2 Emissions Goal',
       color: '#02664b'
     }
-  ]
+  ],
+  solarize: true
 }
 
 export default function solarize() {
@@ -48,13 +49,8 @@ export default function solarize() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        solarize={info.solarize}
       />
-      <p>
-        We were recently featured in a
-        <a href="https://news.cornell.edu/stories/2020/09/unplugged-students-build-green-trailer-energize-tools" target="_blank" rel="noreferrer">Cornell Chronicle article</a>
-        , as well as in
-        <a href="https://sustainablecampus.cornell.edu/annualreport2020#campus_operations" target="_blank" rel="noreferrer">Cornell's '2019-2020 Sustainability Report'.</a>
-      </p>
     </div>
   )
 }

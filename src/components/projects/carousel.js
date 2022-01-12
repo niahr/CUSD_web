@@ -8,16 +8,16 @@ export default function CarouselComp({ images }) {
     <div className={iconStyle.carouselWrapper}>
       <Carousel>
         {images.map((image, i) => (
-          <Carousel.Item>
+          <Carousel.Item key={i}>
             <img
               className={iconStyle.imageCarousel}
-              src={image.image}
+              src={image}
               alt="Image"
             />
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>{image.caption1}</h3>
               <p>{image.caption2}</p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
         ))}
       </Carousel>
