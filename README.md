@@ -1,4 +1,4 @@
-# Hello everyone
+# Cornell University Sustainable Design Website
 
 ### Run 'npm install' in your command line and then run 'npm run develop'
 
