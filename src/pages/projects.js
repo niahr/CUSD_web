@@ -47,7 +47,7 @@ import Connectwithus from "../components/footer/connectwithus"
 import SNNGround from "../images/background_images/SNNground.jpg"
 import solarpanelgroup from "../images/background_images/solarpanelgrouppic.jpg"
 
-// markup
+// subteams for current projects
 const projects = [
   { link: '/projects/sen/', id: 1, name: 'Sustainable Education Nepal', subtitle: 'CUSD x United World Schools', pic: sen },
   { link: '/projects/arc/', id: 2, name: 'ARC', subtitle: 'Alternative Recycling Cornell', pic: arc },
@@ -63,11 +63,13 @@ const projects = [
   { link: '/projects/icnmodeling/', id: 13, name: 'ICN 2030 Neutrality Modeling', subtitle: 'ICN 2030 Neutrality Modeling', pic: icn2030mod }
 ]
 
+// horizontal subteams
 const horizteams = [
   { link: '/projects/techops/', id: 1, name: 'Tech Ops', subtitle: 'Developing the digital resources of CUSD', pic: techops },
   { link: '/projects/marcomm/', id: 2, name: 'Marketing & Communications', subtitle: 'Defining the next generation of sustainable design', pic: marcomm }
 ]
 
+// subteams for past projects
 const pastprojects = [
   { link: '/projects/windows/', id: 1, name: 'Windows', subtitle: 'Studying the feasibility and cost of thermosensitive technologies', pic: windows },
   { link: '/projects/srf/', id: 2, name: 'Sustainable Research Facility', subtitle: 'A first-of-its-kind facility for interdisciplinary sustainability research', pic: susresfac },
@@ -93,6 +95,7 @@ const pastprojects = [
   { link: '/projects/redo/', id: 22, name: 'REDO', subtitle: 'Rethinking waste at the Smithsonian National Zoo', pic: redo },
 ]
 
+// research groups and organizations (displayed at bottom as text)
 const research = [
   "USGBC GreenBuild Bus Tour",
   "Interdisciplinary Sustainability Student Summit",
