@@ -5,7 +5,7 @@ import linked from '../../images/icons/linkedconnect.png'
 import insta from '../../images/icons/instaconnect.png'
 import * as iconStyle from "./cwu.module.css"
 
-export default function cws() {
+export default function Connectwithus() {
   return (
     <div className={iconStyle.connectwithus}>
       <div className={iconStyle.connecticons}>

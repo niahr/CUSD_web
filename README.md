@@ -26,3 +26,13 @@ Data for the 'Connect' page can be found and updated in src/components/connectDa
 #### If changes are not showing up, try restarting your development env. 
 
 #### When pushing changes, do not push .DS_Store or package-lock.json files. 
+
+# Building and Pushing to Live Server
+The team lead needs to have access to Cornell's FTP server. This can be requested by emailing acadtech@cornell.edu (you should also CC Dave at dr.drschneider@gmail.com ) saying that you need FTP access to both
+
+https://cusd.cornell.edu
+
+https://codi.engineering.cornell.edu
+
+Once you have access, and you are on RedRover or have a VPN setup, build the current site with `gatsby build` or `yarn build` or `npm run build`. From here, using your fav FTP client (I prefer Filezilla). Connect to the site at host: uploads.courses.cit.cornell.edu, username: your netID, password: SFAM password that you will set up. You should see the website under the htdocs. Drag and drop the updated content from your local device to the server and you should see the live site updated instantaneously. Further instructions can be found here: https://it.cornell.edu/academic-web-dynamic-web-hosting-static/upload-files-academic-web-hosting. 
+

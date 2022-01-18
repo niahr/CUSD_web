@@ -114,7 +114,7 @@ export default function Subteam({ parallax1, title, title2, mission, desc, paral
                 </>
             }
             {images.length > 0 && <CarouselComp images={images} />}
-            {facts.length > 0 &&
+            {typeof window !== 'undefined' && facts.length > 0 &&
                 <div className={iconStyle.cytoscapeContainer}>
                     {elements.map((element, index) =>
                         <div className={iconStyle.graphicDiv}>

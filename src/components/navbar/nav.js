@@ -3,15 +3,16 @@ import { Link } from "gatsby"
 import * as iconStyle from "./nav.module.css"
 import CUSDlogo from '../../images/CUSDLogoTypeGray.svg'
 
-
-
 function NavBar() {
 
   const handleChange = (e) => {
-    if (e.currentTarget.value === "join") {
-      window.open('https://forms.gle/3w9ajjVbN1PUzP3A8', '_blank');
-    } else {
-      window.location = e.currentTarget.value;
+    const isBrowser = () => typeof window !== `undefined`;
+    if (isBrowser()) {
+      if (e.currentTarget.value === "join") {
+        window.open('https://forms.gle/3w9ajjVbN1PUzP3A8', '_blank');
+      } else {
+        window.location = e.currentTarget.value;
+      }
     }
   }
 
