@@ -36,3 +36,4 @@ https://codi.engineering.cornell.edu
 
 Once you have access, and you are on RedRover or have a VPN setup, build the current site with `gatsby build` or `yarn build` or `npm run build`. From here, using your fav FTP client (I prefer Filezilla). Connect to the site at host: uploads.courses.cit.cornell.edu, username: your netID, password: SFAM password that you will set up. You should see the website under the htdocs. Drag and drop the updated content from your local device to the server and you should see the live site updated instantaneously. Further instructions can be found here: https://it.cornell.edu/academic-web-dynamic-web-hosting-static/upload-files-academic-web-hosting. 
 
+You can either upload the entire "public" folder in place of htdocs, or search for the particular file(s) where you made changes.
