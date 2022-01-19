@@ -12,7 +12,7 @@ const overview = () => {
         <div className="storiesDiv">
           <h3 className="storiesText"> CUSD is a platform for students to get experiences they cannot get from classrooms
             <div className="founder">
-              – Jeremy Blum '13
+              &#8211; Jeremy Blum '13
             </div>
           </h3>
         </div>

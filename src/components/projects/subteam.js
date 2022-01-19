@@ -114,55 +114,57 @@ export default function Subteam({ parallax1, title, title2, mission, desc, paral
                 </>
             }
             {images.length > 0 && <CarouselComp images={images} />}
-            {typeof window !== 'undefined' && facts.length > 0 &&
-                <div className={iconStyle.cytoscapeContainer}>
-                    {elements.map((element, index) =>
-                        <div className={iconStyle.graphicDiv}>
-                            <div className={iconStyle.metric} style={{ color: `${facts[index].color}` }}>{facts[index].metric}:</div>
-                            <div className={iconStyle.number} style={{ color: 'white', backgroundColor: `${facts[index].color}` }}>{facts[index].numberLabel}</div>
-                            <CytoscapeComponent key={index} elements={element} className={iconStyle.cytoscape}
-                                userPanningEnabled={false}
-                                userZoomingEnabled={false}
-                                layout={{
-                                    name: 'concentric',
-                                    fit: true,
-                                    padding: 10
-                                }}
-                                stylesheet={[
-                                    {
-                                        selector: 'node[type="center"]',
-                                        style: {
-                                            'background-color': `${facts[index].color}`,
-                                            width: '20px',
-                                            height: '20px',
-                                            'background-image': `url(${facts[index].background})`,
-                                            'background-fit': 'cover'
+            <div>
+                {typeof window !== 'undefined' && facts.length > 0 &&
+                    <div className={iconStyle.cytoscapeContainer}>
+                        {elements.map((element, index) =>
+                            <div className={iconStyle.graphicDiv}>
+                                <div className={iconStyle.metric} style={{ color: `${facts[index].color}` }}>{facts[index].metric}:</div>
+                                <div className={iconStyle.number} style={{ color: 'white', backgroundColor: `${facts[index].color}` }}>{facts[index].numberLabel}</div>
+                                <CytoscapeComponent key={index} elements={element} className={iconStyle.cytoscape}
+                                    userPanningEnabled={false}
+                                    userZoomingEnabled={false}
+                                    layout={{
+                                        name: 'concentric',
+                                        fit: true,
+                                        padding: 10
+                                    }}
+                                    stylesheet={[
+                                        {
+                                            selector: 'node[type="center"]',
+                                            style: {
+                                                'background-color': `${facts[index].color}`,
+                                                width: '20px',
+                                                height: '20px',
+                                                'background-image': `url(${facts[index].background})`,
+                                                'background-fit': 'cover'
+                                            }
+                                        },
+                                        {
+                                            selector: 'node[type="other"]',
+                                            style: {
+                                                'background-color': `${facts[index].color}`,
+                                                width: '90px',
+                                                height: '90px',
+                                                'border-width': '1px',
+                                                'border-color': 'black',
+                                                shape: 'round-hexagon',
+                                            }
+                                        },
+                                        {
+                                            selector: 'edge',
+                                            style: {
+                                                opacity: '0.5',
+                                                width: '1px'
+                                            }
                                         }
-                                    },
-                                    {
-                                        selector: 'node[type="other"]',
-                                        style: {
-                                            'background-color': `${facts[index].color}`,
-                                            width: '90px',
-                                            height: '90px',
-                                            'border-width': '1px',
-                                            'border-color': 'black',
-                                            shape: 'round-hexagon',
-                                        }
-                                    },
-                                    {
-                                        selector: 'edge',
-                                        style: {
-                                            opacity: '0.5',
-                                            width: '1px'
-                                        }
-                                    }
-                                ]}
-                            />
-                        </div>
-                    )}
-                </div>
-            }
+                                    ]}
+                                />
+                            </div>
+                        )}
+                    </div>
+                }
+            </div>
             <Parallax image={parallax2} height={200}> </Parallax>
             <Footer />
             <Connectwithus />
