@@ -1,4 +1,3 @@
-
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   if (stage === "build-html") {
     actions.setWebpackConfig({
@@ -12,18 +11,6 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
             test: /react-cytoscapejs/,
             use: loaders.null(),
           },
-          // {
-          //   test: /bootstrap/,
-          //   use: loaders.null(),
-          // },
-          // {
-          //   test: /react-bootstrap/,
-          //   use: loaders.null(),
-          // }, 
-          // {
-          //   test: /react-bootstrap/,
-          //   use: loaders.null(),
-          // }
         ],
       },
     })
