@@ -115,14 +115,14 @@ const ProjectPage = () => {
   return (
     <main>
       <Nav />
-      <Parallax image={SNNGround} caption={"Projects"} height={550}> </Parallax>
-      <h1 className={iconStyle.headers}>Current Projects</h1>
+      <Parallax image={SNNGround} caption={"Project Teams"} height={550}> </Parallax>
+      <h1 className={iconStyle.headers}>Current Project Teams</h1>
       <Project className={iconStyle.wrapper} projects={projects} />
       <hr className={iconStyle.line}></hr>
-      <h1 className={iconStyle.headers}>Horizontal Teams</h1>
+      <h1 className={iconStyle.headers}>Horizontal Project Teams</h1>
       <Project className={iconStyle.wrapper} projects={horizteams} />
       <hr className={iconStyle.line}></hr>
-      <h1 className={iconStyle.headers}>Past Projects</h1>
+      <h1 className={iconStyle.headers}>Past Project Teams</h1>
       <Project className={iconStyle.wrapper} projects={pastprojects} />
       <h1 className={iconStyle.headers}>Research, Events, and Outreach</h1>
       <div className={iconStyle.research}>

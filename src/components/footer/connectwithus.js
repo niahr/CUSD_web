@@ -5,7 +5,7 @@ import linked from '../../images/icons/linkedconnect.png'
 import insta from '../../images/icons/instaconnect.png'
 import * as iconStyle from "./cwu.module.css"
 
-export default function Connectwithus() {
+export default function cws() {
   return (
     <div className={iconStyle.connectwithus}>
       <div className={iconStyle.connecticons}>
@@ -17,7 +17,7 @@ export default function Connectwithus() {
           <a className={iconStyle.images} href="https://www.instagram.com/cusustainabledesign/?hl=en"><img src={insta} width="70px" height="70px" alt="CUSD Instagram" /></a>
         </div>
       </div>
-      <div className={iconStyle.copyright}>&#169; 2011-2021 Cornell University Sustainable Design</div>
+      <div className={iconStyle.copyright}>&copy; 2011-2021 Cornell University Sustainable Design</div>
     </div>
   )
 }

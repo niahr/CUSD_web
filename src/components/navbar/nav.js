@@ -42,7 +42,7 @@ function NavBar() {
       {/* Mobile Nav bar Icon*/}
       <select className={iconStyle.select} onChange={handleChange}>
         <option value="/"> Menu </option>
-        <option value="/projects">Projects</option>
+        <option value="/projects">Project Teams</option>
         <option value="/about"> About</option>
         <option value="/stories"> Stories</option>
         <option value="/connect"> Connect</option>
@@ -52,12 +52,12 @@ function NavBar() {
 
       {/* Right side of Nav Bar containing navigation elements */}
       <div className={iconStyle.rightwrap}>
-        <a href="/projects/" className={iconStyle.navA}>Projects</a>
+        <a href="/projects/" className={iconStyle.navA}>Project Teams</a>
         <a href="/about/" className={iconStyle.navA}>About</a>
         <a href="/stories/" className={iconStyle.navA}>Stories</a>
         <a href="/connect/" className={iconStyle.navA}>Connect</a>
         <div className={iconStyle.joinButton}>
-          <a rel="noreferrer" href="https://forms.gle/3w9ajjVbN1PUzP3A8" target="_blank" className={iconStyle.joinButtonInner}> Join </a>
+          <a rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSde1gix0npGShmcuuTwRyhxN20NTyP__oKlIGvDJJBl4rBSLw/viewform?usp=sf_link" target="_blank" className={iconStyle.joinButtonInner}> Join </a>
         </div>
       </div>
     </div>
