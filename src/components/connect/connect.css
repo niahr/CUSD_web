@@ -24,6 +24,7 @@ article {
     flex-wrap: wrap;
     width:70%;
     padding-top: 10px;
+    padding-bottom: 600px;
 }
 
 .row{
@@ -60,7 +61,7 @@ article {
 }
 
 
-.name {
+.position {
     color: #4a4a4a;
     font-family: "Source Sans Pro";
     font-style: normal;
@@ -83,8 +84,9 @@ article {
 .contact img {
     /* width: 100px; */
     padding-top: 5px;
+    align-self: flex-start;
 }
-.major, .position, .team {
+.major, .name, .team {
     font-family: "Helvetica Neue";
     font-size: 18px;
     color: #4a4a4a;

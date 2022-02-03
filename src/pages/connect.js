@@ -39,9 +39,9 @@ const Subteam = () => {
 
                                             <img className="headshot" alt={person.name} src={person.image} width="100px" height="auto"></img>
                                             <div class="contact_info">
+                                                <div class="position">{person.position}</div>
                                                 <div class="name">{person.name}</div>
                                                 <div class="major">{person.major}</div>
-                                                <div class="position">{person.position}</div>
                                                 <div class="team">{person.team}</div>
                                                 <div class="links">
                                                     <img alt="email" src={Email}></img>

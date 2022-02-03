@@ -23,7 +23,7 @@ const Footer = () => {
       <article>
         <h2>Join</h2>
         <p >Interested in making an impact?</p>
-        <a href="https://forms.gle/579KKnNaMxSznxRa9" target="_blank" rel="noreferrer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSde1gix0npGShmcuuTwRyhxN20NTyP__oKlIGvDJJBl4rBSLw/viewform?usp=sf_link" target="_blank" rel="noreferrer">
           <button>Apply</button></a>
       </article>
     </div>
