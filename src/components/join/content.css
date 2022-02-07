@@ -1,0 +1,47 @@
+.joinimg{
+  height: 200px;
+  width: auto;
+}
+
+.flex-container {
+  display:flex; 
+  align-items: center; 
+  justify-content: center;
+  background-color: lightblue;
+  padding: 1.5em 1.5em;
+}
+
+.button-container {
+  display:flex; 
+  flex-direction: column;
+}
+
+.text-container {
+  width: 500px; 
+}
+
+.joinButton {
+  width: 9.5rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 0.12rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5625rem;
+}
+
+.joinButtonInner {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  line-height: normal;
+  padding: 1.5em;
+  width: 100%;
+  background-color: #3f9b8f;
+  border-color: #327c72;
+  color: #ffffff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
+  font-family: 'Open Sans', sans-serif;  
+  font-weight: 300;
+  font-size: 1.125rem;
+}

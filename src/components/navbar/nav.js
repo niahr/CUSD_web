@@ -46,7 +46,7 @@ function NavBar() {
         <option value="/about"> About</option>
         <option value="/stories"> Stories</option>
         <option value="/connect"> Connect</option>
-        <option value="join"> Join</option>
+        <option value="/join"> Join</option>
       </select>
 
 
@@ -56,9 +56,7 @@ function NavBar() {
         <a href="/about/" className={iconStyle.navA}>About</a>
         <a href="/stories/" className={iconStyle.navA}>Stories</a>
         <a href="/connect/" className={iconStyle.navA}>Connect</a>
-        <div className={iconStyle.joinButton}>
-          <a rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSde1gix0npGShmcuuTwRyhxN20NTyP__oKlIGvDJJBl4rBSLw/viewform?usp=sf_link" target="_blank" className={iconStyle.joinButtonInner}> Join </a>
-        </div>
+        <a href="/join/" className={iconStyle.navA}> Join </a>
       </div>
     </div>
   )
