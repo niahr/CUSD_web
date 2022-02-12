@@ -17,8 +17,7 @@ import { Lines } from 'react-preloaders';
 const IndexPage = () => {
   return (
     <main>
-      <React.Fragment>
-      <Lines color={'green'}/>
+      <Lines color={'#81C36D'} />
       <Nav />
       <Parallax
         image={tech}
@@ -32,7 +31,6 @@ const IndexPage = () => {
         height={350} />
       <Footer />
       <Connectwithus />
-      </React.Fragment>
     </main>
   )
 }
