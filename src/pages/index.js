@@ -11,10 +11,14 @@ import fpc from "../images/background_images/FPCNew.png"
 
 import "../components/landing/index.css";
 
+import { Lines } from 'react-preloaders';
+
 // markup
 const IndexPage = () => {
   return (
     <main>
+      <React.Fragment>
+      <Lines color={'green'}/>
       <Nav />
       <Parallax
         image={tech}
@@ -28,6 +32,7 @@ const IndexPage = () => {
         height={350} />
       <Footer />
       <Connectwithus />
+      </React.Fragment>
     </main>
   )
 }
