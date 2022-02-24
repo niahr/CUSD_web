@@ -74,15 +74,6 @@ const connectData = [
     image: FrannieL
   },
   {
-    position: "Co-Team Lead",
-    name: "Carter Ellison",
-    major: "Computer Science",
-    team: "Aquaculture",
-    email: "mailto:ckw23@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/carter-ellison/",
-    image: CarterE
-  },
-  {
     position: "Team Lead",
     name: "Nelson Ooi",
     major: "Electrical and Computer Engineering",
