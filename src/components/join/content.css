@@ -1,32 +1,35 @@
 
 .join-container {
-  height: 300px;
-  display:flex; 
+  display:flex;
+  flex-direction: column; 
   align-items: center;
   justify-content: flex-start;
   padding: 1.5em 1.5em;
   gap: 4%;
-  background-color: rgb(216, 206, 206);
+  background-color:  rgb(231, 231, 231);
 }
 
-.join-button-container {
-  display:flex; 
-  justify-content: flex-end;
-  align-items: center;
+#joinSubtext {
+  margin-left: 10px; 
+  font-weight: normal;
 }
 
 .jointextcontainer {
   color: black; 
-  width: 750px; 
+  width: 75%;
+  padding: 30px; 
+  margin-top: 20px; 
 }
 
 #joinTitle{
-  text-decoration: underline dashed; 
   color: black;
 }
 
+.join-button-container {
+  padding: 3rem; 
+}
+
 .joinButton {
-  margin-top: 3rem;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5625rem;
@@ -83,8 +86,9 @@
 }
 
 .information {
-  padding: 30px; 
   display: flex; 
+  flex-direction: column;
+  padding: 30px; 
   justify-content: space-between;
   border-bottom: 2px solid black;
   gap: 20px;
@@ -93,15 +97,18 @@
 .info-text{
   display:flex;
   flex-direction: column;
-  background-color: lightblue;
-  border-top: 10px solid purple;
+  background-color: rgb(231, 231, 231);
+  border-left: 5px solid black;
+  font-weight: normal; 
   padding: 5px;
   height: 100%;
 }
 
 #asdasdasd {
+
+
   max-height:100%;
-  max-width: 100%;
+  max-width: 100%; 
 }
 
 #quicktitle{
@@ -110,10 +117,17 @@
 }
 
 .change {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .help{
+  height: 300px;
+  width: auto;
+  /*
   max-height: 100%;
-  max-width: 100%;
+  max-width: 100%; */
+}
+
+.info-subtext{
+  font-weight: normal; 
 }

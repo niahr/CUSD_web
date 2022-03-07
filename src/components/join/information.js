@@ -12,57 +12,55 @@ const Information = () => {
       <div>
         <div className="information">
 
-          <div class="asdasd">
-            <div className="info-text">
-              <h1 className="change"> Workshops </h1>
+          <div class="info-text">
 
-              <img className="help" src={joinimg}></img>
+            <h2 className="change"> Overview </h2>
 
-              <h5> CUSD’s 200+ members work in close collaboration with their internal project team, each
-                tasked with a specific sustainable goal or project. But beyond their own subteam, members
-                ave access to a multitude of events and community building opportunities throughout the
-                organization. Each semester, CUSD members host workshops for other students to gain knowledge
-                about a wide variety of sustainable topics. Along with these, the Mid-semester and Final
-                Reviews allow each subteam to present their project plans, execution, and accomplishments to
-                all of CUSD. </h5>
+            <h6 className="info-subtext"> CUSD’s 200+ members work in close collaboration with their internal project team, each
+              tasked with a specific sustainable goal or project. But beyond their own subteam, members
+              have access to a multitude of events and community building opportunities throughout the
+              organization. </h6>
 
-            </div>
+          </div>
+
+          <div className="info-text">
+            <h2 className="change"> Workshops </h2>
+
+
+            <h6 className="info-subtext"> Each semester, members of CUSD host workshops for other students to gain knowledge in a wide
+              variety of sustainable topics. Past semester’s topics have ranged from “Sustainable Fashion and
+              Thrifting” to “Banks and Sustainable Finance” to Technical Interview prep. CUSD members have the
+              opportunity to attend any of these workshops throughout the semester, ask questions, and gain insight
+              into a specific and no longer unfamiliar sector of sustainability. </h6>
 
           </div>
 
 
           <div className="info-text">
 
-            <h1 className="change"> Mid Semester Review </h1>
+            <h2 className="change"> Mid Semester Review </h2>
 
-            <img className="help" src={joinimg}></img>
 
-            <h5> CUSD’s 200+ members work in close collaboration with their internal project team, each
-              tasked with a specific sustainable goal or project. But beyond their own subteam, members
-              ave access to a multitude of events and community building opportunities throughout the
-              organization. Each semester, CUSD members host workshops for other students to gain knowledge
-              about a wide variety of sustainable topics. Along with these, the Mid-semester and Final
-              Reviews allow each subteam to present their project plans, execution, and accomplishments to
-              all of CUSD. </h5></div>
+            <h6 className="info-subtext"> The Mid-Semester Review allows each subteam of CUSD to present their project plan and current progress toward its execution to the rest of the project team. Not only do you get to showcase your hard work but you get insight into what other teams have been building. It’s an especially valuable experience to gain inspiration from other teams to improve your own project’s procedure or expand its sustainable goals and celebrate CUSD’s progress towards its mission.
+            </h6></div>
 
           <div className="info-text">
 
-            <h1 className="change"> Final Review </h1>
+            <h2 className="change"> Final Review </h2>
 
-            <img className="help" src={joinimg}></img>
 
-            <h5> CUSD’s 200+ members work in close collaboration with their internal project team, each
-              tasked with a specific sustainable goal or project. But beyond their own subteam, members
-              ave access to a multitude of events and community building opportunities throughout the
-              organization. Each semester, CUSD members host workshops for other students to gain knowledge
-              about a wide variety of sustainable topics. Along with these, the Mid-semester and Final
-              Reviews allow each subteam to present their project plans, execution, and accomplishments to
-              all of CUSD. </h5></div>
+            <h6 className="info-subtext">The Final Review, which occurs at the end of every semester, is a continuation of the information shared during the Mid-Semester Review by each of CUSD’s internal project teams. The entire CUSD community comes together at this event to recognize each subteam’s achievements throughout the past four months and commemorate the exceptional teamwork and dedication of each member on CUSD.
+            </h6>
+
+          </div>
 
         </div>
+
       </div>
 
     </div>
+
+
   )
 }
 export default Information
