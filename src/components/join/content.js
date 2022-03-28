@@ -1,10 +1,6 @@
 import React from 'react'
 import "./content.css"
 
-//import * as testStyle from "./content.css"
-
-//import joinimg from '../../images/background_images/cusdcornell.png' could use later
-
 const Content = () => {
 
   return (
@@ -19,10 +15,10 @@ const Content = () => {
             CUSD is looking for people like you!</h5>
         </div>
 
-        <div>
+        <div className="applycontainer">
           <h2 id="joinTitle">How to Apply:</h2>
 
-          <ol>
+          <ol id="joinSubtext">
             <h5><li>Take a look at our current project teams here and determine which project areas interest you.</li>
               <li>Make a wishlist of your top 5 favorite teams.</li>
               <li>Click the button below and apply to those teams!</li></h5>
@@ -36,7 +32,7 @@ const Content = () => {
       <div class="join-button-container">
 
         <div className="joinButton">
-          <a rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSde1gix0npGShmcuuTwRyhxN20NTyP__oKlIGvDJJBl4rBSLw/viewform?usp=sf_link" target="_blank" className="joinButtonInner"> Apply Now!</a>
+          <a rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSde1gix0npGShmcuuTwRyhxN20NTyP__oKlIGvDJJBl4rBSLw/viewform?usp=sf_link" target="_blank" className="joinButtonInner"> Apply Here!</a>
         </div>
       </div>
     </div >

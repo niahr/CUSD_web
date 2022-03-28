@@ -11,7 +11,7 @@ import joinpic from '../images/background_images/cusdcornell.png'
 import joinpic2 from '../images/background_images/cusdstamps.png'
 import Divider from '../components/join/divider.js'
 import Information from '../components/join/information.js'
-import Testing from '../components/join/test.js'
+import Timeline from '../components/join/timelinefinal.js'
 
 
 const JoinPage = () => {
@@ -22,7 +22,7 @@ const JoinPage = () => {
       <Parallax image={joinpic} caption={"Join Us!"} height={350}> </Parallax>
       <Divider />
       <JoinContent />
-      <Testing />
+      <Timeline />
       <Parallax image={joinpic2} height={350}> </Parallax>
       <Information />
       <Footer />

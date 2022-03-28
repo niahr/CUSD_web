@@ -109,8 +109,8 @@
 
 .label {
   color: #3F9B8F;
-  line-height: inherit;
   text-decoration: none;
+  font-size: 1.7rem;
 }
 
 .label:hover {

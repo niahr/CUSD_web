@@ -7,14 +7,14 @@ const Information = () => {
   return (
     <div>
 
-      <h1 id="quicktitle"> What Do You Do Once You're In? </h1>
+      <h1 id="info-title"> A Typical CUSD Semester </h1>
 
       <div>
         <div className="information">
 
-          <div class="info-text">
+          <div class="info-text top">
 
-            <h2 className="change"> Overview </h2>
+            <h2 className="card-title"> Overview </h2>
 
             <h6 className="info-subtext"> CUSD’s 200+ members work in close collaboration with their internal project team, each
               tasked with a specific sustainable goal or project. But beyond their own subteam, members
@@ -24,7 +24,7 @@ const Information = () => {
           </div>
 
           <div className="info-text">
-            <h2 className="change"> Workshops </h2>
+            <h2 className="card-title"> Workshops </h2>
 
 
             <h6 className="info-subtext"> Each semester, members of CUSD host workshops for other students to gain knowledge in a wide
@@ -38,15 +38,15 @@ const Information = () => {
 
           <div className="info-text">
 
-            <h2 className="change"> Mid Semester Review </h2>
+            <h2 className="card-title"> Mid Semester Review </h2>
 
 
             <h6 className="info-subtext"> The Mid-Semester Review allows each subteam of CUSD to present their project plan and current progress toward its execution to the rest of the project team. Not only do you get to showcase your hard work but you get insight into what other teams have been building. It’s an especially valuable experience to gain inspiration from other teams to improve your own project’s procedure or expand its sustainable goals and celebrate CUSD’s progress towards its mission.
             </h6></div>
 
-          <div className="info-text">
+          <div className="info-text bottom">
 
-            <h2 className="change"> Final Review </h2>
+            <h2 className="card-title"> Final Review </h2>
 
 
             <h6 className="info-subtext">The Final Review, which occurs at the end of every semester, is a continuation of the information shared during the Mid-Semester Review by each of CUSD’s internal project teams. The entire CUSD community comes together at this event to recognize each subteam’s achievements throughout the past four months and commemorate the exceptional teamwork and dedication of each member on CUSD.

@@ -1,6 +1,5 @@
 import React from 'react'
-
-import "./test.css"
+import "./timeline.css"
 
 export default function bai({ children }) {
   return <div className="timelinerow">{children}
@@ -9,25 +8,25 @@ export default function bai({ children }) {
       <div className="timelinepoint">
         <span className="year">DATE HERE</span>
         <ul className="projects">
-          <li>Application Opens </li>
+          <li className="label">Application Opens </li>
         </ul>
       </div>
       <div className="timelinepoint">
         <span className="year">DATE HERE</span >
         <ul className="projects">
-          <li><a href="/projects / ord" className="label"> Application Closes </a ></li >
+          <li className="label"> Application Closes</li >
         </ul >
       </div >
       <div className="timelinepoint">
         <span className="year">DATE HERE</span>
         <ul className="projects">
-          <li><a href="/projects / seg" className="label"> Interviews </a ></li >
+          <li className="label"> Interviews</li >
         </ul >
       </div >
       <div className="timelinepoint">
         <span className="year">DATE HERE</span>
         <ul className="projects">
-          <li><a href="/projects / seg" className="label"> Results </a ></li >
+          <li className="label"> Results </li >
         </ul >
       </div >
     </div >
