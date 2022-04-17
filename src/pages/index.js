@@ -8,6 +8,7 @@ import Nav from '../components/navbar/nav'
 import Parallax from "../components/parallax/parallax.js"
 import tech from "../images/background_images/cornelltech.jpg"
 import fpc from "../images/background_images/FPCNew.png"
+import ReactDOM from "react-dom";
 
 import "../components/landing/index.css";
 

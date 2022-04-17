@@ -2,7 +2,6 @@ import FrannieL from '../../images/contact/FrannieL.png'
 import NelsonO from '../../images/contact/NelsonO.png'
 import LouisaB from '../../images/contact/LouisaB.png'
 import AkankshaS from '../../images/contact/AkankshaS.png'
-import CarterE from '../../images/contact/CarterE.png'
 import ElieC from '../../images/contact/ElieC.png'
 import NimraS from '../../images/contact/NimraS.png'
 import MiaM from '../../images/contact/MiaM.png'
@@ -155,7 +154,7 @@ const connectData = [
     image: PH
   },
   {
-    position: "Co-Team Lead",
+    position: "Team Lead",
     name: "Anant Gupta",
     major: "Chemical Engineering",
     team: "Solar Panel Reboot",
