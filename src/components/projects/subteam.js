@@ -24,8 +24,9 @@ import SolarizeChart from './solarizeChart'
  * @param {solarize} solarize whether this subteam is solarize
  * @param {seg} seg whether this subteam is seg
  * @param {gbmp} gbmp whether this subteam is gbmp
+ * @param {sst} sst whether this subteam is sst
  */
-export default function Subteam({ parallax1, title, title2, mission, desc, parallax2, images, facts, map, currents, solarize, seg, gbmp }) {
+export default function Subteam({ parallax1, title, title2, mission, desc, parallax2, images, facts, map, currents, solarize, seg, gbmp, sst}) {
     const elements = []
 
     for (let i = 0; i < facts.length; ++i) {
@@ -78,7 +79,6 @@ export default function Subteam({ parallax1, title, title2, mission, desc, paral
                     "By focusing on making everyday purchases more sustainable, the GBMP team can have an impact far beyond simply creating a single sustainable project."  - Alex Parkurst, Former Team Lead
                 </div>
             }
-
             {map &&
                 <div >
                     <iframe
@@ -112,6 +112,30 @@ export default function Subteam({ parallax1, title, title2, mission, desc, paral
                         Cornell's goal is to reduce carbon emissions to 0 by 2035. The graph shows changes in CO2 emissions since 2008. <a href="https://sustainablecampus.cornell.edu/our-leadership/cap/ghg-inventory" rel="noreferrer" target="_blank">(source)</a>
                     </div>
                 </>
+            }
+            {sst &&
+            <div>
+                <div className={iconStyle.gray}>
+                    <h1 className={iconStyle.header}>Plastics</h1>
+                    <p>______________</p>
+                    <p className={iconStyle.para}>Within the CUSD-SI Plastics subteam, this year we’re focused on investigating the environmental impact of plastic-based materials used in collections, aiming at identifying and providing recommendations for reducing use and finding feasible non-plastic (or non-wasteful) alternatives.</p>
+                </div>
+                <div className={iconStyle.white}>
+                    <h1 className={iconStyle.header}>Contracts</h1>
+                    <p>______________</p>
+                    <p className={iconStyle.para}>The CUSD-SI Contracts Subteam’s project this year focuses on exploring and understanding the components of a good sustainability contract. We are working with the Smithsonian National Collections Program (NCP) to address content/language gaps in collections management contracts.</p>
+                </div>
+                <div className={iconStyle.gray}>
+                    <h1 className={iconStyle.header}>Dashboards</h1>
+                    <p>______________</p>
+                    <p className={iconStyle.para}>The CUSD-SI Dashboards Subteam is conducting surveys in partnership with the Smithsonian Collections Space Committee’s Preservation Environment Subcommittee to determine how preservation environment dashboards have been used by other museums and cultural institutions, and could be adapted to specific SI needs.</p>
+                </div>
+                <div className={iconStyle.white}>
+                    <h1 className={iconStyle.header}>Sustainability and DEAI</h1>
+                    <p>______________</p>
+                    <p className={iconStyle.para}>Analyzing the intersection of sustainability and inclusion in Smithsonian institutional practice and policy, particularly within Smithsonian Gardens, this CUSD-SI subteam is developing recommended templates SI departments may follow to support and build such  sustainability/inclusion intersections.</p>
+                </div>
+            </div>
             }
             {images.length > 0 && <CarouselComp images={images} />}
             <div>
