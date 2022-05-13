@@ -1,0 +1,113 @@
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5em 1.5em;
+  gap: 4%;
+  background-color: rgb(231, 231, 231);
+}
+
+.joinSubtext {
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.jointextcontainer {
+  color: black;
+  width: 75%;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.applycontainer {
+  margin-top: 30px;
+}
+
+#joinTitle {
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.join-button-container {
+  padding: 3rem;
+}
+
+.joinButton {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5625rem;
+}
+
+.joinButtonInner {
+  text-decoration: none;
+  align-items: center;
+  line-height: normal;
+  padding: 1.0em 4.5em;
+  width: 100%;
+  background-color: #327c72;
+  border-color: #327c72;
+  color: #ffffff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.info-title {
+  text-decoration: overline;
+}
+
+.app-title {
+  font-size: 30px bold;
+  padding: 30px;
+}
+
+.whole-container {
+  background-color: lightcoral;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  gap: 20px;
+}
+
+.info-text {
+  text-align: center;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  background-color: rgb(231, 231, 231);
+  font-weight: normal;
+  padding: 5px;
+  height: 100%;
+}
+
+#info-title {
+  padding: 30px;
+  text-align: center;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.info-subtext {
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
+.top {
+  border-radius: 30px 30px 0px 0px;
+}
+
+.bottom {
+  border-radius: 0px 0px 30px 30px;
+}

@@ -1,5 +1,6 @@
 import * as React from "react"
-import Project from '../components/projects/project'
+import Project from '../components/projects/pastProject'
+import CurrentProject from '../components/projects/currentProject'
 import Nav from '../components/navbar/nav'
 import * as iconStyle from "../components/projects/projects.module.css"
 import sen from "../images/project_logos/SEN.png"
@@ -16,6 +17,18 @@ import solarpanel from "../images/project_logos/solar panel reboot.png"
 import sst from "../images/project_logos/Ospri.png"
 import techops from "../images/project_logos/techops.png"
 import Parallax from "../components/parallax/parallax"
+
+import solarnobk from "../images/project_photos/spr/solarbg2.png"
+import icnpic from "../images/project_photos/icnmodeling/icn_building.png"
+import aquapic from "../images/project_photos/aquaculture/aquapic.png"
+import sennobk from "../images/project_photos/sen/sennobk.png"
+import susmobnobk from "../images/project_photos/susmob/susmobnobk.png"
+import bushesnobk from "../images/project_photos/soilfactory/bushesnobk.png"
+import currentsnobk from "../images/project_photos/currents/currentsnobk.png"
+import realnobk from "../images/project_photos/real/realnobk.png"
+import sstnobk from "../images/project_photos/sst/sstnobk.png"
+import solarizenobk from "../images/project_photos/solarize/solarizenobk.png"
+import arcnobk from "../images/project_photos/arc/bottle.png"
 
 import beebelake from "../images/project_logos/beebelake.jpeg"
 import climateactionplan from "../images/project_logos/climateactionplan.jpeg"
@@ -48,25 +61,27 @@ import SNNGround from "../images/background_images/SNNground.jpg"
 import solarpanelgroup from "../images/background_images/solarpanelgrouppic.jpg"
 
 // subteams for current projects
+
+//note changed sst solarize icn to ascending ids, if it breaks anything let me know
 const projects = [
-  { link: '/projects/sen/', id: 1, name: 'Sustainable Education Nepal', subtitle: 'CUSD x United World Schools', pic: sen },
-  { link: '/projects/arc/', id: 2, name: 'ARC', subtitle: 'Alternative Recycling Cornell', pic: arc },
-  { link: '/projects/susmob/', id: 3, name: 'Sustainable Mobility', subtitle: 'Re-design the current public transportation system in Tompkins County, NY', pic: susmob },
-  { link: '/projects/aquaculture/', id: 4, name: 'AquaCulture', subtitle: 'Revolutionizing Fishing Industry with Marine Aquaculture', pic: aqua },
-  { link: '/projects/soilfactory/', id: 5, name: 'Soil Factory', subtitle: 'Defining the next generation of sustainable design', pic: soilfactory },
-  { link: '/projects/spr/', id: 6, name: 'Solar Panel Reboot', subtitle: 'Defining the next generation of sustainable design', pic: solarpanel },
-  { link: '/projects/currents/', id: 7, name: 'Currents', subtitle: 'Defining the next generation of sustainable design', pic: currents },
-  { link: '/projects/icnpolicy/', id: 8, name: 'ICN 2030 Policy', subtitle: 'Ithaca Carbon Neautral 2030 Policy', pic: icn2030policy },
-  { link: '/projects/real/', id: 9, name: 'REAL', subtitle: 'Empowering local farms through the system of Aquaponics', pic: real },
-  { link: '/projects/sst/', id: 11, name: 'SST', subtitle: 'Smithsonian Sustainability Team', pic: sst },
-  { link: '/projects/solarize/', id: 12, name: 'Solarize', subtitle: 'Electrifying Cornell Grounds with sustainable energy sources', pic: solarize },
-  { link: '/projects/icnmodeling/', id: 13, name: 'ICN 2030 Neutrality Modeling', subtitle: 'ICN 2030 Neutrality Modeling', pic: icn2030mod }
+  { link: '/projects/arc/', id: 1, name: 'ARC', name2: 'ARC', subtitle: 'Alternative Recycling Cornell', pic: arc, backpic: arcnobk },
+  { link: '/projects/sen/', id: 2, name: 'Sustainable Education Nepal', name2: 'SEN', subtitle: 'CUSD x United World Schools', pic: sen, backpic: sennobk },
+  { link: '/projects/susmob/', id: 3, name: 'Sustainable Mobility', name2: 'SM', subtitle: 'Re-designing the current public transportation system in Tompkins County, NY', pic: susmob, backpic: susmobnobk },
+  { link: '/projects/aquaculture/', id: 4, name: 'AquaCulture', name2: 'AquaCulture', subtitle: 'Revolutionizing Fishing Industry with Marine Aquaculture', pic: aqua, backpic: aquapic },
+  { link: '/projects/soilfactory/', id: 5, name: 'Soil Factory', name2: 'SF', subtitle: 'Defining the next generation of sustainable design', pic: soilfactory, backpic: bushesnobk },
+  { link: '/projects/spr/', id: 6, name: 'Solar Panel Reboot', name2: 'SPR', subtitle: 'Defining the next generation of sustainable design', pic: solarpanel, backpic: solarnobk },
+  { link: '/projects/currents/', id: 7, name: 'Currents', name2: 'Currents', subtitle: 'Defining the next generation of sustainable design', pic: currents, backpic: currentsnobk },
+  { link: '/projects/icnpolicy/', id: 8, name: 'ICN 2030 Policy', name2: 'ICN2030P', subtitle: 'Ithaca Carbon Neutral 2030 Policy', pic: icn2030policy, backpic: icnpic },
+  { link: '/projects/real/', id: 9, name: 'REAL', name2: 'REAL', subtitle: 'Empowering local farms through the system of Aquaponics', pic: real, backpic: realnobk },
+  { link: '/projects/sst/', id: 10, name: 'SST', name2: 'SST', subtitle: 'Smithsonian Sustainability Team', pic: sst, backpic: sstnobk },
+  { link: '/projects/solarize/', id: 11, name: 'Solarize', name2: 'Solarize', subtitle: 'Electrifying Cornell Grounds with sustainable energy sources', pic: solarize, backpic: solarizenobk },
+  { link: '/projects/icnmodeling/', id: 12, name: 'ICN 2030 Neutrality Modeling', name2: 'ICN2030M', subtitle: 'ICN 2030 Neutrality Modeling', pic: icn2030mod, backpic: icnpic }
 ]
 
 // horizontal subteams
 const horizteams = [
-  { link: '/projects/techops/', id: 1, name: 'Tech Ops', subtitle: 'Developing the digital resources of CUSD', pic: techops },
-  { link: '/projects/marcomm/', id: 2, name: 'Marketing & Communications', subtitle: 'Defining the next generation of sustainable design', pic: marcomm }
+  { link: '/projects/techops/', id: 1, name: 'Tech Ops', subtitle: 'Developing the digital resources of CUSD', pic: techops, backpic: solarnobk },
+  { link: '/projects/marcomm/', id: 2, name: 'Marketing & Communications', subtitle: 'Defining the next generation of sustainable design', pic: marcomm, backpic: solarnobk }
 ]
 
 // subteams for past projects
@@ -116,8 +131,7 @@ const ProjectPage = () => {
     <main>
       <Nav />
       <Parallax image={SNNGround} caption={"Project Teams"} height={550}> </Parallax>
-      <h1 className={iconStyle.headers}>Current Project Teams</h1>
-      <Project className={iconStyle.wrapper} projects={projects} />
+      <CurrentProject projects={projects} />
       <hr className={iconStyle.line}></hr>
       <h1 className={iconStyle.headers}>Horizontal Project Teams</h1>
       <Project className={iconStyle.wrapper} projects={horizteams} />

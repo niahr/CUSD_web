@@ -1,6 +1,8 @@
 import React from 'react'
 import Subteam from "../../components/projects/Subteam"
 import sen_header from "../../images/project_photos/arc/arc-header.jpg"
+import logo from "../../images/project_logos/arc.png"
+
 
 const info = {
   mission: "Established in Fall 2017 as a project team and integrated into CUSD in Spring 2018, Alternative Recycling Cornell (ARC) will involve completing work on a plastic shredder and creating a plastic mold-injector to reshape plastic waste into other simple materials.",
@@ -33,6 +35,7 @@ export default function sen() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        logo={logo}
       />
     </div>
   )

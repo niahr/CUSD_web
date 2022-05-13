@@ -4,17 +4,19 @@ import sst1 from "../../images/project_photos/sst/sst1.jpg"
 import sst2 from "../../images/project_photos/sst/sst2.png"
 import sst3 from "../../images/project_photos/sst/sst3.jpg"
 import sst4 from "../../images/project_photos/sst/sst4.jpg"
+import sst5 from "../../images/project_photos/sst/sst5.jpg"
+import sst6 from "../../images/project_photos/sst/sst6.jpg"
 
 const info = {
-  mission: "Partner with the Smithsonian Institution to actualize sustainability initiatives",
+  mission: "In collaboration with the Smithsonian Institution, the CUSD-SI team increasingly is focused on supporting development and integration of sustainability initiatives within and across Smithsonian departments. Our 2021-2022 projects are all centered on sustainability activities among the many SI departments focused on Collections management, transport, and housing. All four of our subprojects this year address dimensions of our ongoing collective CUSD–SI mission, partnering with SI entities to actualize sustainability initiatives.",
   desc: [
-    "SST represents a longstanding sustainability-focused relationship that CUSD has maintained with the Smithsonian Institution. In the past, our work focused on assisting the Smithsonian's National Zoo with their plastics reduction initiative. Currently, our team operates on a flexible advisory model, addressing a range of Smithsonian sustainability initiatives. In Fall 2019, we researched and wrote a report on best practices for zero-waste events planning at Smithsonian. During Spring 2020 we are excited to continue revising and updating this report as well as consulting on other sustainability projects Smithsonian has underway.",
+    "SST represents a longstanding sustainability-focused relationship that CUSD has maintained with the Smithsonian Institution. In past years we’ve worked with Smithsonian’s National Zoo and Smithsonian Facilities on plastics reduction, zero waste, and green building certification projects.",
   ],
   title: "SST",
   title2: "Smithsonian Sustainability Team",
-  parallax1: sst1,
-  parallax2: sst1,
-  images: [sst1, sst2, sst3, sst4],
+  parallax1: sst5,
+  parallax2: sst5,
+  images: [sst1, sst5, sst6, sst4],
   facts: []
 }
 
@@ -30,6 +32,7 @@ export default function sst() {
         images={info.images}
         parallax2={info.parallax2}
         facts={info.facts}
+        sst={true}
       />
     </div>
   )

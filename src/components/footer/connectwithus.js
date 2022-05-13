@@ -17,7 +17,7 @@ export default function cws() {
           <a className={iconStyle.images} href="https://www.instagram.com/cusustainabledesign/?hl=en"><img src={insta} width="70px" height="70px" alt="CUSD Instagram" /></a>
         </div>
       </div>
-      <div className={iconStyle.copyright}>&copy; 2011-2021 Cornell University Sustainable Design</div>
+      <div className={iconStyle.copyright}>&copy; 2011-2022 Cornell University Sustainable Design</div>
     </div>
   )
 }
