@@ -1,5 +1,5 @@
 import * as React from "react"
-import Project from '../components/projects/project'
+import Project from '../components/projects/pastProject'
 import CurrentProject from '../components/projects/currentProject'
 import Nav from '../components/navbar/nav'
 import * as iconStyle from "../components/projects/projects.module.css"

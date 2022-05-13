@@ -2,6 +2,7 @@ import React from 'react'
 import * as iconStyle from "./project.module.css"
 import "./projectimages.css"
 
+
 /**
  * @param {projects} projects a list of project objects. 
  * 
@@ -27,8 +28,8 @@ export default function CurrentProject({ projects }) {
       return (
 
         <div key={project.id} className={`currentProject ${project.name2}pic backgroundstuff1`}>
-          <div className={iconStyle.picC}>
-            <img alt="background pic" src={project.backpic} />
+          <div className={iconStyle.divpicC}>
+            <img alt="background pic" src={project.backpic} className={iconStyle.picC} />
           </div>
 
           <div className={iconStyle.description}>
@@ -53,8 +54,8 @@ export default function CurrentProject({ projects }) {
             </div>
           </div>
 
-          <div className={iconStyle.picC2}>
-            <img alt="background pic" src={project.backpic} />
+          <div className={iconStyle.divpicC2}>
+            <img alt="background pic" src={project.backpic} className={iconStyle.picC2} />
           </div>
 
         </div>);
@@ -67,32 +68,3 @@ export default function CurrentProject({ projects }) {
     </div>
   )
 }
-
-
-/*export default function CurrentProject({ projects }) {
-  const content = projects.map((project) =>
-    <div key={project.id} className={iconStyle.projects}>
-      <div className={iconStyle.project}>
-        <a href={project.link}>
-          <div className={iconStyle.image}>
-            <img alt="logo" src={project.pic} className={iconStyle.logos} />
-            <div className={iconStyle.image__overlay}>
-              <p className={iconStyle.subtitle}>{project.subtitle}</p>
-            </div>
-          </div>
-        </a>
- 
-        <div className={iconStyle.text}>
-          <h3 className={iconStyle.name}>{project.name}</h3>
-          <p className={iconStyle.subtitleSmall}>{project.subtitle}</p>
-        </div>
-      </div>
-    </div>
-  );
-  return (
-    <div className={iconStyle.projectsWrapper}>
-      {content}
-    </div>
-  )
-} */
-

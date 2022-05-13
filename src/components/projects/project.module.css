@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .project {
     position: relative !important;
     align-items: top !important;
@@ -33,13 +35,7 @@
     margin: 10% !important;
 }
 
-/* FOR THE CURRENT PROJECTS */
-
-
-.backgroundstuff2 {
-    background-repeat: no-repeat;
-    background-position: bottom 30% left 5%;
-}
+/* STYLES FOR THE CURRENT PROJECTS */
 
 /* CSS */
 .button {
@@ -85,22 +81,34 @@
 }
 
 .title {
-    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
 }
 
 .psubtitle {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
 }
 
-.picC {
+.divpicC {
     padding-left: 8%;
 }
 
-.picC2 {
+.picC {
+    width: 100%;
+    height: auto;
+}
+
+.divpicC2 {
     margin-left: auto;
     padding-right: 8%;
 }
 
+.picC2 {
+    width: 100%;
+    height: auto;
+}
 
 .pic {
     height: 25rem;
@@ -112,12 +120,21 @@
     .subtitle {
         font-size: 78%;
     }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .psubtitle {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 826px) {
     .subtitle {
         font-size: 101%;
     }
+
 }
 
 @media only screen and (min-width: 940px) {
@@ -132,7 +149,6 @@
     }
 
     .projects {
-        /* display: inline-block; */
         display: flex;
         padding-right: 5%;
         padding-top: 5%;
