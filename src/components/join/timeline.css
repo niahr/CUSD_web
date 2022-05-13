@@ -57,7 +57,9 @@
   padding-inline-start: 40px;
 }
 
-.timeline ul, ol, dl {
+.timeline ul,
+ol,
+dl {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
@@ -70,7 +72,7 @@
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 6.5em;
   padding-left: calc(15%);
   padding-right: 0;
   width: 66.66667%;

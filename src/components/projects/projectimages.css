@@ -1,0 +1,101 @@
+/*
+
+This stylesheet is for specific centering of the project logos 
+and images
+
+*/
+
+.currentProject {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.currentProject2 {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+
+.ARCpic {
+  background: url(./../../images/project_logos/arc.png);
+}
+
+.SENpic {
+  background: url(./../../images/project_logos/SEN.png);
+}
+
+.SMpic {
+  background: url(./../../images/project_logos/Sustainable\ Mobility.png);
+}
+
+.AquaCulturepic {
+  background: url(./../../images/project_logos/Aquaculture.jpg);
+}
+
+.SFpic {
+  background: url(./../../images/project_logos/SOIL.png);
+}
+
+.SPRpic {
+  background: url(./../../images/project_logos/solar\ panel\ reboot.png);
+}
+
+
+.Currentspic {
+  background: url(./../../images/project_logos/Currents.png);
+  background-color: #F6BC2A
+}
+
+.ICN2030Ppic {
+  background: url(./../../images/project_logos/ICN_Policy.png);
+}
+
+.REALpic {
+  background: url(./../../images/project_logos/REAL.jpg);
+}
+
+.SSTpic {
+  background: url(./../../images/project_logos/Ospri.png)
+}
+
+.Solarizepic {
+  background: url(./../../images/project_logos/solarize.jpeg);
+}
+
+
+.ICN2030Mpic {
+  background: url(./../../images/project_logos/ICN\ Modeling.png);
+}
+
+.backgroundstuff1 {
+  background-size: 5% 10%;
+  background-repeat: no-repeat;
+  background-position: top 5% right 2%;
+  background-color: #F2F3F3;
+}
+
+.backgroundstuff2 {
+  background-size: 5% 10%;
+  background-repeat: no-repeat;
+  background-position: top 5% right 2%;
+  background-color: #e8eeee;
+}
+
+
+/*
+.backgroundstuff1 {
+  background-size: 10% 20%;
+  background-repeat: no-repeat;
+  background-position: top 90% right 5%;
+  background-color: #F2F3F3;
+
+}
+
+.backgroundstuff2 {
+  background-size: 20% 40%;
+  background-repeat: no-repeat;
+  background-position: top 20% right 20%;
+  background-color: #e8eeee;
+} */
