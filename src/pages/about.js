@@ -17,11 +17,8 @@ const AboutPage = () => {
 
         <main>
             <Nav />
-            <Parallax image={abouthead} caption={"About"} height={550}> </Parallax>
             <Overview />
-            <Parallax image={aboutmid1} height={200}> </Parallax>
             <Values image={ValuePicture}> </Values>
-            <Parallax image={aboutmid2} height={200}> </Parallax>
             <Footer />
             <Connectwithus />
         </main>

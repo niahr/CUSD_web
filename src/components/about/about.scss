@@ -2,51 +2,61 @@
 
 /* CSS for overview component */ 
 
+.title{
+    background-image: url("cornelltech2.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+}
 
+.h1 {
+    border-style: solid;
+    border-color: #f2f3f3;
+}
+
+.text {
+    color:#f2f3f3;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding-top: 90px;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-rendering: optimizeLegibility;
+    font-size:3.5rem;   
+    text-shadow: 0.2vw 0.2vw rgb(29, 68, 48);
+    -webkit-text-stroke-width: 0.3vw;
+    -webkit-text-stroke-color: rgb(29, 68, 48);
+
+.flex-container {
+    flex-direction: row;
+}
+    
+}
 @media screen and (min-width: 475px) {
     .flex-container{   
         display:flex;
     }
 
-    .quoteDiv {
-        margin-top: 100px; 
-    }
-
-    .quoteText {
-        margin-top: 10px;
+    .purposeText {
+        padding-left: 30px;
+        margin-left: 30px;
     }
     
-    .flex-child-video.storypurpose {
-        width: 200%;
-    }
 }
 
 @media screen and (max-width: 474px) {
-    .flex-container{  
-        flex: none; 
-    }
 
-    .quoteDiv {
-        margin-top: 0;
+    .purposeText {
+        margin-right: 30px;
     }
-
-    .quoteText {
-        margin-top: 0;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .flex-child-video.storyquote {
-        margin-top: 0;
-        padding-top: 10px;
-        padding-bottom: 30px;
-    }
-
 
 }
 
 .flex-child{
-    flex: 1; 
     background-color: white;   
 } 
 
@@ -55,25 +65,14 @@
 } 
 
 .flex-child.quote{
-    background-color: #f2f3f3; 
+    margin: 11px;
+    background-image: url("CUSD_abt_mobile.png");
+    background-repeat: no-repeat;
+    width: 65%;
+    background-size: contain;
+    
 }
 
-.quoteDiv {
-    margin-left: 100px; 
-    margin-right: 100px; 
-}
-
-.quoteText {  
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 0;
-    text-rendering: optimizeLegibility;
-    font-size: 1.5rem;
-    text-align: left; 
-    align-items: center; 
-}
 
 .founder {
     padding-top: 20px; 
@@ -81,7 +80,7 @@
 }
 
 .flex-child.purpose {
-    padding-right: 300px;  
+    width: 35%;
 }
 
 .purposeDiv {
@@ -89,16 +88,15 @@
 }
 
 .purposeText{
-    width: 90%;
     display: flex;
     flex-direction:column;
-    justify-content: center;
-    margin-left: 70px; 
+    margin-right: 20px;
+    padding-right: 15px;
 }
 
 .purposeTitle {
     color: #4a4a4a;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: 1.2;
@@ -111,7 +109,7 @@
 }
 
 .purposeDescription {
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.6;
@@ -121,18 +119,22 @@
     margin-right: 8%;
     margin-bottom: 10%;
     text-rendering: optimizeLegibility;
-    align-items:stretch;
     color: rgb(100, 100, 100);
 }
 
 /* CSS for values component */
 .flex-child.values{
-    background-color: white;
+    background-image: url("cusdwind.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    line-height: 400px;
+    text-align: center;
 }
 
 .valuesCaption { 
     font-size: 3rem; 
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
     line-height: 1.2;
     margin-top: 135px; 
@@ -142,8 +144,8 @@
 .wholeValuesImg {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
-    margin-right: 200px; 
+    padding: 0px;
+    margin-right: 0px; 
 }
 
 .column {
@@ -216,33 +218,39 @@
 }
 
 /* Layout when screen is 800<x<1200 px*/
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 800px) {
 
 .quoteDiv {
     margin-left: 50px; 
     margin-right: 50px; 
 }
 
-.flex-child.purpose {
-    padding-right: 100px; 
-}
-
 .purposeText {
-    margin-left: 30px; 
+    margin-left: 20px; 
 }
 
+.flex-child.quote {
+    background-image: url(abt-big.png);
+}
 /* Values component */
 
 .valuesCaption { 
-    font-size: 4rem; 
-    margin-top: 235px; 
-    margin-left: 50px; 
+    color: #4a4a4a;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-rendering: optimizeLegibility;
+    font-size:1.5rem;   
 }
 
 .wholeValuesImg {
-    margin-right: 50px; 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     padding: 0 4px;
 }
 
@@ -255,39 +263,49 @@
 }
 
 .caption {
-    font-size: 1.5rem; 
+    font-size: 0.3px; 
 }
 /* Videooverview component, TODO */
 
 }
 
-/* Layout when screen is <=800 px*/
-@media screen and (max-width: 800px) {
+/* Layout when screen is <=700 px*/
+@media screen and (max-width: 700px) {
 
     /* Overview component */ 
-    .quoteDiv {
-        margin-left: 20px; 
-        margin-right: 20px; 
-    }
-    
-    .quoteText {  
-        font-size: 1.75rem;
-    }
-
+  
     .flex-child.purpose {
         padding-right: 10px;  
     }
 
-    .purposeText {
-        margin-left: 20px; 
+    .flex-container {
+        flex-direction: column;
     }
 
+    
+    .flex-child.quote{
+        margin: 0px;
+        background-image: url("CUSD_abt_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1100px;
+    }
+
+    .purposeDescription {
+        width: 300px;
+    }
+
+   
     /*Values component */ 
 
     .valuesCaption {
+        font-family: "Montserrat", sans-serif;
         font-size: 4rem; 
-        margin-top: 35px; 
-        margin-left: 30px; 
+        margin-top: 20px; 
+        margin-left: 20px; 
+        text-align: center;
+        margin-top: 200px;
     }
     
     .wholeValuesImg {
@@ -303,12 +321,16 @@
          height: 15rem; 
         }
     
-    .indValuesImg {
-         padding-top: 20px;
-     }
-    
     .caption {
         font-size: 1.5rem; 
     }
     /* Videooverview component, TODO */ 
+}
+
+.animate {
+    animation: fadeIn 1.5s infinite alternate;
+}
+
+.caption {
+    font-size: 1.5rem;
 }
