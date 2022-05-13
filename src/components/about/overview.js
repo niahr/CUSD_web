@@ -10,10 +10,9 @@ const overview = () => {
       <div className="flex-child quote">
 
         <div className="quoteDiv">
-          <meta charSet='utf-8' />
-          <h3 className="quoteText">We said ‘we think we can do more, more than just solar.’ We knew we could make a greater impact with a broader understanding of sustainability. That’s when we made the decision to create Cornell University Sustainable Design.
+          <h3 className="quoteText">{"We said \u0022we think we can do more, more than just solar.\u0022 We knew we could make a greater impact with a broader understanding of sustainability. That\u0027s when we made the decision to create Cornell University Sustainable Design."}
             <div className="founder">
-              – Jeremy Blum '13
+              {"Jeremy Blum '13"}
             </div>
           </h3>
         </div>

@@ -31,36 +31,6 @@ article {
     width: 100%;
 }
 
-@media (max-width: 600px) {
-    .contact {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
-    .headshot{
-        /* margin-top: 20px; */
-    }
-}
-
-@media (min-width: 601px) {
-    .row{
-        display: flex;
-        height: 10%;
-
-    }
-
-    
-}
-
-@media (min-width: 1050px) {
-    .contacts {
-        margin-right: 100px;
-    }
-}
-
-
 .position {
     color: #4a4a4a;
     font-family: "Source Sans Pro";
@@ -107,13 +77,49 @@ article {
 .links a{
     font-size: 15px;
     padding-bottom: 5px;
-    vertical-align: 6px;
+    vertical-align: -2px;
     color: #3F9B8F;
     padding-right: 5px;
     text-decoration: none;
 }
 
 
+
+@media (max-width: 1200px) {
+    .contacts {
+        display: block;
+        height: fit-content;
+    }
+    .contact {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .contact {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .headshot{
+        margin-top: 20px;
+    }
+
+    .row{
+        display: flex;
+        height: 10%;
+
+    }
+}
+
+@media (min-width: 1050px) {
+    .contacts {
+        margin-right: 100px;
+    }
+}
 
 @media (max-width: 1050px) {
     .title-text{
@@ -145,7 +151,6 @@ article {
     .links a{
         font-size: 15px;
         padding-bottom: 5px;
-        vertical-align: 6px;
         color: #3F9B8F;
         padding-right: 5px;
         text-decoration: none;
@@ -191,7 +196,6 @@ article {
     .links a{
         font-size: 15px;
         padding-bottom: 5px;
-        vertical-align: 6px;
         color: #3F9B8F;
         padding-right: 5px;
         text-decoration: none;
