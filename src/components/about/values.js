@@ -11,10 +11,10 @@ import responsibility from '../../images/aboutimg/values/responsibility.svg'
 
 const values = () => {
   return (
-    <div className="flex-container">
+    <div className="flex-values">
 
       <div className="flex-child values">
-        <h1 className="valuesCaption">Our values</h1>
+        <h1 className="text">OUR VALUES</h1>
       </div>
 
       <div className="flex-child wholeValuesImg">
