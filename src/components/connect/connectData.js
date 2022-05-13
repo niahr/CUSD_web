@@ -7,7 +7,7 @@ import NimraS from '../../images/contact/NimraS.png'
 import MiaM from '../../images/contact/MiaM.png'
 import NatalieK from '../../images/contact/NatalieK.png'
 import PH from '../../images/croppedvalues.png'
-import SamS from '../../images/contact/SamS.png'
+/*import SamS from '../../images/contact/SamS.png'
 import SehEunH from '../../images/contact/SehEunH.png'
 import PaineG from '../../images/contact/PaineG.png'
 import JiWooB from '../../images/contact/JiWooB.png'
@@ -15,7 +15,7 @@ import JonY from '../../images/contact/JonY.png'
 import AnantG from '../../images/contact/AnantG.png'
 import CarolineH from '../../images/contact/CarolineH.png'
 import MelissaG from '../../images/contact/MelissaG.png'
-import LaraiahM from '../../images/contact/LaraiahM.png'
+import LaraiahM from '../../images/contact/LaraiahM.png' */
 
 const connectData = [
   {
@@ -34,7 +34,8 @@ const connectData = [
     team: "Operations",
     email: "mailto:eeh73@cornell.edu",
     linkedin: "https://www.linkedin.com/in/samuel-shvets-130a26221/.",
-    image: SamS
+    //changed
+    image: PH
   },
   {
     position: "Operations Assistant",
@@ -43,7 +44,8 @@ const connectData = [
     team: "Operations",
     email: "mailto:jb2359@cornell.edu",
     linkedin: "https://www.linkedin.com/in/ji-woo-bae-2818371b4/",
-    image: JiWooB
+    //changed
+    image: PH
   },
   {
     position: "Operations Assistant",
@@ -52,7 +54,8 @@ const connectData = [
     team: "Operations",
     email: "mailto:jjy43@cornell.edu",
     linkedin: "https://www.linkedin.com/in/jonathan-yeung-a20828180/",
-    image: JonY
+    //changed
+    image: PH
   },
   {
     position: "Finance Chair",
@@ -61,7 +64,7 @@ const connectData = [
     team: "Operations",
     email: "mailto:rh463@cornell.edu",
     linkedin: "https://www.linkedin.com/in/allan-murciano-0561031a3/",
-    image: CarolineH
+    image: PH
   },
   {
     position: "Team Lead",
@@ -97,7 +100,8 @@ const connectData = [
     team: "Currents",
     email: "mailto:mg2396@cornell.edu",
     linkedin: "https://www.linkedin.com/in/melissagao5927/",
-    image: MelissaG
+    //changed
+    image: PH
   },
   {
     position: "Co-Team Lead",
@@ -133,7 +137,8 @@ const connectData = [
     team: "ICN Policy",
     email: "mailto:lgm46@cornell.edu",
     linkedin: "https://www.linkedin.com/in/laraiahm/",
-    image: LaraiahM
+    //changed
+    image: PH
   },
   {
     position: "Team Lead",
@@ -160,7 +165,8 @@ const connectData = [
     team: "Solar Panel Reboot",
     email: "mailto:akg73@cornell.edu",
     linkedin: "https://www.linkedin.com/in/anant-gupta-78200719/",
-    image: AnantG
+    //changed
+    image: PH
   },
   {
     position: "Team Lead",
@@ -187,7 +193,8 @@ const connectData = [
     team: "Sustainable Mobility: Shelter",
     email: "mailto:phg44@cornell.edu",
     linkedin: "https://www.linkedin.com/in/mia-millstein/",
-    image: PaineG
+    //changed
+    image: PH
   },
   {
     position: "Co-Team Lead",
@@ -223,7 +230,8 @@ const connectData = [
     team: "MarComm",
     email: "mailto:sh846@cornell.edu",
     linkedin: "https://www.linkedin.com/in/seh-eun-emily-hong/",
-    image: SehEunH
+    //changed
+    image: PH
   },
 ];
 export default connectData;

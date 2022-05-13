@@ -1,15 +1,25 @@
 .gray {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(240, 234, 234);
-    text-align: center;
-    padding: 5%;
-  }
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 234, 234);
+  text-align: center;
+  padding: 5%;
+}
 
 .header {
-    margin: auto;
-    font-weight: 400;
-    font-size: 30px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 4.5rem;
+}
+
+.grayheader {
+  display: flex;
+  flex-direction: row;
+}
+
+.logostyle {
+  height: 200px;
+  width: auto;
 }
 
 .white {
@@ -20,15 +30,20 @@
   padding: 5%;
 }
 
+.para {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
 .imageCarousel {
   width: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .carouselWrapper {
-  position: relative; 
+  position: relative;
   left: 50%;
-  transform: translateX(-50%);  
+  transform: translateX(-50%);
   margin-bottom: 3%;
 }
 
@@ -36,9 +51,9 @@
   .imageCarousel {
     height: 420px;
   }
-  
+
   .carouselWrapper {
-    width: 600px; 
+    width: 600px;
     height: 420px;
   }
 }
@@ -47,9 +62,9 @@
   .imageCarousel {
     height: 360px;
   }
-  
+
   .carouselWrapper {
-    width: 480px; 
+    width: 480px;
     height: 360px;
   }
 }
@@ -58,9 +73,9 @@
   .imageCarousel {
     height: 270px;
   }
-  
+
   .carouselWrapper {
-    width: 360px; 
+    width: 360px;
     height: 270px;
   }
 }
@@ -87,14 +102,14 @@
   width: 300px;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Source Sans Pro', 'sans-serif'; 
+  font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 .number {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Source Sans Pro', 'sans-serif'; 
+  font-family: 'Source Sans Pro', 'sans-serif';
   color: 'white';
 }
 
@@ -114,7 +129,7 @@
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
-  font-family: 'Source Sans Pro', 'sans-serif'; 
+  font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 .solarizeQuote {
@@ -123,7 +138,7 @@
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
-  font-family: 'Source Sans Pro', 'sans-serif'; 
+  font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 @media screen and (max-width: 500px) {
@@ -146,7 +161,7 @@
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 5%;
-  font-family: 'Source Sans Pro', 'sans-serif'; 
+  font-family: 'Source Sans Pro', 'sans-serif';
   color: rgb(97, 97, 97);
 }
 
@@ -176,5 +191,5 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 4%;
-  height:430px;
+  height: 430px;
 }

@@ -24,9 +24,10 @@ import SolarizeChart from './solarizeChart'
  * @param {solarize} solarize whether this subteam is solarize
  * @param {seg} seg whether this subteam is seg
  * @param {gbmp} gbmp whether this subteam is gbmp
+ * @param {logo} logo is a subteam's logo 
  * @param {sst} sst whether this subteam is sst
  */
-export default function Subteam({ parallax1, title, title2, mission, desc, parallax2, images, facts, map, currents, solarize, seg, gbmp, sst}) {
+export default function Subteam({ parallax1, title, title2, mission, desc, parallax2, images, facts, map, currents, solarize, seg, gbmp, sst, logo}) {
     const elements = []
 
     for (let i = 0; i < facts.length; ++i) {
@@ -53,9 +54,14 @@ export default function Subteam({ parallax1, title, title2, mission, desc, paral
             <Nav />
             <Parallax image={parallax1} caption={title} caption2={title2} height={500}> </Parallax>
             <div className={iconStyle.gray}>
-                <h1 className={iconStyle.header}>Our Mission</h1>
-                <p style={{ color: 'grey' }}>______________</p>
-                <p className={iconStyle.para}>{mission}</p>
+                <div className={iconStyle.grayheader}>
+                    <h1 className={iconStyle.header}>Ouzz Mission</h1>
+                    <img className={iconStyle.logostyle} src={logo} alt="img not found"></img>
+                </div>
+                <div>
+                    <p style={{ color: 'grey' }}>______________</p>
+                    <p className={iconStyle.para}>{mission}</p>
+                </div>
             </div>
             <div className={iconStyle.white}>
                 {desc.map((para, index) =>
