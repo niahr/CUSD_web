@@ -1,50 +1,32 @@
 .gray {
   display: flex;
   flex-direction: column;
-  background-color: rgb(240, 234, 234);
+  background-color: hsl(172, 41%, 85%);
   text-align: center;
   padding: 5%;
+  margin-top: 5%;
 }
 
 .header {
   margin: auto;
   font-weight: 400;
-  font-size: 4.5rem;
+  font-size: 30px;
 }
 
-.grayheader {
-  display: flex;
-  flex-direction: row;
-}
-
-.logostyle {
-  height: 200px;
-  width: auto;
+.desc {
+  background-color: black;
 }
 
 .white {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 5%;
-}
+  padding-top: 6%;
+  width: 40%;
 
-.para {
-  font-size: 1.5rem;
-  font-style: italic;
-}
-
-.imageCarousel {
-  width: 100%;
-  object-fit: cover;
 }
 
 .carouselWrapper {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 3%;
+  width: 40%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 @media (min-width: 701px) {
@@ -170,7 +152,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 4%;
 }
 
 @media screen and (min-width: 1121px) {
@@ -192,4 +173,10 @@
   justify-content: center;
   margin-bottom: 4%;
   height: 430px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

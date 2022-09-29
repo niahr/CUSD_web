@@ -1,4 +1,3 @@
-
 .title-text {
     color: #4a4a4a;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -6,29 +5,36 @@
     font-weight: 400;
     line-height: 1.2;
     font-size: 2.625rem;
-    padding-top: 10px; 
-    margin-right: 20px; 
-    margin-left: 20px; 
-    width: 200px;
-    float: left;
+    padding-top: 75px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
 }
 
 article {
     display: block;
 }
+
 .contact_photo {
     float: left;
 }
+
 .contacts {
     display: flex;
     flex-wrap: wrap;
-    width:70%;
-    padding-top: 10px;
-    padding-bottom: 600px;
+    width: 85%;
+    padding-top: 60px;
+    margin-top: 60px;
+    padding-bottom: 200px;
+    background-color: hsl(172, 41%, 85%);
+    margin-left: 6.5%;
+    padding-left: 20px;
+
 }
 
-.row{
+.row {
     width: 100%;
+    justify-content: center;
 }
 
 .position {
@@ -47,37 +53,58 @@ article {
 .contact {
     display: flex;
     -ms-flex-direction: row;
-    padding: 50px;
+    margin: 25px;
+    padding: 20px;
     padding-right: 0;
+    background-color: white;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
+    box-shadow: 0px 10px 7px rgb(0 0 0 / 16%);
 }
 
 .contact img {
-    /* width: 100px; */
     padding-top: 5px;
     align-self: flex-start;
 }
-.major, .name, .team {
+
+.major,
+.name,
+.team {
     font-family: "Helvetica Neue";
     font-size: 18px;
     color: #4a4a4a;
     font-weight: 200;
     line-height: 1.5625rem;
-    
+
 }
 
 .major {
     font-style: italic;
 }
-.links img{
+
+.links img {
     width: 21px;
     height: 21px;
     padding-right: 5px;
 }
 
-.links a{
+.links a {
     font-size: 15px;
     padding-bottom: 5px;
     vertical-align: -2px;
+    color: #3F9B8F;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.links img {
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.links a {
+    font-size: 15px;
+    padding-bottom: 5px;
     color: #3F9B8F;
     padding-right: 5px;
     text-decoration: none;
@@ -90,114 +117,14 @@ article {
         display: block;
         height: fit-content;
     }
-    .contact {
-        padding-bottom: 10px;
-    }
 
 }
 
 @media (max-width: 800px) {
-    .contact {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
 
-    .headshot{
-        margin-top: 20px;
-    }
-
-    .row{
+    .row {
         display: flex;
         height: 10%;
 
-    }
-}
-
-@media (min-width: 1050px) {
-    .contacts {
-        margin-right: 100px;
-    }
-}
-
-@media (max-width: 1050px) {
-    .title-text{
-        display: none;
-    }
-    main, .contacts{
-        width: 100%;
-    }
-
-    .row {
-        width: 100%;
-    }
-
-    .contact img{
-        width: 30%;
-        height: max-content;
-    }
-
-    .contact {
-        width: 50%;
-    }
-
-    .links img{
-        width: 15px;
-        height: 15px;
-        padding-right: 5px;
-    }
-    
-    .links a{
-        font-size: 15px;
-        padding-bottom: 5px;
-        color: #3F9B8F;
-        padding-right: 5px;
-        text-decoration: none;
-    }
-}
-
-@media (max-width: 800px){
-    .contact {
-        flex-direction: column;
-        padding-left: 25px;
-        padding-bottom: 10px;
-    }
-
-    .row {
-        padding-left: 10px;
-    }
-
-    .contact img {
-        width: 80%;
-    }
-
-
-    .contact_info {
-        padding: 0;
-        padding-top: 10px;
-        width: 200px;
-    }
-
-    .name {
-        font-size: 18px;
-    }
-
-    .major, .position, .team {
-        font-size: 16px;
-    }
-
-    .links img{
-        width: 21px;
-        height: 21px;
-        padding-right: 5px;
-    }
-    
-    .links a{
-        font-size: 15px;
-        padding-bottom: 5px;
-        color: #3F9B8F;
-        padding-right: 5px;
-        text-decoration: none;
     }
 }
