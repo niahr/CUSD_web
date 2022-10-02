@@ -4,12 +4,9 @@ import Footer from '../components/footer/Footer'
 import Connectwithus from '../components/footer/connectwithus'
 import "../components/connect/connect.css"
 import Nav from '../components/navbar/nav'
-import Parallax from "../components/parallax/parallax.js"
 import LinkedIn from '../images/icons/linkedin.png'
 import Email from '../images/icons/email.png'
 import connectData from "../components/connect/connectData.js"
-import connecthead from '../images/background_images/grouppic.png'
-import connectmid from '../images/background_images/lilypads.jpg'
 
 
 const Subteam = () => {
@@ -29,7 +26,7 @@ const Subteam = () => {
                                 <>
                                     <article class="contact">
 
-                                        <img className="headshot" alt={person.name} src={person.image} width="100px" height="auto"></img>
+                                        <img className="headshot" alt={person.name} src={person.image} width="125px" height="156.25px"></img>
                                         <div class="contact_info">
                                             <div class="position">{person.position}</div>
                                             <div class="name">{person.name}</div>

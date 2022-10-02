@@ -3,7 +3,6 @@ import CarouselComp from "./carousel.js"
 import "../about/about.scss"
 import * as iconStyle from "./subteambody.module.css"
 import Footer from '../footer/Footer'
-import Parallax from "../parallax/parallax.js"
 import Connectwithus from '../footer/connectwithus'
 import Nav from '../navbar/nav'
 import CytoscapeComponent from 'react-cytoscapejs';

@@ -15,8 +15,11 @@ article {
     display: block;
 }
 
-.contact_photo {
+.headshot {
     float: left;
+    /* width: 100px;
+    height: 150px; */
+    object-fit: cover;
 }
 
 .contacts {
