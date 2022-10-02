@@ -13,7 +13,7 @@ const overview = () => {
           <meta charSet='utf-8' />
           <h3 className="storiesText"> CUSD is a platform for students to get experiences they cannot get from classrooms
             <div className="founder">
-              – Jeremy Blum '13
+              Jeremy Blum '13
             </div>
           </h3>
         </div>

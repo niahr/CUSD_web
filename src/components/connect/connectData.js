@@ -1,60 +1,40 @@
 import FrannieL from '../../images/contact/FrannieL.png'
 import NelsonO from '../../images/contact/NelsonO.png'
-import LouisaB from '../../images/contact/LouisaB.png'
 import AkankshaS from '../../images/contact/AkankshaS.png'
 import ElieC from '../../images/contact/ElieC.png'
-import NimraS from '../../images/contact/NimraS.png'
-import MiaM from '../../images/contact/MiaM.png'
-import NatalieK from '../../images/contact/NatalieK.png'
+import NatalieK from '../../images/contact_unedited/NatalieK.png'
 import PH from '../../images/croppedvalues.png'
-/*import SamS from '../../images/contact/SamS.png'
-import SehEunH from '../../images/contact/SehEunH.png'
+import SehEunH from '../../images/contact_unedited/SehEunH.png'
 import PaineG from '../../images/contact/PaineG.png'
 import JiWooB from '../../images/contact/JiWooB.png'
-import JonY from '../../images/contact/JonY.png'
+import JonY from '../../images/contact_unedited/JonY.png'
 import AnantG from '../../images/contact/AnantG.png'
 import CarolineH from '../../images/contact/CarolineH.png'
-import MelissaG from '../../images/contact/MelissaG.png'
-import LaraiahM from '../../images/contact/LaraiahM.png' */
+import LaraiahM from '../../images/contact_unedited/LaraiahM.png'
+import ErikA from '../../images/contact_unedited/ErikA.png'
+import TylerB from '../../images/contact_unedited/TylerB.png'
+import DarianL from '../../images/contact_unedited/DarianL.png'
+import NashR from '../../images/contact_unedited/NashR.png'
+import MarkM from '../../images/contact_unedited/MarkM.png'
+import SabrinaM from '../../images/contact_unedited/SabrinaM.png'
 
 const connectData = [
   {
-    position: "Director",
-    name: "Nimra Shakoor",
-    major: "Environmental Engineering",
-    team: "Operations",
-    email: "mailto:ns924@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/nimrashakoor/",
-    image: NimraS
-  },
-  {
-    position: "Director",
-    name: "Sam Shvets",
-    major: "Operations Research / Philosophy",
-    team: "Operations",
-    email: "mailto:eeh73@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/samuel-shvets-130a26221/.",
-    //changed
-    image: PH
-  },
-  {
-    position: "Operations Assistant",
+    position: "Interim Director",
     name: "Ji Woo Bae",
-    major: "Design and Environmental Analysis",
+    major: "Information Science",
     team: "Operations",
     email: "mailto:jb2359@cornell.edu",
     linkedin: "https://www.linkedin.com/in/ji-woo-bae-2818371b4/",
-    //changed
-    image: PH
+    image: JiWooB
   },
   {
-    position: "Operations Assistant",
+    position: "Interim Director",
     name: "Jonathan Yeung",
     major: "Architecture",
     team: "Operations",
     email: "mailto:jjy43@cornell.edu",
     linkedin: "https://www.linkedin.com/in/jonathan-yeung-a20828180/",
-    //changed
     image: PH
   },
   {
@@ -64,6 +44,15 @@ const connectData = [
     team: "Operations",
     email: "mailto:rh463@cornell.edu",
     linkedin: "https://www.linkedin.com/in/allan-murciano-0561031a3/",
+    image: CarolineH
+  },
+  {
+    position: "New Member and Recruiting Chair",
+    name: "Nash Rougvie",
+    major: "Urban and Regional Studies",
+    team: "Operations",
+    email: "mailto:njr78@cornell.edu",
+    linkedin: "https://www.linkedin.com/in/nash-rougvie-82626b201/",
     image: PH
   },
   {
@@ -85,41 +74,22 @@ const connectData = [
     image: NelsonO
   },
   {
-    position: "Co-Team Lead",
-    name: "Mia Millstein",
-    major: "Applied Economics and Management",
+    position: "Team Lead",
+    name: "Arno Motulsky",
+    major: "Information Science, Envr. & Sustainability",
     team: "Currents",
-    email: "mailto:mlm437@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/mia-millstein/",
-    image: MiaM
-  },
-  {
-    position: "Co-Team Lead",
-    name: "Melissa Gao",
-    major: "Applied Economics and Management",
-    team: "Currents",
-    email: "mailto:mg2396@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/melissagao5927/",
-    //changed
+    email: "mailto:atm76@cornell.edu",
+    linkedin: "https://www.linkedin.com",
     image: PH
   },
   {
-    position: "Co-Team Lead",
-    name: "Sebastian Barquin Sanchez",
-    major: "Mechanical Engineering",
+    position: "Team Lead",
+    name: "Erik Anderson",
+    major: "Operations Research and Information Engineering",
     team: "ICN Modeling",
-    email: "mailto:sb2237@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/sebibarquin/",
-    image: PH
-  },
-  {
-    position: "Co-Team Lead",
-    name: "David Ovetsky",
-    major: "Applied and Engineering Physics",
-    team: "ICN Modeling",
-    email: "mailto:dmo75@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/david-ovetsky/",
-    image: PH
+    email: "mailto:ewa32@cornell.edu",
+    linkedin: "https://www.linkedin.com/in/erik-anderson-5b7735223",
+    image: ErikA
   },
   {
     position: "Co-Team Lead",
@@ -137,25 +107,24 @@ const connectData = [
     team: "ICN Policy",
     email: "mailto:lgm46@cornell.edu",
     linkedin: "https://www.linkedin.com/in/laraiahm/",
-    //changed
     image: PH
   },
   {
     position: "Team Lead",
-    name: "Louisa Bjerke",
-    major: "Environment & Sustainability",
+    name: "Tyler Bales",
+    major: "Biology",
     team: "REAL",
-    email: "mailto:lhb58@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/louisabjerke/",
-    image: LouisaB
+    email: "mailto:trb223@cornell.edu",
+    linkedin: "https://www.linkedin.com",
+    image: PH
   },
   {
     position: "Team Lead",
-    name: "Kate Scuderi",
-    major: "Human Biology Health and Society",
+    name: "Darian Lee",
+    major: "Agricultural Sciences, Envr. & Sustainability",
     team: "Soil Factory",
-    email: "mailto:kls288@cornell.edu",
-    linkedin: "https://www.linkedin.com",
+    email: "mailto:dal329@cornell.edu",
+    linkedin: "https://www.linkedin.com/in/darian-lee-2025",
     image: PH
   },
   {
@@ -165,8 +134,7 @@ const connectData = [
     team: "Solar Panel Reboot",
     email: "mailto:akg73@cornell.edu",
     linkedin: "https://www.linkedin.com/in/anant-gupta-78200719/",
-    //changed
-    image: PH
+    image: AnantG
   },
   {
     position: "Team Lead",
@@ -175,7 +143,7 @@ const connectData = [
     team: "Sustainable Education",
     email: "mailto:mjm757@cornell.edu",
     linkedin: "https://www.linkedin.com/in/mark-minton-449105207/",
-    image: PH
+    image: MarkM
   },
   {
     position: "Team Lead",
@@ -193,8 +161,7 @@ const connectData = [
     team: "Sustainable Mobility: Shelter",
     email: "mailto:phg44@cornell.edu",
     linkedin: "https://www.linkedin.com/in/mia-millstein/",
-    //changed
-    image: PH
+    image: PaineG
   },
   {
     position: "Co-Team Lead",
@@ -212,7 +179,7 @@ const connectData = [
     team: "Sustainable Smithsonian",
     email: "mailto:nlk48@cornell.edu",
     linkedin: "https://www.linkedin.com/in/natalie-kelly-a291761ab/",
-    image: NatalieK
+    image: PH
   },
   {
     position: "Team Lead",
@@ -230,7 +197,6 @@ const connectData = [
     team: "MarComm",
     email: "mailto:sh846@cornell.edu",
     linkedin: "https://www.linkedin.com/in/seh-eun-emily-hong/",
-    //changed
     image: PH
   },
 ];
