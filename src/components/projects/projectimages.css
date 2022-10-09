@@ -5,18 +5,11 @@ and images
 
 */
 
-.currentProject {
+.projectwrapper {
   display: flex;
   height: 100vh;
   align-items: center;
 }
-
-.currentProject2 {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-}
-
 
 .ARCpic {
   background: url(./../../images/project_logos/arc.png);
@@ -42,10 +35,8 @@ and images
   background: url(./../../images/project_logos/solar\ panel\ reboot.png);
 }
 
-
 .Currentspic {
   background: url(./../../images/project_logos/Currents.png);
-  background-color: #F6BC2A
 }
 
 .ICN2030Ppic {
@@ -57,28 +48,63 @@ and images
 }
 
 .SSTpic {
-  background: url(./../../images/project_logos/Ospri.png)
+  background: url(./../../images/project_logos/Ospri.png);
 }
 
 .Solarizepic {
   background: url(./../../images/project_logos/solarize.jpeg);
 }
 
-
 .ICN2030Mpic {
   background: url(./../../images/project_logos/ICN\ Modeling.png);
 }
 
-.backgroundstuff1 {
-  background-size: 5rem 5rem;
+.background0 {
+  background-size: 15rem 15rem;
   background-repeat: no-repeat;
-  background-position: top 5% right 2%;
-  background-color: #F2F3F3;
+  background-position: top 5% right 5%;
+  background-color: #f2f3f3;
 }
 
-.backgroundstuff2 {
+.background1 {
   background-size: 5rem 5rem;
   background-repeat: no-repeat;
-  background-position: top 5% right 2%;
+  background-position: top 2% right 2%;
   background-color: #e8eeee;
+}
+
+.leftcontent {
+  background-size: 5rem 5rem;
+  background-repeat: no-repeat;
+  background-position: top 0% left 0%;
+  border-left: 10px solid black;
+  padding: 5rem 2rem 2rem 2rem;
+}
+
+@media only screen and (max-width: 1050px) {
+  .leftcontent {
+    background-size: 3rem 3rem;
+    border-left: 5px solid black;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .leftcontent {
+    background-size: 3rem 3rem;
+    border-left: 4px solid black;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .projectwrapper {
+    height: 100%;
+  }
+
+  .leftcontent {
+    background-size: 3rem 3rem;
+    border-left: 4px solid black;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
 }
