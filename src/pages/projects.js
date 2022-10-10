@@ -380,9 +380,11 @@ const ProjectPage = () => {
   return (
     <main>
       <Nav />
-      <Parallax image={SNNGround} caption={"Project Teams"} height={550}>
-        {" "}
-      </Parallax>
+      <Parallax
+        image={SNNGround}
+        caption={"Project Teams"}
+        height={550}
+      ></Parallax>
       <CurrentProject projects={projects} />
       <hr className={iconStyle.line}></hr>
       <h1 className={iconStyle.headers}>Horizontal Project Teams</h1>
@@ -398,9 +400,7 @@ const ProjectPage = () => {
           </div>
         ))}
       </div>
-      <Parallax image={solarpanelgroup} height={350}>
-        {" "}
-      </Parallax>
+      <Parallax image={solarpanelgroup} height={350}></Parallax>
 
       <Footer />
       <Connectwithus />

@@ -13,14 +13,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to bottom, #fff 45%, #888 45%, #888 55%, #fff 55%);
+  background: linear-gradient(
+    to bottom,
+    #fff 45%,
+    #888 45%,
+    #888 55%,
+    #fff 55%
+  );
   box-shadow: inset -2px 0 0 0 #ffffff;
 }
 
 .timelinepoint {
   height: 1.5rem;
   width: 1.5rem;
-  background-color: #3F9B8F;
+  background-color: #3f9b8f;
   position: relative;
 }
 
@@ -35,7 +41,7 @@
   top: -3rem;
   left: 50%;
   transform: translate3d(-50%, 0, 0);
-  color: #3F9B8F;
+  color: #3f9b8f;
   font-weight: 400;
 }
 
@@ -60,7 +66,8 @@
 .timeline ul,
 ol,
 dl {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   list-style-position: outside;
@@ -69,10 +76,11 @@ dl {
 
 .timelinelabel {
   color: #4a4a4a;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 6.5em;
+  font-size: 4.5em;
   padding-left: calc(15%);
   padding-right: 0;
   width: 66.66667%;
@@ -87,7 +95,8 @@ dl {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
   font-weight: 300;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -102,15 +111,15 @@ dl {
   padding-left: 0.4375rem;
   padding-right: 0.4375rem;
   width: 100%;
-  background-color: #3F9B8F;
+  background-color: #3f9b8f;
   border-color: #327c72;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: background-color 300ms ease-out;
   box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
 }
 
 .label {
-  color: #3F9B8F;
+  color: #3f9b8f;
   text-decoration: none;
   font-size: 1.7rem;
 }
