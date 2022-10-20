@@ -3,7 +3,6 @@ import CarouselComp from "./carousel.js"
 import "../about/about.scss"
 import * as iconStyle from "./subteambody.module.css"
 import Footer from '../footer/Footer'
-import Parallax from "../parallax/parallax.js"
 import Connectwithus from '../footer/connectwithus'
 import Nav from '../navbar/nav'
 import CytoscapeComponent from 'react-cytoscapejs';
@@ -24,10 +23,8 @@ import SolarizeChart from './solarizeChart'
  * @param {solarize} solarize whether this subteam is solarize
  * @param {seg} seg whether this subteam is seg
  * @param {gbmp} gbmp whether this subteam is gbmp
- * @param {logo} logo is a subteam's logo 
- * @param {sst} sst whether this subteam is sst
  */
-export default function Subteam({ parallax1, title, title2, mission, desc, parallax2, images, facts, map, currents, solarize, seg, gbmp, sst, logo}) {
+export default function Subteam({ parallax1, title, title2, mission, desc, parallax2, images, facts, map, currents, solarize, seg, gbmp }) {
     const elements = []
 
     for (let i = 0; i < facts.length; ++i) {
@@ -52,98 +49,22 @@ export default function Subteam({ parallax1, title, title2, mission, desc, paral
     return (
         <main>
             <Nav />
-            <Parallax image={parallax1} caption={title} caption2={title2} height={500}> </Parallax>
-            <div className={iconStyle.gray}>
-                <div className={iconStyle.grayheader}>
-                    <h1 className={iconStyle.header}>Ouzz Mission</h1>
-                    <img className={iconStyle.logostyle} src={logo} alt="img not found"></img>
-                </div>
-                <div>
+            <h3 className="title-text"> {title} </h3>
+            <div className="team-info">
+                <div className={iconStyle.gray}>
+                    <h1 className={iconStyle.header}>Our Mission</h1>
                     <p style={{ color: 'grey' }}>______________</p>
                     <p className={iconStyle.para}>{mission}</p>
                 </div>
-            </div>
-            <div className={iconStyle.white}>
-                {desc.map((para, index) =>
-                    <p className={iconStyle.para} key={index}>{para}</p>
-                )}
-            </div>
-            {seg &&
-                <>
-                    <div>
-                        <iframe className={iconStyle.segVideo} title="seg-video" src="https://player.vimeo.com/video/159445965?h=6c2f7d0eef" width="640" height="360" frameborder="0" allowfullscreen>
-                        </iframe>
+                <div class="row">
+                    <div className={iconStyle.white}>
+                        {desc.map((para, index) =>
+                            <p className={iconStyle.para} key={index}>{para}</p>
+                        )}
                     </div>
-                    <div className={iconStyle.segQuote}>
-                        "Sustainable design structures include rainwater capture, parabolic solar panels with thermal mass storage, Biodigestor, porous pavement and riparian buffering."  - Claudia Nielsen, Project Director
-                    </div>
-                </>
-
-            }
-            {gbmp &&
-                <div className={iconStyle.segQuote}>
-                    "By focusing on making everyday purchases more sustainable, the GBMP team can have an impact far beyond simply creating a single sustainable project."  - Alex Parkurst, Former Team Lead
-                </div>
-            }
-            {map &&
-                <div >
-                    <iframe
-                        src="https://cusd-sustainable-education.herokuapp.com"
-                        className={iconStyle.map}
-                        title="map"
-                    >
-                    </iframe>
-                </div>
-            }
-            {currents &&
-                <iframe
-                    className={iconStyle.currentsChart}
-                    src="https://currents-visualization.herokuapp.com"
-                    title='currents-chart'
-                >
-                </iframe>
-            }
-            {solarize &&
-                <>
-                    <p className={iconStyle.solarizeQuote}>
-                        We were recently featured in a
-                        <a href="https://news.cornell.edu/stories/2020/09/unplugged-students-build-green-trailer-energize-tools" target="_blank" rel="noreferrer"> Cornell Chronicle article</a>
-                        , as well as in
-                        <a href="https://sustainablecampus.cornell.edu/annualreport2020#campus_operations" target="_blank" rel="noreferrer"> Cornell's '2019-2020 Sustainability Report'.</a>
-                    </p>
-                    <div className={iconStyle.solarizeChart} >
-                        <SolarizeChart />
-                    </div>
-                    <div className={iconStyle.solarizeCaption}>
-                        Cornell's goal is to reduce carbon emissions to 0 by 2035. The graph shows changes in CO2 emissions since 2008. <a href="https://sustainablecampus.cornell.edu/our-leadership/cap/ghg-inventory" rel="noreferrer" target="_blank">(source)</a>
-                    </div>
-                </>
-            }
-            {sst &&
-            <div>
-                <div className={iconStyle.gray}>
-                    <h1 className={iconStyle.header}>Plastics</h1>
-                    <p>______________</p>
-                    <p className={iconStyle.para}>Within the CUSD-SI Plastics subteam, this year we’re focused on investigating the environmental impact of plastic-based materials used in collections, aiming at identifying and providing recommendations for reducing use and finding feasible non-plastic (or non-wasteful) alternatives.</p>
-                </div>
-                <div className={iconStyle.white}>
-                    <h1 className={iconStyle.header}>Contracts</h1>
-                    <p>______________</p>
-                    <p className={iconStyle.para}>The CUSD-SI Contracts Subteam’s project this year focuses on exploring and understanding the components of a good sustainability contract. We are working with the Smithsonian National Collections Program (NCP) to address content/language gaps in collections management contracts.</p>
-                </div>
-                <div className={iconStyle.gray}>
-                    <h1 className={iconStyle.header}>Dashboards</h1>
-                    <p>______________</p>
-                    <p className={iconStyle.para}>The CUSD-SI Dashboards Subteam is conducting surveys in partnership with the Smithsonian Collections Space Committee’s Preservation Environment Subcommittee to determine how preservation environment dashboards have been used by other museums and cultural institutions, and could be adapted to specific SI needs.</p>
-                </div>
-                <div className={iconStyle.white}>
-                    <h1 className={iconStyle.header}>Sustainability and DEAI</h1>
-                    <p>______________</p>
-                    <p className={iconStyle.para}>Analyzing the intersection of sustainability and inclusion in Smithsonian institutional practice and policy, particularly within Smithsonian Gardens, this CUSD-SI subteam is developing recommended templates SI departments may follow to support and build such  sustainability/inclusion intersections.</p>
+                    {images.length > 0 && <CarouselComp images={images} />}
                 </div>
             </div>
-            }
-            {images.length > 0 && <CarouselComp images={images} />}
             <div>
                 {typeof window !== 'undefined' && facts.length > 0 &&
                     <div className={iconStyle.cytoscapeContainer}>
@@ -195,7 +116,59 @@ export default function Subteam({ parallax1, title, title2, mission, desc, paral
                     </div>
                 }
             </div>
-            <Parallax image={parallax2} height={200}> </Parallax>
+
+            {seg &&
+                <>
+                    <div>
+                        <iframe className={iconStyle.segVideo} title="seg-video" src="https://player.vimeo.com/video/159445965?h=6c2f7d0eef" width="640" height="360" frameborder="0" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div className={iconStyle.segQuote}>
+                        "Sustainable design structures include rainwater capture, parabolic solar panels with thermal mass storage, Biodigestor, porous pavement and riparian buffering."  - Claudia Nielsen, Project Director
+                    </div>
+                </>
+
+            }
+            {gbmp &&
+                <div className={iconStyle.segQuote}>
+                    "By focusing on making everyday purchases more sustainable, the GBMP team can have an impact far beyond simply creating a single sustainable project."  - Alex Parkurst, Former Team Lead
+                </div>
+            }
+
+            {map &&
+                <div >
+                    <iframe
+                        src="https://cusd-sustainable-education.herokuapp.com"
+                        className={iconStyle.map}
+                        title="map"
+                    >
+                    </iframe>
+                </div>
+            }
+            {currents &&
+                <iframe
+                    className={iconStyle.currentsChart}
+                    src="https://currents-visualization.herokuapp.com"
+                    title='currents-chart'
+                >
+                </iframe>
+            }
+            {solarize &&
+                <>
+                    <p className={iconStyle.solarizeQuote}>
+                        We were recently featured in a
+                        <a href="https://news.cornell.edu/stories/2020/09/unplugged-students-build-green-trailer-energize-tools" target="_blank" rel="noreferrer"> Cornell Chronicle article</a>
+                        , as well as in
+                        <a href="https://sustainablecampus.cornell.edu/annualreport2020#campus_operations" target="_blank" rel="noreferrer"> Cornell's '2019-2020 Sustainability Report'.</a>
+                    </p>
+                    <div className={iconStyle.solarizeChart} >
+                        <SolarizeChart />
+                    </div>
+                    <div className={iconStyle.solarizeCaption}>
+                        Cornell's goal is to reduce carbon emissions to 0 by 2035. The graph shows changes in CO2 emissions since 2008. <a href="https://sustainablecampus.cornell.edu/our-leadership/cap/ghg-inventory" rel="noreferrer" target="_blank">(source)</a>
+                    </div>
+                </>
+            }
             <Footer />
             <Connectwithus />
         </main>

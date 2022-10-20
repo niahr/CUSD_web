@@ -35,7 +35,7 @@ const connectData = [
     team: "Operations",
     email: "mailto:jjy43@cornell.edu",
     linkedin: "https://www.linkedin.com/in/jonathan-yeung-a20828180/",
-    image: PH
+    image: JonY
   },
   {
     position: "Finance Chair",
@@ -53,7 +53,7 @@ const connectData = [
     team: "Operations",
     email: "mailto:njr78@cornell.edu",
     linkedin: "https://www.linkedin.com/in/nash-rougvie-82626b201/",
-    image: PH
+    image: NashR
   },
   {
     position: "Team Lead",
@@ -107,7 +107,7 @@ const connectData = [
     team: "ICN Policy",
     email: "mailto:lgm46@cornell.edu",
     linkedin: "https://www.linkedin.com/in/laraiahm/",
-    image: PH
+    image: LaraiahM
   },
   {
     position: "Team Lead",
@@ -116,7 +116,7 @@ const connectData = [
     team: "REAL",
     email: "mailto:trb223@cornell.edu",
     linkedin: "https://www.linkedin.com",
-    image: PH
+    image: TylerB
   },
   {
     position: "Team Lead",
@@ -125,7 +125,7 @@ const connectData = [
     team: "Soil Factory",
     email: "mailto:dal329@cornell.edu",
     linkedin: "https://www.linkedin.com/in/darian-lee-2025",
-    image: PH
+    image: DarianL
   },
   {
     position: "Team Lead",
@@ -152,7 +152,7 @@ const connectData = [
     team: "Sustainable Mobility: Garage",
     email: "mailto:smm436@cornell.edu",
     linkedin: "https://www.linkedin.com/in/sabrina-m-martin/",
-    image: PH
+    image: SabrinaM
   },
   {
     position: "Team Lead",
@@ -179,7 +179,7 @@ const connectData = [
     team: "Sustainable Smithsonian",
     email: "mailto:nlk48@cornell.edu",
     linkedin: "https://www.linkedin.com/in/natalie-kelly-a291761ab/",
-    image: PH
+    image: NatalieK
   },
   {
     position: "Team Lead",
@@ -197,7 +197,7 @@ const connectData = [
     team: "MarComm",
     email: "mailto:sh846@cornell.edu",
     linkedin: "https://www.linkedin.com/in/seh-eun-emily-hong/",
-    image: PH
+    image: SehEunH
   },
 ];
 export default connectData;
