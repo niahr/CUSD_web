@@ -57,12 +57,12 @@ const connectData = [
   },
   {
     position: "Team Lead",
-    name: "Frances Lach",
-    major: "Information Science",
+    name: "Sophia Su",
+    major: "Global Development",
     team: "Aquaculture",
-    email: "mailto:fel9@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/frannielach/",
-    image: FrannieL
+    email: "mailto:sgs244@cornell.edu",
+    linkedin: "https://www.linkedin.com",
+    image: PH
   },
   {
     position: "Team Lead",
@@ -76,7 +76,7 @@ const connectData = [
   {
     position: "Team Lead",
     name: "Arno Motulsky",
-    major: "Information Science, Envr. & Sustainability",
+    major: "Information Science / Envr. & Sustainability",
     team: "Currents",
     email: "mailto:atm76@cornell.edu",
     linkedin: "https://www.linkedin.com",
@@ -85,7 +85,7 @@ const connectData = [
   {
     position: "Team Lead",
     name: "Erik Anderson",
-    major: "Operations Research and Information Engineering",
+    major: "Operations Research / Information Engineering",
     team: "ICN Modeling",
     email: "mailto:ewa32@cornell.edu",
     linkedin: "https://www.linkedin.com/in/erik-anderson-5b7735223",
@@ -121,7 +121,7 @@ const connectData = [
   {
     position: "Team Lead",
     name: "Darian Lee",
-    major: "Agricultural Sciences, Envr. & Sustainability",
+    major: "Agricultural Sciences / Envr. & Sustainability",
     team: "Soil Factory",
     email: "mailto:dal329@cornell.edu",
     linkedin: "https://www.linkedin.com/in/darian-lee-2025",
@@ -166,7 +166,7 @@ const connectData = [
   {
     position: "Co-Team Lead",
     name: "Elie Cole",
-    major: "Bio. Sciences, Envr. & Sustainability",
+    major: "Bio. Sciences / Envr. & Sustainability",
     team: "Sustainable Smithsonian",
     email: "mailto:mkc232@cornell.edu",
     linkedin: "https://www.linkedin.com/in/mariela-cole-556b181a9/",
