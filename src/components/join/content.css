@@ -9,25 +9,49 @@
 }
 
 .joinSubtext {
-  margin-left: 10px;
+  margin-top: 10%;
   font-weight: normal;
 }
 
-.jointextcontainer {
+.joinwhy {
+  display: flex;
   color: black;
   width: 75%;
   padding: 30px;
   margin-top: 20px;
 }
 
+.jointext {
+  padding: 2px;
+  width: 60%;
+}
+
+.joinapplytext {
+  padding: 2px;
+}
+
+.welcomewrapper {
+  padding-left: 5%;
+}
+
+.welcomeimg {
+  height: 400px;
+  width: auto;
+}
+
 .applycontainer {
-  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: 75%;
+  padding: 30px;
+  margin-top: 20px;
 }
 
 #joinTitle {
   color: black;
   font-size: 2.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .join-button-container {
@@ -44,13 +68,13 @@
   text-decoration: none;
   align-items: center;
   line-height: normal;
-  padding: 1.0em 4.5em;
+  padding: 1em 4.5em;
   width: 100%;
   background-color: #327c72;
   border-color: #327c72;
   color: #ffffff;
   box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 50%);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -60,7 +84,7 @@
 }
 
 .app-title {
-  font-size: 30px bold;
+  font-size: 20px bold;
   padding: 30px;
 }
 
@@ -110,4 +134,38 @@
 
 .bottom {
   border-radius: 0px 0px 30px 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .welcomeimg {
+    height: 200px;
+    width: auto;
+  }
+  .joinwhy {
+    width: 85%;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  .jointext {
+    padding: 2px;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .welcomeimg {
+    height: 100px;
+    width: auto;
+  }
+  .joinwhy {
+    width: 80%;
+    padding: 20px;
+    margin-left: 20px;
+  }
+
+  .jointext {
+    padding: 2px;
+    width: 60%;
+  }
 }
