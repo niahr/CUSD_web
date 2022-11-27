@@ -1,0 +1,32 @@
+.page-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-caption {
+  text-align: center;
+}
+
+.accord {
+  margin-bottom: 1.5rem;
+  width: 75%;
+}
+
+.accord-contents {
+  display: flex;
+}
+
+.accord-title {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}

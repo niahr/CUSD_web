@@ -1,27 +1,40 @@
-
-/* CSS for overview component */ 
-.flexContainer{   
-  display:flex;
+/* CSS for overview component */
+.page-container {
+  display: flex;
+  padding: 20px;
 }
 
-.flexChild{
-  flex: 1; 
-  background-color: white;   
-} 
+.image1 {
+  width: 30%;
+}
 
-.flexChildQuote{
-  flex: 1; 
-  background-color: #f2f3f3; 
+.asd {
+  background-color: red;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.flexChild {
+  flex: 1;
+  background-color: white;
+}
+
+.flexChildQuote {
+  flex: 1;
+  background-color: #f2f3f3;
 }
 
 .quoteDiv {
-  margin-top: 100px; 
-  margin-left: 100px; 
-  margin-right: 100px; 
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.quoteText {  
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+.quoteText {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
   font-style: normal;
   font-weight: 600;
   line-height: 1.2;
@@ -29,81 +42,78 @@
   margin-top: 10px;
   text-rendering: optimizeLegibility;
   font-size: 1.5rem;
-  text-align: left; 
-  align-items: center; 
+  text-align: left;
+  align-items: center;
 }
 
 .founder {
-  padding-top: 20px; 
-  font-style: italic; 
+  padding-top: 20px;
+  font-style: italic;
 }
 
 .flexChildPurpose {
-  flex: 1; 
-  padding-right: 300px;  
+  flex: 1;
+  padding-right: 300px;
 }
 
 .purposeDiv {
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
-.purposeText{
+.purposeText {
   width: 90%;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
-  margin-left: 70px; 
+  margin-left: 70px;
 }
 
 .purposeTitle {
   color: #4a4a4a;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
   font-style: normal;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 0;
   margin-top: 0;
   text-rendering: optimizeLegibility;
-  font-size:2.5rem;   
+  font-size: 2.5rem;
 }
 
 .purposeDescription {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial,
+    sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
-  align-items:stretch;
+  align-items: stretch;
 }
-
 
 /* Layout when screen is 800<x<1200 px*/
 @media screen and (max-width: 1200px) {
-  
   .flexChildPurpose {
-      padding-right: 100px; 
+    padding-right: 100px;
   }
-  
+
   .purposeText {
-      margin-left: 30px; 
+    margin-left: 30px;
   }
 
   /* Videooverview component, TODO */
-  
 }
-  
-  /* Layout when screen is <=800 px*/
-@media screen and (max-width: 800px) {
-  
-  
-      .flexChildPurpose {
-          padding-right: 10px;  
-      }
-  
-      .purposeText {
-          margin-left: 20px; 
-      }
 
-      /* Videooverview component, TODO */ 
+/* Layout when screen is <=800 px*/
+@media screen and (max-width: 800px) {
+  .flexChildPurpose {
+    padding-right: 10px;
   }
+
+  .purposeText {
+    margin-left: 20px;
+  }
+
+  /* Videooverview component, TODO */
+}
