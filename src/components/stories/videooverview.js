@@ -15,6 +15,7 @@ const Overview = ({ image1 }) => {
   };
 
   return (
+
     <div className="page-container">
       <div className="accordion-container">
         <Accordion
