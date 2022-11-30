@@ -66,15 +66,6 @@ const connectData = [
   },
   {
     position: "Team Lead",
-    name: "Nelson Ooi",
-    major: "Electrical and Computer Engineering",
-    team: "ARC",
-    email: "mailto:no83@cornell.edu",
-    linkedin: "https://www.linkedin.com/in/nelson-ooi-7b2786209/",
-    image: NelsonO
-  },
-  {
-    position: "Team Lead",
     name: "Arno Motulsky",
     major: "Information Science / Envr. & Sustainability",
     team: "Currents",
